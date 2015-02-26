@@ -1,0 +1,20 @@
+<div>
+<h5>当前职位名称：</h5><label><?php echo $this->pos_name?></label>
+<h5>当前职位拥有权限</h5>
+<ul>
+<?php
+	foreach ($this->pos_perms as $value) {
+		echo "<li>".$this->permission_list[$value]."</li>";
+	}
+?>
+</ul>
+<h5>选择该职位的新权限</h5>
+<form method="post" class="view" q-event="submit" q-object="pos_perms" q-src="<?php echo URI::url('company')?>" q-static="<?php echo H(array('pos_no'=>$this->pos_no))?>">
+<?php 
+	foreach ($this->permission_list as $key => $value) {
+		echo '<input type="checkbox" name="perms['.$key.']" value="'.$key.'"><label>'.$value.'</label><br>';
+	}
+?>
+<input type="submit" name="update" value="提交">
+</form>
+</div>

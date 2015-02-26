@@ -1,0 +1,23 @@
+<div id='title'>
+<h1>sop文件检索系统</h1><hr/>
+<table >
+<tr>
+	<td width="154" height="10">
+		<p align="left">欢迎您</p>
+	</td>
+	<td width="1022" height="10">
+		<p align="right"><a href="<?php echo URI::url('message/msglist')?>">消息中心<?php 
+		if (Auth::logged_in()) {
+			$user = L('ME'); 
+			$userid = $user->id;
+			$message = Q("message[user_id=$userid][isread=0]");
+			$count = count($message);
+			if($count>0)echo '('.$count.')';
+		}
+		?></a></p>
+		<p align="right"><a href="<?php echo URI::url('logout')?>">登出系统</a></p>
+	</td>
+</tr>
+</table>
+<hr/>
+</div>

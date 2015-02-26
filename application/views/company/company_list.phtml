@@ -1,0 +1,16 @@
+<div>
+<label>当前公司拥有部门结构如下（点击查看部门详细信息）：</label>
+<table width="40%" border="1">
+<tr align="center"><td>部门名称</td><td>操作</td></tr>
+<?php 
+	$i=0;
+	foreach ($this->apartment as $key => $value) {
+		$i++;
+		if ($i%2) $class = 'tdclass1';
+		else $class = 'tdclass2';
+		echo '<tr align="center" valign="center" class="'.$class.'"><td ><a href="'.URI::url('company/alist.'.$key).'">'.$value.'</a></td>'."<td><a class='button view' q-object='edit' q-event='click' q-static='".H(array('type' => 'apart','no'=>$key,'name'=>$value))."' q-src='".URI::url('company')."'>编辑</a><a class='button view' q-object='delete' q-event='click' q-static='".H(array('type' => 'apart','no'=>$key))."' q-src='".URI::url('company')."'>删除</a></td>";
+	}
+?>
+</table>
+<a class="button middle prevent_default"  q-object="add" q-event="click" q-src="<?php echo URI::url('company')?>" q-static="<?php echo H(array('type' => 'apart'))?>">增加部门</a>
+</div>

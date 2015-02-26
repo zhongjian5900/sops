@@ -1,0 +1,82 @@
+<?php
+	$super = Config::get('permission.super');
+	$admin = Config::get('permission.admin');
+	$user = Config::get('permission.user');
+?>
+<div>
+<h4>用户组权限调整</h4>
+<h4>管理员组</h4>
+<?php 
+	$i = 0;
+	$j = 0;
+	$already = array();
+	$unhave = array();
+	foreach ($super as $key => $value) {
+
+		if (in_array($value, $admin)) {
+			$already[$key] = $value;
+		}else{
+			$ungiven[$key] = $value;
+		}
+	}
+	echo '<h5>当前拥有</h5><table ><tr>';
+	echo '<form action="'.URI::url('perms').'" method="get">';
+	foreach ($already as $key => $value) {
+		$i++;
+		echo '<td><input type="checkbox" name="perms'.$key.'" value="'.$key.'">'.$value.'</td>';
+		if ($i%4==0) {
+			echo '</tr><tr>';
+		}
+	}
+	unset($already);
+	echo '</tr><tr><td><input type="submit" name="admin_delete" value="取消权限"></td></form></tr></table>';
+	echo '<h5>扩展权限</h5><table><tr>';
+	echo '<form action="'.URI::url('perms').'" method="get">';
+	foreach ($ungiven as $key => $value) {
+		$j++;
+		echo '<td><input type="checkbox" name="perms'.$key.'" value="'.$key.'">'.$value.'</td>';
+		if ($j%4==0) {
+			echo '</tr><tr>';
+		}
+	}
+	echo '</tr><tr><td><input type="submit" name="admin_add" value="添加权限"></td></tr></form></table>';
+	unset($ungiven);
+
+?>
+<h4>普通用户组</h4>
+<?php 
+	$i = 0;
+	$j = 0;
+	$already = array();
+	$unhave = array();
+	foreach ($super as $key => $value) {
+
+		if (in_array($value, $user)) {
+			$already[$key] = $value;
+		}else{
+			$ungiven[$key] = $value;
+		}
+	}
+	echo '<h5>当前拥有</h5><table><tr>';
+	echo '<form action="'.URI::url('perms').'" method="get">';
+	foreach ($already as $key => $value) {
+		$i++;
+		echo '<td><input type="checkbox" name="perms'.$key.'" value="'.$key.'">'.$value.'</td>';
+		if ($i%4==0) {
+			echo '</tr><tr>';
+		}
+	}
+	echo '</tr><tr><td><input type="submit" name="user_delete" value="取消权限"></td></form></tr></table>';
+	echo '<h5>扩展权限</h5><table><tr>';
+	echo '<form action="'.URI::url('perms').'" method="get">';
+	foreach ($ungiven as $key => $value) {
+		$j++;
+		echo '<td><input type="checkbox" name="perms'.$key.'" value="'.$key.'">'.$value.'</td>';
+		if ($j%4==0) {
+			echo '</tr><tr>';
+		}
+	}
+	echo '</tr><tr><td><input type="submit" name="user_add" value="添加权限"></td></tr></form></table>';
+
+?>
+</div>

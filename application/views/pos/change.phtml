@@ -1,0 +1,65 @@
+<div>
+<h5>选择人员所在部门：</h5>
+<select id="apartment" name="apartment">  
+	<?php 
+	$apartment = $this->position;
+	if (is_array($apartment)) {
+		echo "<option value='0'></option>";
+		$i=0;
+		foreach ($apartment as $key => $value) {
+			echo "<option value=$key>$value</option>";
+			$i++;
+		}
+	}
+	?>
+</select>
+<span class="position"></span>
+</div>
+<script type="text/javascript">
+ 	(function($) {
+    $sub_transaction_type_span = $('span.position');
+
+    $transaction_type = $(':input[name=apartment]');
+
+
+    sub_transaction_type = 0;
+
+    //进行trigger
+    function _trigger_change() {
+
+        v = $transaction_type.val();
+
+        if (v == 0) {
+            $sub_transaction_type_span.empty(); //进行清空
+        }
+        else {
+
+            Q.trigger({
+                object: 'apartment_list',
+                event: 'change',
+                url: '<?php echo URI::url("personal")?>',
+                data: {
+                    transaction_type: v,
+                    sub_transaction_type: sub_transaction_type
+                },
+                success: function(data) {
+                   if (data.view_data) $sub_transaction_type_span.html(data.view_data); //如果有返回结果, 进行内容设定
+                    return false;
+                }
+            });
+
+            //进行trigger
+            sub_transaction_type = 0;
+        }
+
+        return false;
+    }
+
+    _trigger_change(); 
+
+    $transaction_type.bind('change', function() {
+        _trigger_change();
+    });
+
+})(jQuery);
+</script>

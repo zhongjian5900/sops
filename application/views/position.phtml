@@ -1,0 +1,17 @@
+<div>
+	<h3>选择变更人所在部门</h3>
+	<form action="<?php echo URI::url('position')?>" method="post">
+		<select name="apartment">  
+	  		<?php 
+	  			$apartment = Config::get('position.apartment');
+	  			if (is_array($apartment)) {
+	  				echo "<option value='1'></option>";
+	  				foreach ($apartment as $key => $value) {
+	  					echo "<option value='$key'>$key</option>";
+	  				}
+	  			}
+	  		?>
+		</select>
+		<input type="submit" name="apart" value="提交">
+	</form>
+</div>

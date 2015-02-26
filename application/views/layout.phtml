@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<base href="<?php echo Config::get('system.base_url') ?>" />
+	<title>SOP文件检索系统</title>
+	<?php echo $this->controller->load_css();?>
+	<?php echo $this->controller->load_js(true);?>
+</head>
+<body>
+<?php 
+$u = L('ME');
+	if (!$u->id)
+		$ss='style="display:none"';
+	else
+		$ss='';
+?>
+<table width="100%" height="100%">
+	<tr >
+	<td colspan="2" height="150">
+		<div >
+		<div >
+			<?php 
+				echo '<div '.$ss.'>';
+				echo V('header');
+				echo '</div>';
+			?>
+		</div>
+		</div>
+	</td>
+	</tr>
+		<tr>
+  			<th rowspan="2" bgcolor="#ffff00" height="600" valign="top">
+					<?php echo '<div '.$ss.'>'; echo $this->sidebar;echo '</div>';?>
+  			</th>
+  			<td  height="20" align="center" valign="top">
+  			<div>
+					<?php echo '<div '.$ss.'>'; echo $this->searchbar;echo '</div>'; ?>
+				</div>
+			</td>
+		</tr>
+		<tr>
+ 			<td height="300" valign="top">
+ 			<div><div>
+					<?php 
+					echo $this->body;?>
+				</div></div>
+			</td>
+		</tr>
+</table>
+</body>
+</html>

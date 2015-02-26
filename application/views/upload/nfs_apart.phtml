@@ -1,0 +1,113 @@
+<?php 
+echo CSS::load_async('application:common');
+echo JS::load_async('application:swfupload application:swfupload.queue application:swfupload.file');
+$uniqid = uniqid();
+$upload_list = 'su_upload_list_'.$uniqid;
+//flash上传显示模板的ID
+$upload_file_template = 'su_template_'.$uniqid;
+//取消flash上传按钮的ID
+$upload_cancel_button = 'su_cancel_'.$uniqid;
+//提示下载flash插件
+$flash_plugin_message = 'su_download_flash_'.$uniqid;
+//flash上传按钮的ID
+$upload_multiple_file = 'su_mupload_'.$uniqid;
+// 上传相关
+$upload_placeholder = 'su_placeholder_'.$uniqid;
+?>
+<div>
+<h3>上传本部门记录文件</h3>
+    <form action="<?php echo URI::url('files/nfsapart');?>" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" size="28" onchange="document.getElementById('textfield').value=this.value" />
+        <input type="submit" name="apartment" value="上传" />
+    </form>
+<div id="<?php echo $flash_plugin_message ?>" class="message message_normal padding_1 hidden">
+  <?php echo I18N::T('nfs', '您的浏览器似乎不支持本系统的批量上传功能，如需使用该功能请%download_flash.', array('%download_flash' => URI::anchor('http://get.adobe.com/flashplayer/', I18N::T('nfs', '下载flash插件'), 'class="blue prevent_default" target="_blank"'))); ?>
+</div>
+<a id="<?php echo $upload_multiple_file?>" class="button middle prevent_default hidden" style="*overflow:hidden;"><span id="<?php echo $upload_placeholder?>"></span></a>
+<a id="<?php echo $upload_cancel_button?>" class="button middle" style="display:none"><?php echo T('取消'); ?></a>
+<table class="hidden">
+  <tr id="<?php echo $upload_file_template?>">
+    <td>&#160;</td>
+    <td class="filename left nowrap">
+    </td>
+    <td colspan="2" class="left nowrap">
+      <span class="description status middle"></span>
+      <span class="progress_bar middle"><span></span></span>
+    </td>
+    <td class="flexible">&#160;</td>
+  </tr>
+</table>
+<?php
+$ssid = session_id();
+echo JS::load('application:upload', array(
+  'button_text' => '批量上传',
+  'upload_url' => URI::url('files/nfsapart'),
+  'flash_url' => URI::url('/').'swfupload.swf?v2',
+  'file_container_id' => $upload_list,
+  'file_template_id' => $upload_file_template,
+  'upload_post_params' => array('qsession' => $ssid),
+  'cancel_button_id' => $upload_cancel_button,
+  'button_image_url' => Config::get('system.base_url') . 'images/buttons/upload.png',
+  'button_placeholder_id' => $upload_placeholder,
+  'flash_plugin_message_id' => $flash_plugin_message,
+  'upload_multiple_file_id' => $upload_multiple_file,
+)); 
+?> 
+ 	<p>注：文件不得超过20M</p><br>
+<h3>当前部门所有的记录文件为</h3>
+<table width="80%" frame="hsides">
+	<tr><td width="30%" align="center">文件名称</td><td width="15%" align="center">上传时间</td><td width="15%" align="center">文件版本</td><td width="20%" align="center">操作</td></tr>
+	<?php
+
+		foreach ($this->filelist as $key=>$value){
+			$i++;
+			if ($i%2) {
+				$class = 'tdclass1';
+			}else{
+				$class = 'tdclass2';
+			}
+			echo '<tr class="'.$class.'"><td align = "left" class="filename"><a href="'.URI::url('files/download').'.'.$value['fileno'].'">'.$value['filename'].'</a></td><td align="center">'.$value['mtime'].'</td><td align="center">'.$value['file_version'].'</td>';
+			echo '<td align="center"><a class="button view" href="'.URI::url('files/download').'.'.$value['fileno'].'">下载</a>'.'<a class="button view" q-src="'.URI::url('files').'" q-static="'.H(array('filename'=>$value['filename'])).'" q-event="click" q-object="edit_file">编辑</a>'.'<a class="button view" q-src="'.URI::url('files').'" q-static="'.H(array('filename'=>$value['filename'])).'" q-event="click" q-object="delete_file">删除</a></td></tr>';
+		}
+	?>
+</table>
+</div>
+  <script type="text/javascript">
+ 	(function($) {
+
+    $transaction_type = $(':input[name=file]');
+
+
+    sub_transaction_type = 0;
+
+    //进行trigger
+    function _list_change() {
+
+        v = $transaction_type.val();
+            Q.trigger({
+                object: 'upload_box',
+                event: 'change',
+                url: '<?php echo URI::url("files")?>',
+                data: {
+                    transaction_type: v,
+                    sub_transaction_type: sub_transaction_type
+                },
+                success: function(data) {
+                   if (data.view_data == 'empty') $transaction_type.val(''); //如果有返回结果, 进行内容设定
+                }
+            });
+
+            //进行trigger
+            sub_transaction_type = 0;
+
+        return false;
+    }
+
+    _list_change(); 
+
+    $transaction_type.bind('change', function() {
+        _list_change();
+    });
+
+})(jQuery);
+</script>

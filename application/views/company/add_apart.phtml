@@ -1,0 +1,14 @@
+<div>
+	<?php if ($no) $object = 'edit';
+		else $object = 'add';
+	?>
+	<form method="post" class="view" q-event="submit" q-object="<?php echo $object?>" q-src="">
+	<label>部门编号:</label><input type="textbox" name="newapartno" value="<?php if ($no) {
+		echo $no;
+	}?>">
+	<label>部门名称:</label><input type="textbox" name="newapartname" value="<?php if ($name) {
+		echo $name;
+	}?>">
+	<input type="submit" name="add" value="提交">
+	</form>
+</div>

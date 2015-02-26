@@ -1,0 +1,15 @@
+<div >
+<table height="400px" width="100%">
+	<tr align="center"><td><h2 align="center">个人中心</h2></td></tr>
+	<tr align="center"><td><a href="<?php echo URI::url('files/flist')?>">文件列表</a></td></tr>
+	<tr align="center"><td><a href="<?php echo URI::url('personal/password')?>">修改密码</a></td></tr>
+		<?php
+			$user_perms = Permission::get_allowed();
+			if (is_array($user_perms)) {
+				foreach ($user_perms as $key => $value) {
+					echo "<tr align='center'><td><a href=".URI::url($key)." target='_self'>$value</a></td></tr>";
+				}
+			}
+		?>
+</table>
+</div>

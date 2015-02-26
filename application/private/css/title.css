@@ -1,0 +1,24 @@
+body {font-family: Georgia;}
+h1 {color: green; font-size: 200%;font-color:blue;}
+h2 {color: green;font-size: 120%;}
+h3 {color: green;}
+h4 {color: green;}
+h5 {color: green;}
+h6 {color: green;}
+.hint{color: #aaaaaa;}
+a {color:black;}
+.filename{padding-left: 20px;}
+div.pagination{
+	color: #666;
+	line-height: 1.231;
+	padding: 2px,4px;
+	text-align: left;
+}
+div.pagination span{
+	font-size: 16px;
+	margin: 10px;
+}
+div.pagination a{
+	font-size: 16px;
+	margin: 10px;
+}

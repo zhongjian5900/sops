@@ -1,0 +1,18 @@
+2014/09/23 19:30:54 fpm-fcgi 192.168.0.106/index.php/nfs [26614] 	[上传文件]徐中建上传了JLKJ_CX-01文件控制程序.pdf
+2014/09/23 19:38:58 fpm-fcgi 192.168.0.106/index.php/fileact [26614] 	[下载文件]徐中建下载了JLKJ／JL-RJ-软件部操作日志.txt
+2014/09/23 19:41:01 fpm-fcgi 192.168.0.106/index.php/nfs [8] 	[上传文件]徐中建上传了检索页面计划书.pages.zip
+2014/09/23 19:41:05 fpm-fcgi 192.168.0.106/index.php/fileact [8] 	[下载文件]徐中建下载了检索页面计划书.pages.zip
+2014/09/23 16:34:36 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了产品基础知识.key
+2014/09/23 16:39:29 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了检索页面需求副本.key.zip
+2014/09/23 16:41:02 fpm-fcgi 192.168.0.106/index.php/nfs [8] 	[上传文件]徐中建上传了Pages_Word 文档制作要点.pdf
+2014/09/23 16:42:32 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了检索页面需求副本.key.zip
+2014/09/23 18:18:03 fpm-fcgi 192.168.0.106/index.php/nfs [8] 	[上传文件]徐中建上传了文件表格-14-09-22.xls
+2014/09/23 18:18:23 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了文件和岗位索引.numbers
+2014/09/23 18:24:46 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了屏幕快照 2014-09-09 上午9.13.19.png
+2014/09/24 10:18:19 fpm-fcgi 192.168.0.106/index.php/fileact?name=%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E5%A4%A7%E5%9E%8B%E4%BB%AA%E5%99%A8%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E7%99%BB%E8%AE%B0%E8%A1%A8_2.doc [7] 	[下载文件]徐中建下载了南开大学大型仪器基本信息登记表_2.doc
+2014/09/24 10:20:14 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了JLKJ_ZY-RJ-06软件部Bug解决流程执行文档.pdf
+2014/09/24 10:20:50 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了JLKJ_ZY-RJ-05软件部Bug解决流程.pdf
+2014/09/24 10:22:36 fpm-fcgi 192.168.0.106/index.php/nfs [8] 	[上传文件]徐中建上传了JLKJ_ZY-RJ-05软件部Bug解决流程.pdf
+2014/09/24 10:26:28 fpm-fcgi 192.168.0.106/index.php/fileact [8] 	[删除文件]徐中建删除了JLKJ_ZY-RJ-05软件部Bug解决流程.pdf
+2014/09/24 10:29:57 fpm-fcgi 192.168.0.106/index.php/nfs [7] 	[上传文件]徐中建上传了JLKJ_ZY-RJ-05软件部Bug解决流程.pdf
+2014/09/28 13:13:49 fpm-fcgi 192.168.0.106/files/download?files=%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E5%A4%A7%E5%9E%8B%E4%BB%AA%E5%99%A8%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E7%99%BB%E8%AE%B0%E8%A1%A8_2.doc [271] 	[下载文件]徐中建下载了南开大学大型仪器基本信息登记表_2.doc

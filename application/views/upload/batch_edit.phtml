@@ -1,0 +1,32 @@
+<div style="width:400px;">
+<form method="post" class="view" q-event="submit" q-object="edits" q-src="<?php echo URI::url('files')?>" q-static="<?php echo H(array('filenos'=>$this->filenos))?>">
+<label>选择文件所属部门：</label>
+<select name="file_apart">  
+	<?php 
+	$apartment = Position::apartment();
+	if (is_array($apartment)) {
+		echo "<option value='1'></option>";
+		foreach ($apartment as $key => $value) {
+			echo "<option value='$key'>$value</option>";
+		}
+	}
+	?>
+</select><br>
+<label>岗位:</label>	
+<?php 
+$position = Position::positions();
+if (is_array($apartment)) {
+	foreach ($position as $apart => $positions) {
+		echo "<h4>$apartment[$apart]</h4>";
+		foreach ($positions as $key=>$value) {
+			echo "<input type='checkbox' name='Position[".$key."]' value='$key'>$value ";
+		}
+	}
+}
+?>
+<br>
+<label>设置文件修改版本：</label><input type="textbox" name="version" value="B" size="2"><label>版</label><input type="textbox" name="modify" value="0" size="2"><label>修改</label>
+<br>
+<input type="submit" name="batchedit" value="提交">
+</form>
+</div>

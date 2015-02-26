@@ -1,0 +1,8 @@
+<div>
+<h4>消息发送:<?php echo $this->onemsg['from']?:'系统'; ?></h4>
+
+<h4>消息时间:<?php echo date("Y-m-d H:i:s",$this->onemsg['ctime']);?></h4>
+
+<h4>消息内容:</h4><p>
+	<?php echo $this->onemsg['content'];?></p>
+</div>

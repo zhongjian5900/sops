@@ -1,0 +1,17 @@
+<?php echo V('form_error', array('form'=>$form));?>
+<div>
+<label>搜索结果：</label><br><br><hr/>
+<table width="80%" rules="rows">
+	
+		<?php
+			if ($this->vars==null) {
+				echo "<p>".I18N::T("application","没有您要的文件信息，请检查输入是否正确")."</p>";
+			}else{
+				foreach ($this->vars as $key => $value) {
+					echo "<tr align='center'><td><p>$value</p></td></tr>";
+				}
+			}
+		?>
+		
+</table>
+</div>

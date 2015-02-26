@@ -1,0 +1,38 @@
+<div>
+<h4>选择所在部门:</h4>
+<table width="80%">
+    <tr align="center"><form action="<?php echo URI::url('admin/checklist')?>" method="get">
+        <td><select name="apartment">  
+    		<?php 
+            $apartment = Position::positions();
+            $apart = Q("apartment");
+            $aparts = array();
+            foreach ($apart as $key => $value) {
+              $aparts[$value->apartment_no] = $value->apartment_name;
+            }
+            if (is_array($apartment)) {
+                echo "<option value='1'></option>";
+    				    foreach ($apartment as $key => $value) {
+                  if ($this->selectapart&&($key == $this->selectapart))
+                      echo "<option  selected='selected' value='$key'>".$aparts[$key]."</option>";
+                  else
+                      echo "<option value='$key'>".$aparts[$key]."</option>";
+                }
+              }
+    		?>
+        </select></td>
+        <td><input type="submit" name="check" value="查看部门人员"></td></form>
+    </tr>
+</table>
+  	
+  	<?php 
+  		if ($this->userlist) {
+  			echo '<form action="'.URI::url('admin/added').'" method="get">';
+  			echo "<table width='80%'><tr align='center'><td></td><td>员工姓名</td><td>当前职位</td></tr>";
+  			foreach ($this->userlist as $value) {
+  				echo '<tr align="center"><td align="right"><input type="checkbox" name="userid'.$value['id'].'" value="'.$value['id'].'"></td><td><label>'.$value['user_name'].'</label></td><td><label>'.$value['user_position'].'</label></td></tr>';
+  			}
+  			echo '</table><input type="submit" name="addadmin" value="添加为管理员.."></form>';
+  		}
+  	?>
+</div>

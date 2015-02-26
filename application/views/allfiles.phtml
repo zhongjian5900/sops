@@ -1,0 +1,71 @@
+<?php 
+echo CSS::load_async('application:common');
+echo JS::load_async('application:swfupload application:swfupload.queue application:swfupload.file');
+$uniqid = uniqid();
+$upload_list = 'su_upload_list_'.$uniqid;
+//flash上传显示模板的ID
+$upload_file_template = 'su_template_'.$uniqid;
+//取消flash上传按钮的ID
+$upload_cancel_button = 'su_cancel_'.$uniqid;
+//提示下载flash插件
+$flash_plugin_message = 'su_download_flash_'.$uniqid;
+//flash上传按钮的ID
+$upload_multiple_file = 'su_mupload_'.$uniqid;
+// 上传相关
+$upload_placeholder = 'su_placeholder_'.$uniqid;
+?>
+<div>
+<table id='tips'>
+	<tbody>
+		<tr></tr>
+	</tbody>
+</table>
+	<form method="post" class="view" q-event="submit" q-object="files_edit" q-src="<?php echo URI::url('files')?>" q-static="">
+	<table >
+		<tr><td><h3>当前文件夹中的所有文件：</h3></td><td><input style="height:24px" class="button view" type="submit" name="edits" value="批量编辑"></td><td><a class="button view" href="<?php echo URI::url('files/upload')?>">单个上传</a></td><td> <div id="<?php echo $flash_plugin_message ?>" class="message message_normal padding_1 hidden">
+  <?php echo I18N::T('nfs', '您的浏览器似乎不支持本系统的批量上传功能，如需使用该功能请%download_flash.', array('%download_flash' => URI::anchor('http://get.adobe.com/flashplayer/', I18N::T('nfs', '下载flash插件'), 'class="blue prevent_default" target="_blank"'))); ?>
+</div>
+<a id="<?php echo $upload_multiple_file?>" class="button middle prevent_default hidden" style="*overflow:hidden;"><span id="<?php echo $upload_placeholder?>"></span></a>
+<a id="<?php echo $upload_cancel_button?>" class="button middle" style="display:none"><?php echo T('取消'); ?></a>
+<?php
+echo JS::load('application:upload', array(
+  'button_text' => '批量上传',
+  'upload_url' => URI::url('files/upload'),
+  'flash_url' => URI::url('/').'swfupload.swf?v2',
+  'file_container_id' => $upload_list,
+  'upload_post_params' => array('qsession' => session_id()),
+  'file_template_id' => $upload_file_template,
+  'cancel_button_id' => $upload_cancel_button,
+  'button_image_url' => Config::get('system.base_url') . 'images/buttons/upload.png',
+  'button_placeholder_id' => $upload_placeholder,
+  'flash_plugin_message_id' => $flash_plugin_message,
+  'upload_multiple_file_id' => $upload_multiple_file,
+)); 
+?> </td><td><a class="button view" href="<?php echo URI::url('files/build');?>" target="mainWindow">生成表格</a></td><td>（注：若批量上传文件，则文件上传后需要对上传文件的信息进行编辑）</td></tr>
+
+	</table>
+	<table width="100%" frame="hsides">
+		<tr align="center" valign="top"><td></td><td>文件名</td><td>版本信息</td><td>所属部门</td><td>职位信息</td><td>更新时间</td><td>文件大小</td><td>操作</td></tr>
+	<?php 
+	$i = 0;
+		foreach ($this->files as $key => $value) {
+			$i++;
+			if ($i%2) {
+				$class = 'tdclass1';
+			}else{
+				$class = 'tdclass2';
+			}
+			echo '<tr class="'.$class.'" ><td><input type="checkbox" name="fileno['.$value['fileno'].']"></td><td align="left" class="filename"><a href="'.URI::url('files/download').'.'.$value['fileno'].'">'.$value['filename'].'</a></td><td align="center">'.$value['file_version'].'</td>';
+			echo '<td align="center">'.$value['fileapart'].'</td><td align="center">'.$value['filepos'].'</td>';
+			echo '<td align="center">'.$value['mtime'].'</td><td align="center">'.$value['filesize'].'</td>';
+			echo '<td align="center"><a class="button view" href="'.URI::url('files/download').'.'.$value['fileno'].'">下载</a>'.'<a class="button view" q-src="'.URI::url('files').'" q-static="'.H(array('filename'=>$value['filename'])).'" q-event="click" q-object="edit_file">编辑</a><a class="button view" q-src="'.URI::url('files').'" q-static="'.H(array('filename'=>$value['filename'])).'" q-event="click" q-object="delete_file">删除</a></td></tr>';
+		}
+		
+	?>
+	</table>
+	<?php 
+	echo $this->pagination;
+	?>
+	
+</form>
+</div>

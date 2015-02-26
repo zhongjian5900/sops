@@ -1,0 +1,25 @@
+<div>
+<label>消息列表</label><br><br>
+<table width="80%" frame="hsides">
+	<tr align="center"><td>消息时间</td><td>消息标题</td><td>操作</td>
+	
+		<?php
+			foreach ($this->message as $key => $value) {
+				$i++;
+				if ($i%2) {
+					$class = 'tdclass1';
+				}else{
+					$class = 'tdclass2';
+				}
+				$tip = 'label';
+				if (!$value['isread'])$tip = 'B';
+				$msg = '<tr class="'.$class.'"><td align="center"><'.$tip.'>'.$value['time'].'</'.$tip.'></td><td align="left"><a href="'.URI::url('message/onemsg').'.'.$value['id'].'"><'.$tip.'>'.$value['content'].'</'.$tip.'></a></td><td><a class="button view" href="'.URI::url('message/onemsg').'.'.$value['id'].'">查看</a></td></tr>';
+				echo $msg;
+			}
+		?>
+		
+</table>
+<?php
+	echo $this->pagination;
+?>
+</div>

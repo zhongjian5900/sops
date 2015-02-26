@@ -1,0 +1,37 @@
+/*CSS PATCHED*/
+
+input.button_login, a.button_login {
+	padding-left: 22px;
+	background-image: url(/images/login.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	_background-image: url(/images/login.gif);
+}
+
+
+input.button, button, a.button {
+	text-decoration: none;
+	cursor: hand;
+	cursor: pointer;
+	margin: 0;
+	display: -moz-inline-box;
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	height: 14px;
+	line-height: 1.231;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none !important;
+	-moz-user-select: none;
+	*white-space: nowrap;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #f4f4f4;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff #999 #999 #fff;
+}
+
+
+

@@ -1,0 +1,15 @@
+<?php
+	$posLis = Q("position");
+	$pos = array();
+	foreach ($posLis as $contact) {
+		$pos[$contact->position_no] = $contact->postion_apart.'.'.$contact->position_name;
+	}
+	echo Widget::factory('multi_user_selector',
+	array(
+		'name'=>'contacts',
+		'autocomplete'=>URI::url('autocomplete/user'),
+		'value'=> json_encode($pos),
+		'extra'=>'token_verify'
+));
+?><?php //echo $require; ?>
+							

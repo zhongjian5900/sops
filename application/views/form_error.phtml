@@ -1,0 +1,11 @@
+<div>
+<table width="100%" align="center">
+	<?php
+	if ($form && !$form->no_error) {
+		foreach ($form->errors as $key => $value) {
+			echo '<tr align="center"><td><li>'.$value[0].'</li></td></tr>';
+		}
+	}
+	?>
+</table>
+</div>

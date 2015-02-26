@@ -1,0 +1,24 @@
+<div>
+<label>当前所有操作记录文件：</label><br><br>
+<table width="80%" frame="hsides">
+	<tr align="center"><td >文件名称</td><td >更新时间</td><td>所属部门</td><td >操作</td></tr>
+		<?php
+			$i = 0;
+			foreach ($this->loglist as $key => $value) {
+				$i++;
+				if ($i%2) {
+					$class = 'tdclass1';
+				}else{
+					$class = 'tdclass2';
+				}
+				echo '<tr class = "'.$class.'" align="center">';
+				echo '<td ><a href="'.URI::url('files/download').'.'.$value['id'].'.files">'.$value['logname'].'</a></td>';
+				echo '<td>'.$value['mtime'].'</td>';
+				echo '<td>'.$value['log_apart'].'</td>';
+				echo '<td><a class="button view" href="'.URI::url('files/download').'.'.$value['fileno'].'">下载</a></td></tr>';
+			}
+			
+		?>
+		
+</table>
+</div>

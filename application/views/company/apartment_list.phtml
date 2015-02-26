@@ -1,0 +1,17 @@
+<div>
+<?php 
+echo '<h4>'.$this->title.'</h4>'?>
+<table width="80%" frame="hsides">
+	<tr align="center"><td>职位编号</td><td>职位名称</td><td>职位权限</td><td>操作</td></tr>
+	<?php
+		$i=0;
+		foreach ($this->apartment as $key => $value) {
+			$i++;
+			if ($i%2) $class = 'tdclass1';
+			else $class = 'tdclass2';
+			echo "<tr class=".$class." align='center'><td>".$value['position_no']."</td><td>".$value['position_name']."</td><td>".$value['position_perms']."</td><td><a class='button view' q-static='".H(array('type'=>'position','no'=>$value['position_no'],'name'=>$value['position_name'],'apart'=>$this->apart))."' q-object='edit' q-event='click' q-src='".URI::url('company')."'>编辑</a><a class='button view' q-static='".H(array('type' => 'position','no'=>$value['position_no']))."' q-object='perms' q-event='click' q-src='".URI::url('company')."'>权限</a><a class='button view' q-static='".H(array('type' => 'position','no'=>$value['position_no']))."' q-object='delete' q-event='click' q-src='".URI::url('company')."'>删除</a></td></tr>";
+		}
+	?>
+</table>
+<a class="button middle prevent_default"  q-object="add" q-event="click" q-src="<?php echo URI::url('company')?>" q-static="<?php echo H(array('type'=>'position','apart'=>$this->apart))?>">增加职位</a>
+</div>

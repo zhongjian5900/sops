@@ -1,0 +1,18 @@
+<div>
+	<?php if ($this->no) $object = 'edit_pos';
+		else $object = 'add_pos';
+	?>
+	<form method="post" class="view" q-event="submit" q-object="<?php echo $object?>" q-src="" q-static="<?php echo H(array('apart'=>$this->apart))?>">
+	<label>职位编号:</label><input type="textbox" name="newposno" value="<?php if ($this->no) {
+		echo $this->no;
+	}?>">
+	<label>职位名称:</label><input type="textbox" name="newposname" value="<?php if ($this->name) {
+		echo $this->name;
+	}?>">
+	<label>所属部门:</label><label><?php echo $this->apart?></label><br>
+	<?php if ($this->no) {
+		echo "<input type='hidden' name='oldno' value='".$this->no."'>";
+	}?>
+	<input type="submit" name="add" value="提交">
+	</form>
+</div>

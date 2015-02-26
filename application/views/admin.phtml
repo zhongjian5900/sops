@@ -1,0 +1,19 @@
+<div>
+	<label>当前管理员列表:</label>
+	<table width="80%" frame="hsides">
+		<tr align="center"><td>管理员姓名</td><td>所在部门</td><td>当前职务</td><td>管理员操作</td></tr>
+		<?php
+			$i = 0;
+			foreach ($this->adminlist as $key => $value) {
+				$i++;
+				if ($i%2) {
+					$class = 'tdclass1';
+				}else{
+					$class = 'tdclass2';
+				}
+				echo '<tr class="'.$class.'" align="center"><td>'.$value['user_name'].'</td><td>'.$value['user_apartment'].'</td><td>'.$value['user_position'].'</td><td><a href="'.URI::url('admin/deleteadmin').'.'.$value['id'].'">删除</a></td></tr>';
+			}
+		?>
+	</table>
+	<a class="button view" href="<?php echo URI::url('admin/addadmin');?>">添加管理员</a>
+</div>

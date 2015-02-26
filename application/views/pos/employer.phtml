@@ -1,0 +1,68 @@
+<div style="width: 150px">
+	<h5>员工姓名：</h5><label><?php echo $this->user['user_name']?></label>
+	<h5>当前职位：</h5><label><?php echo $this->user['user_position']?></label>
+<h5>变更为</h5>
+<form method="post" class="view" q-event="submit" q-object="user_change" q-src="" q-static="<?php echo H(array('id'=>$this->user['id']))?>">
+<select id="apart" name="apart">  
+	<?php 
+	$apartment = $this->position;
+	if (is_array($apartment)) {
+		echo "<option value='0'></option>";
+		foreach ($apartment as $key => $value) {
+			echo "<option value=$key>$value</option>";
+		}
+	}
+	?>
+</select>
+<span class="pos"></span>
+<input type="submit" name="change" value="变更">
+</form>
+</div>
+<script type="text/javascript">
+ 	(function($) {
+    $sub_transaction_span = $('span.pos');
+
+    $transaction = $(':input[name=apart]');
+
+
+    sub_transaction_type = 0;
+
+    //进行trigger
+    function _triggerchange() {
+
+        v = $transaction.val();
+
+        if (v == 0) {
+            $sub_transaction_span.empty(); //进行清空
+        }
+        else {
+
+            Q.trigger({
+                object: 'apartment_position',
+                event: 'change',
+                url: '<?php echo URI::url("personal")?>',
+                data: {
+                    transaction_type: v,
+                    sub_transaction_type: sub_transaction_type
+                },
+                success: function(data) {
+                   if (data.view_data) $sub_transaction_span.html(data.view_data); //如果有返回结果, 进行内容设定
+                    return false;
+                }
+            });
+
+            //进行trigger
+            sub_transaction_type = 0;
+        }
+
+        return false;
+    }
+
+    _triggerchange(); 
+
+    $transaction.bind('change', function() {
+        _triggerchange();
+    });
+
+})(jQuery);
+</script>

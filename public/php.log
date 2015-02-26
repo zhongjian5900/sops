@@ -1,0 +1,238 @@
+[08-Oct-2014 13:13:07 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 13:13:07 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 13:14:52 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 13:14:52 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 13:23:15 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 13:23:15 Asia/shanghai] [31m[4mERROR[0m [1mmysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known (/data/SOP-Project/system/libraries/database/mysql.php:30) [0m
+[08-Oct-2014 09:38:48 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /data/SOP-Project/public/index.php on line 3
+[08-Oct-2014 10:09:02 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /data/SOP-Project/application/libraries/application.php on line 19
+[08-Oct-2014 10:09:03 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /data/SOP-Project/application/libraries/application.php on line 19
+[09-Oct-2014 08:59:55 Asia/shanghai] [31m[4mERROR[0m [1mNon-static method Position::positions() should not be called statically, assuming $this from incompatible context (/data/SOP-Project/application/controllers/files.php:55) [0m
+[09-Oct-2014 08:59:55 Asia/shanghai] null
+[09-Oct-2014 09:00:03 Asia/shanghai] [31m[4mERROR[0m [1mNon-static method Position::positions() should not be called statically, assuming $this from incompatible context (/data/SOP-Project/application/controllers/admin.php:15) [0m
+[09-Oct-2014 11:33:16 Asia/shanghai] [31m[4mERROR[0m [1mNon-static method Position::positions() should not be called statically, assuming $this from incompatible context (/data/SOP-Project/application/controllers/admin.php:15) [0m
+[09-Oct-2014 11:42:16 Asia/shanghai] [31m[4mERROR[0m [1mInvalid argument supplied for foreach() (/data/SOP-Project/application/controllers/admin.php:20) [0m
+[09-Oct-2014 13:21:19 Asia/shanghai] [31m[4mERROR[0m [1mMissing argument 1 for _JS::alert(), called in /data/SOP-Project/application/controllers/personal.php on line 123 and defined (/data/SOP-Project/system/libraries/js.php:61) [0m
+[09-Oct-2014 13:31:12 Asia/shanghai] null
+[09-Oct-2014 13:35:03 Asia/shanghai] [31m[4mERROR[0m [1merror_log() expects parameter 1 to be string, array given (/data/SOP-Project/application/controllers/company.php:152) [0m
+[09-Oct-2014 13:35:23 Asia/shanghai] {"perms":["null"],"submit":"perms"}
+[09-Oct-2014 13:36:40 Asia/shanghai] {"perms":["null"],"submit":"perms"}
+[09-Oct-2014 13:38:55 Asia/shanghai] ["null"]
+[09-Oct-2014 13:50:10 Asia/shanghai] {"perms":"null","submit":"perms"}
+[09-Oct-2014 13:51:34 Asia/shanghai] {"perms":"null","submit":"perms"}
+[09-Oct-2014 14:00:32 Asia/shanghai] {"perms":"null","submit":"submit"}
+[09-Oct-2014 14:07:26 Asia/shanghai] "null"
+[09-Oct-2014 15:08:30 Asia/shanghai] 
+[09-Oct-2014 15:09:10 Asia/shanghai] 
+[09-Oct-2014 15:09:37 Asia/shanghai] {"perms":"null","submit":"submit"}
+[09-Oct-2014 15:09:38 Asia/shanghai] {"perms":"null","submit":"submit"}
+[09-Oct-2014 15:10:17 Asia/shanghai] {"submit":"submit"}
+[09-Oct-2014 15:10:56 Asia/shanghai] {"submit":"submit"}
+[09-Oct-2014 15:11:23 Asia/shanghai] {"perms_0":"on","perms_1":"on","perms_2":"null","perms_3":"null","perms_4":"null","perms_5":"null","perms_6":"null","submit":"submit"}
+[09-Oct-2014 15:15:16 Asia/shanghai] on,on,null,null,null,null,null,submit
+[09-Oct-2014 15:15:53 Asia/shanghai] on,on,null,null,null,null,null,submit
+[09-Oct-2014 15:17:22 Asia/shanghai] null,on,on,null,null,null,null,submit
+[09-Oct-2014 15:17:53 Asia/shanghai] on,on,null,null,null,null,null,submit
+[09-Oct-2014 15:19:35 Asia/shanghai] on,on,null,null,null,null,null,submit
+[09-Oct-2014 15:20:20 Asia/shanghai] null,submit
+[09-Oct-2014 15:20:29 Asia/shanghai] null,submit
+[09-Oct-2014 15:21:05 Asia/shanghai] null,update
+[09-Oct-2014 15:21:42 Asia/shanghai] perms
+[09-Oct-2014 15:21:42 Asia/shanghai] submit
+[09-Oct-2014 15:21:42 Asia/shanghai] null,update
+[09-Oct-2014 15:22:18 Asia/shanghai] perms
+[09-Oct-2014 15:22:18 Asia/shanghai] submit
+[09-Oct-2014 15:22:18 Asia/shanghai] null,update
+[09-Oct-2014 15:22:52 Asia/shanghai] 
+[09-Oct-2014 15:22:52 Asia/shanghai] [31m[4mERROR[0m [1mimplode(): Invalid arguments passed (/data/SOP-Project/application/controllers/company.php:153) [0m
+[09-Oct-2014 15:22:52 Asia/shanghai] 
+[09-Oct-2014 15:23:10 Asia/shanghai] 
+[09-Oct-2014 15:23:10 Asia/shanghai] [31m[4mERROR[0m [1mimplode(): Invalid arguments passed (/data/SOP-Project/application/controllers/company.php:153) [0m
+[09-Oct-2014 15:23:10 Asia/shanghai] 
+[09-Oct-2014 15:23:52 Asia/shanghai] 
+[09-Oct-2014 15:23:52 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 15:26:13 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 15:27:38 Asia/shanghai] 
+[09-Oct-2014 15:28:10 Asia/shanghai] add
+[09-Oct-2014 15:29:17 Asia/shanghai] "null"
+[09-Oct-2014 15:36:38 Asia/shanghai] {"0":"on","1":"on","2":"null","3":"null","4":"null","5":"null","6":"null","submit":"update"}
+[09-Oct-2014 15:43:57 Asia/shanghai] {"0":"on","1":"on","2":"null","3":"null","4":"null","5":"null","6":"null","submit":"update"}
+[09-Oct-2014 15:44:21 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 15:45:26 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 18:12:22 Asia/shanghai] aaa
+[09-Oct-2014 18:12:48 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 18:18:16 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 18:18:31 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 18:34:05 Asia/shanghai] {"perms":"null","submit":"update"}
+[09-Oct-2014 18:37:22 Asia/shanghai] {"perms":["on","on","null","null","null","null","null"],"submit":"update"}
+[09-Oct-2014 18:38:45 Asia/shanghai] {"perms":["null"],"submit":"update"}
+[09-Oct-2014 18:39:27 Asia/shanghai] {"perms":["on"],"submit":"update"}
+[09-Oct-2014 18:40:22 Asia/shanghai] {"perms":{"$key":"null"},"submit":"update"}
+[09-Oct-2014 18:40:37 Asia/shanghai] {"perms":{"$key":"null"},"submit":"update"}
+[09-Oct-2014 18:41:06 Asia/shanghai] {"perms":{"1":"on","2":"on","3":"null","4":"null","5":"null","6":"null","7":"null"},"submit":"update"}
+[10-Oct-2014 14:14:35 Asia/shanghai] [31m[4mERROR[0m [1mpreg_split(): Unknown modifier '.' (/data/SOP-Project/application/controllers/files.php:244) [0m
+[10-Oct-2014 14:14:36 Asia/shanghai] [31m[4mERROR[0m [1mpreg_split(): Unknown modifier '.' (/data/SOP-Project/application/controllers/files.php:244) [0m
+[10-Oct-2014 14:57:32 Asia/shanghai] 1111
+[10-Oct-2014 14:57:39 Asia/shanghai] 1111
+[10-Oct-2014 14:57:39 Asia/shanghai] [31m[4mERROR[0m [1marray_flip() expects parameter 1 to be array, null given (/data/SOP-Project/application/controllers/files.php:289) [0m
+[10-Oct-2014 14:57:39 Asia/shanghai] [31m[4mERROR[0m [1mInvalid argument supplied for foreach() (/data/SOP-Project/application/controllers/files.php:291) [0m
+[10-Oct-2014 14:57:39 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Filename cannot be empty (/data/SOP-Project/application/controllers/files.php:295) [0m
+[10-Oct-2014 14:57:39 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Unable to move '/tmp/phpedY62J' to '' (/data/SOP-Project/application/controllers/files.php:295) [0m
+[10-Oct-2014 14:57:44 Asia/shanghai] 1111
+[10-Oct-2014 14:58:13 Asia/shanghai] 222
+[10-Oct-2014 14:58:13 Asia/shanghai] [31m[4mERROR[0m [1marray_flip() expects parameter 1 to be array, null given (/data/SOP-Project/application/controllers/files.php:289) [0m
+[10-Oct-2014 14:58:13 Asia/shanghai] [31m[4mERROR[0m [1mInvalid argument supplied for foreach() (/data/SOP-Project/application/controllers/files.php:291) [0m
+[10-Oct-2014 14:58:13 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Filename cannot be empty (/data/SOP-Project/application/controllers/files.php:295) [0m
+[10-Oct-2014 14:58:13 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Unable to move '/tmp/phppnY9S6' to '' (/data/SOP-Project/application/controllers/files.php:295) [0m
+[10-Oct-2014 14:59:20 Asia/shanghai] 222
+[10-Oct-2014 14:59:20 Asia/shanghai] [31m[4mERROR[0m [1marray_flip() expects parameter 1 to be array, null given (/data/SOP-Project/application/controllers/files.php:290) [0m
+[10-Oct-2014 14:59:20 Asia/shanghai] [31m[4mERROR[0m [1mInvalid argument supplied for foreach() (/data/SOP-Project/application/controllers/files.php:292) [0m
+[10-Oct-2014 14:59:20 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Filename cannot be empty (/data/SOP-Project/application/controllers/files.php:296) [0m
+[10-Oct-2014 14:59:20 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Unable to move '/tmp/phpItUGNS' to '' (/data/SOP-Project/application/controllers/files.php:296) [0m
+[10-Oct-2014 15:00:13 Asia/shanghai] 222
+[10-Oct-2014 15:00:13 Asia/shanghai] [31m[4mERROR[0m [1marray_flip() expects parameter 1 to be array, null given (/data/SOP-Project/application/controllers/files.php:290) [0m
+[10-Oct-2014 15:00:13 Asia/shanghai] [31m[4mERROR[0m [1mInvalid argument supplied for foreach() (/data/SOP-Project/application/controllers/files.php:292) [0m
+[10-Oct-2014 15:00:13 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Filename cannot be empty (/data/SOP-Project/application/controllers/files.php:296) [0m
+[10-Oct-2014 15:00:13 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Unable to move '/tmp/phpUX5o6U' to '' (/data/SOP-Project/application/controllers/files.php:296) [0m
+[10-Oct-2014 15:02:25 Asia/shanghai] 222
+[10-Oct-2014 15:04:41 Asia/shanghai] 222
+[10-Oct-2014 15:05:36 Asia/shanghai] 222
+[10-Oct-2014 15:06:48 Asia/shanghai] 222
+[11-Oct-2014 13:19:51 Asia/shanghai] null
+[11-Oct-2014 13:19:54 Asia/shanghai] null
+[11-Oct-2014 13:20:45 Asia/shanghai] null
+[11-Oct-2014 13:24:32 Asia/shanghai] super
+[11-Oct-2014 13:24:32 Asia/shanghai] null
+[11-Oct-2014 13:24:34 Asia/shanghai] super
+[11-Oct-2014 13:24:34 Asia/shanghai] null
+[11-Oct-2014 13:25:09 Asia/shanghai] super
+[11-Oct-2014 13:25:09 Asia/shanghai] null
+[11-Oct-2014 13:25:27 Asia/shanghai] super
+[11-Oct-2014 13:25:40 Asia/shanghai] 
+[11-Oct-2014 13:26:59 Asia/shanghai] 
+[11-Oct-2014 13:27:06 Asia/shanghai] super
+[11-Oct-2014 13:27:06 Asia/shanghai] null
+[11-Oct-2014 13:27:24 Asia/shanghai] 
+[11-Oct-2014 13:28:05 Asia/shanghai] super
+[11-Oct-2014 13:28:05 Asia/shanghai] null
+[11-Oct-2014 13:28:12 Asia/shanghai] 
+[11-Oct-2014 13:28:12 Asia/shanghai] 111
+[11-Oct-2014 13:31:59 Asia/shanghai] [31m[4mERROR[0m [1mMissing argument 1 for Files_Controller::edit() (/data/SOP-Project/application/controllers/files.php:169) [0m
+[11-Oct-2014 13:35:45 Asia/shanghai] 11
+[11-Oct-2014 13:35:58 Asia/shanghai] 11
+[11-Oct-2014 13:36:19 Asia/shanghai] 11
+[11-Oct-2014 13:36:35 Asia/shanghai] JLKJ_ZY-RJ-05%E8%BD%AF%E4%BB%B6%E9%83%A8Bug%E8%A7%A3%E5%86%B3%E6%B5%81
+[11-Oct-2014 13:37:20 Asia/shanghai] JLKJ_ZY-RJ-05%25E8%25BD%25AF%25E4%25BB%25B6%25E9%2583%25A8Bug%25E8%25A7%25A3%25E5%2586%25B3%25E6%25B5%2581
+[11-Oct-2014 13:37:33 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流
+[11-Oct-2014 13:38:21 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流
+[11-Oct-2014 13:48:40 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流
+[11-Oct-2014 13:48:41 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流
+[11-Oct-2014 13:48:42 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流
+[11-Oct-2014 14:28:44 Asia/shanghai] super
+[11-Oct-2014 14:28:44 Asia/shanghai] null
+[11-Oct-2014 14:28:52 Asia/shanghai] super
+[11-Oct-2014 14:28:52 Asia/shanghai] null
+[11-Oct-2014 14:29:18 Asia/shanghai] super
+[11-Oct-2014 14:29:18 Asia/shanghai] null
+[11-Oct-2014 14:31:19 Asia/shanghai] JLKJ_ZY-RJ-05软件部Bug解决流程
+[11-Oct-2014 14:34:40 Asia/shanghai] [31m[4mERROR[0m [1mfile_put_contents(/data/SOP-Project/logs/.log): failed to open stream: Permission denied (/data/SOP-Project/system/libraries/log.php:25) [0m
+[11-Oct-2014 14:34:56 Asia/shanghai] super
+[11-Oct-2014 14:34:56 Asia/shanghai] null
+[11-Oct-2014 14:36:44 Asia/shanghai] [31m[4mERROR[0m [1mfile_put_contents(/data/SOP-Project/logs/.log): failed to open stream: Permission denied (/data/SOP-Project/system/libraries/log.php:25) [0m
+[11-Oct-2014 14:38:12 Asia/shanghai] [31m[4mERROR[0m [1mfile_put_contents(/data/SOP-Project/logs/.log): failed to open stream: Permission denied (/data/SOP-Project/system/libraries/log.php:25) [0m
+[11-Oct-2014 14:38:36 Asia/shanghai] super
+[11-Oct-2014 14:38:36 Asia/shanghai] null
+[11-Oct-2014 14:38:43 Asia/shanghai] [31m[4mERROR[0m [1mMissing argument 1 for Files_Controller::download() (/data/SOP-Project/application/controllers/files.php:137) [0m
+[11-Oct-2014 14:40:37 Asia/shanghai] [31m[4mERROR[0m [1mfile_put_contents(/data/SOP-Project/logs/.log): failed to open stream: Permission denied (/data/SOP-Project/system/libraries/log.php:25) [0m
+[11-Oct-2014 16:50:30 Asia/shanghai] super
+[11-Oct-2014 16:50:30 Asia/shanghai] null
+[11-Oct-2014 17:25:50 Asia/shanghai] super
+[11-Oct-2014 17:25:50 Asia/shanghai] null
+[11-Oct-2014 18:11:02 Asia/shanghai] super
+[11-Oct-2014 18:11:02 Asia/shanghai] null
+[11-Oct-2014 18:14:48 Asia/shanghai] {"name":"JLKJ_CX-01\u6587\u4ef6\u63a7\u5236\u7a0b\u5e8f.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpz8TUR4","error":0,"size":173435}
+[11-Oct-2014 18:14:48 Asia/shanghai] 
+[11-Oct-2014 18:14:48 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Filename cannot be empty (/data/SOP-Project/application/controllers/files.php:128) [0m
+[11-Oct-2014 18:14:48 Asia/shanghai] [31m[4mERROR[0m [1mmove_uploaded_file(): Unable to move '/tmp/phpz8TUR4' to '' (/data/SOP-Project/application/controllers/files.php:128) [0m
+[11-Oct-2014 18:16:13 Asia/shanghai] {"name":"JLKJ_ZY-RJ-05\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpx4nH5y","error":0,"size":199706}
+[11-Oct-2014 18:16:13 Asia/shanghai] 
+[11-Oct-2014 18:18:05 Asia/shanghai] null
+[11-Oct-2014 18:18:18 Asia/shanghai] {"name":"JLKJ_CX-01\u6587\u4ef6\u63a7\u5236\u7a0b\u5e8f.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpxJM3vd","error":0,"size":173435}
+[11-Oct-2014 18:18:18 Asia/shanghai] 
+[11-Oct-2014 18:19:02 Asia/shanghai] null
+[11-Oct-2014 18:19:18 Asia/shanghai] {"name":"JLKJ_ZY-RJ-06\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b\u6267\u884c\u6587\u6863.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpVDctur","error":0,"size":183085}
+[11-Oct-2014 18:19:18 Asia/shanghai] 
+[11-Oct-2014 18:19:53 Asia/shanghai] null
+[11-Oct-2014 18:20:02 Asia/shanghai] {"name":"JLKJ_ZY-RJ-06\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b\u6267\u884c\u6587\u6863.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpFO2GKx","error":0,"size":183085}
+[11-Oct-2014 18:20:02 Asia/shanghai] 
+[11-Oct-2014 18:20:02 Asia/shanghai] {}
+[11-Oct-2014 18:20:29 Asia/shanghai] {"name":"JLKJ_ZY-RZ-07\u57fa\u7406\u79d1\u6280\u5458\u5de5\u624b\u518c .pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpCzk1Gb","error":0,"size":753912}
+[11-Oct-2014 18:20:29 Asia/shanghai] 
+[11-Oct-2014 18:20:29 Asia/shanghai] {}
+[11-Oct-2014 18:23:18 Asia/shanghai] {"name":"JLKJ_ZY-RJ-05\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpk9iV4q","error":0,"size":199706}
+[11-Oct-2014 18:23:18 Asia/shanghai] 
+[11-Oct-2014 18:23:18 Asia/shanghai] 2222
+[11-Oct-2014 18:25:19 Asia/shanghai] {"name":"JLKJ _ ZY-KZ-01\u4e8b\u6545\u5206\u7ea7\u4e0e\u5904\u7406\u529e\u6cd5.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpHjWfaR","error":0,"size":311050}
+[11-Oct-2014 18:25:19 Asia/shanghai] 
+[11-Oct-2014 18:29:07 Asia/shanghai] {"name":"JLKJ_ZY-RJ-05\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpO8d1Xd","error":0,"size":199706}
+[11-Oct-2014 18:29:07 Asia/shanghai] 
+[11-Oct-2014 18:29:07 Asia/shanghai] 
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `user_name`,`user_position`,`user_apartment`,`token`,`user_type`,`user_perms`,`id`,`_extra` FROM `user` WHERE `user_type`='super' LIMIT 1
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `t0`.`apartment_no`, `t0`.`apartment_name`, `t0`.`id`, `t0`.`_extra`FROM `apartment` `t0` ORDER BY `t0`.`id`
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `t1`.`position_no`, `t1`.`position_name`, `t1`.`position_apart`, `t1`.`position_perms`, `t1`.`id`, `t1`.`_extra`FROM `position` `t1` ORDER BY `t1`.`id`
+[11-Oct-2014 18:29:52 Asia/shanghai] {"name":"JLKJ_ZY-RJ-06\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b\u6267\u884c\u6587\u6863.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpEeqvEp","error":0,"size":183085}
+[11-Oct-2014 18:29:52 Asia/shanghai] 
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `fileno`,`filename`,`filesize`,`ctime`,`mtime`,`file_type`,`file_modify`,`f_version`,`isrecord`,`file_apartment`,`id`,`_extra` FROM `files` WHERE `fileno`='' LIMIT 1
+[11-Oct-2014 18:29:52 Asia/shanghai] SHOW FIELDS FROM `files`
+[11-Oct-2014 18:29:52 Asia/shanghai] INSERT INTO `files` (`fileno`,`filename`,`filesize`,`file_type`,`file_modify`,`f_version`,`file_apartment`,`ctime`,`mtime`) VALUES(NULL,"JLKJ_ZY-RJ-06软件部Bug解决流程执行文档.pdf","178KB","","0","B","行政部",1413023392,1413023392)
+[11-Oct-2014 18:29:52 Asia/shanghai] 
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `t2`.`user_name`, `t2`.`user_position`, `t2`.`user_apartment`, `t2`.`token`, `t2`.`user_type`, `t2`.`user_perms`, `t2`.`id`, `t2`.`_extra`FROM `user` `t2` ORDER BY `t2`.`id`
+[11-Oct-2014 18:29:52 Asia/shanghai] SHOW FIELDS FROM `message`
+[11-Oct-2014 18:29:52 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-06软件部Bug解决流程执行文档.pdf","1",1413023392)
+[11-Oct-2014 18:29:52 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-06软件部Bug解决流程执行文档.pdf","2",1413023392)
+[11-Oct-2014 18:29:52 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-06软件部Bug解决流程执行文档.pdf","9",1413023392)
+[11-Oct-2014 18:29:52 Asia/shanghai] SELECT `log_name`,`ctime`,`mtime`,`log_apartment`,`id`,`_extra` FROM `logs` WHERE `log_name`='.log' LIMIT 1
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `user_name`,`user_position`,`user_apartment`,`token`,`user_type`,`user_perms`,`id`,`_extra` FROM `user` WHERE `user_type`='super' LIMIT 1
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `t0`.`apartment_no`, `t0`.`apartment_name`, `t0`.`id`, `t0`.`_extra`FROM `apartment` `t0` ORDER BY `t0`.`id`
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `t1`.`position_no`, `t1`.`position_name`, `t1`.`position_apart`, `t1`.`position_perms`, `t1`.`id`, `t1`.`_extra`FROM `position` `t1` ORDER BY `t1`.`id`
+[11-Oct-2014 18:31:11 Asia/shanghai] {"name":"JLKJ_ZY-RJ-05\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpMG3nmR","error":0,"size":199706}
+[11-Oct-2014 18:31:11 Asia/shanghai] 
+[11-Oct-2014 18:31:11 Asia/shanghai] 
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `fileno`,`filename`,`filesize`,`ctime`,`mtime`,`file_type`,`file_modify`,`f_version`,`isrecord`,`file_apartment`,`id`,`_extra` FROM `files` WHERE `fileno`='' LIMIT 1
+[11-Oct-2014 18:31:11 Asia/shanghai] SHOW FIELDS FROM `files`
+[11-Oct-2014 18:31:11 Asia/shanghai] INSERT INTO `files` (`fileno`,`filename`,`filesize`,`file_type`,`file_modify`,`f_version`,`file_apartment`,`ctime`,`mtime`) VALUES(NULL,"JLKJ_ZY-RJ-05软件部Bug解决流.pdf","195KB","","0","B","行政部",1413023471,1413023471)
+[11-Oct-2014 18:31:11 Asia/shanghai] 
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `t2`.`user_name`, `t2`.`user_position`, `t2`.`user_apartment`, `t2`.`token`, `t2`.`user_type`, `t2`.`user_perms`, `t2`.`id`, `t2`.`_extra`FROM `user` `t2` ORDER BY `t2`.`id`
+[11-Oct-2014 18:31:11 Asia/shanghai] SHOW FIELDS FROM `message`
+[11-Oct-2014 18:31:11 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-05软件部Bug解决流.pdf","1",1413023471)
+[11-Oct-2014 18:31:11 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-05软件部Bug解决流.pdf","2",1413023471)
+[11-Oct-2014 18:31:11 Asia/shanghai] INSERT INTO `message` (`content`,`user_id`,`ctime`) VALUES("[上传文件]上传了JLKJ_ZY-RJ-05软件部Bug解决流.pdf","9",1413023471)
+[11-Oct-2014 18:31:11 Asia/shanghai] SELECT `log_name`,`ctime`,`mtime`,`log_apartment`,`id`,`_extra` FROM `logs` WHERE `log_name`='.log' LIMIT 1
+[11-Oct-2014 18:32:06 Asia/shanghai] {"name":"JLKJ _ ZY-KZ-01\u4e8b\u6545\u5206\u7ea7\u4e0e\u5904\u7406\u529e\u6cd5.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpf5IG7o","error":0,"size":311050}
+[11-Oct-2014 18:32:06 Asia/shanghai] 
+[11-Oct-2014 18:32:06 Asia/shanghai] JLKJ
+[11-Oct-2014 18:33:07 Asia/shanghai] {"name":"JLKJ _ ZY-KZ-01\u4e8b\u6545\u5206\u7ea7\u4e0e\u5904\u7406\u529e\u6cd5.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpZ4XgkS","error":0,"size":311050}
+[11-Oct-2014 18:33:07 Asia/shanghai] 
+[11-Oct-2014 18:33:07 Asia/shanghai] JLKJ_ZY-KZ-01
+[11-Oct-2014 18:34:08 Asia/shanghai] {"name":"JLKJ_ZY-RJ-05\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpYPVJvf","error":0,"size":199706}
+[11-Oct-2014 18:34:08 Asia/shanghai] 
+[11-Oct-2014 18:34:08 Asia/shanghai] JLKJ_ZY-RJ-05
+[11-Oct-2014 18:34:08 Asia/shanghai] {"name":"JLKJ_ZY-RJ-06\u8f6f\u4ef6\u90e8Bug\u89e3\u51b3\u6d41\u7a0b\u6267\u884c\u6587\u6863.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/php0s1owM","error":0,"size":183085}
+[11-Oct-2014 18:34:08 Asia/shanghai] 
+[11-Oct-2014 18:34:08 Asia/shanghai] JLKJ_ZY-RJ-06
+[11-Oct-2014 18:34:08 Asia/shanghai] {"name":"JLKJ_ZY-RZ-07\u57fa\u7406\u79d1\u6280\u5458\u5de5\u624b\u518c .pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpuFYfgf","error":0,"size":753912}
+[11-Oct-2014 18:34:08 Asia/shanghai] 
+[11-Oct-2014 18:34:08 Asia/shanghai] JLKJ_ZY-RZ-07
+[11-Oct-2014 18:34:46 Asia/shanghai] {"name":"JLKJ _ ZY-KZ-01\u4e8b\u6545\u5206\u7ea7\u4e0e\u5904\u7406\u529e\u6cd5.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpO539iv","error":0,"size":311050}
+[11-Oct-2014 18:34:46 Asia/shanghai] 
+[11-Oct-2014 18:34:46 Asia/shanghai] JLKJ_ZY-KZ-01
+[11-Oct-2014 18:34:46 Asia/shanghai] {"name":"JLKJ_CX-01\u6587\u4ef6\u63a7\u5236\u7a0b\u5e8f.pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/phpSbgOhY","error":0,"size":173435}
+[11-Oct-2014 18:34:46 Asia/shanghai] 
+[11-Oct-2014 18:34:46 Asia/shanghai] JLKJ_CX-01
+[11-Oct-2014 18:36:48 Asia/shanghai] null
+[11-Oct-2014 18:36:59 Asia/shanghai] {"name":"JLKJ_ZY-RZ-07\u57fa\u7406\u79d1\u6280\u5458\u5de5\u624b\u518c .pdf","type":"application\/octet-stream","tmp_name":"\/tmp\/php2wjpOW","error":0,"size":753912}
+[11-Oct-2014 18:36:59 Asia/shanghai] 
+[11-Oct-2014 18:36:59 Asia/shanghai] JLKJ_ZY-RZ-07
+[11-Oct-2014 18:38:06 Asia/shanghai] 超级管理员
+[11-Oct-2014 18:38:20 Asia/shanghai] 
+[13-Oct-2014 09:42:14 Asia/shanghai] {"JLKJ_CX-01":"on","JLKJ_ZY-KZ-01":"on","JLKJ_ZY-RJ-05":"null","JLKJ_ZY-RJ-06":"null","JLKJ_ZY-RZ-07":"null"}

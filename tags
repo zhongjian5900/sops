@@ -1,0 +1,2272 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$	system/private/js/livequery.js	/^var init = $.prototype.init;$/;"	c
+$.evalJSON	system/private/js/json.js	/^    };$/;"	f
+$.fieldValue	system/private/js/form.js	/^};$/;"	f
+$.fn	system/private/js/q/core.js	/^	Q['globals']={};$/;"	f
+$.fn.ajaxForm	system/private/js/form.js	/^};$/;"	f
+$.fn.ajaxFormUnbind	system/private/js/form.js	/^};$/;"	f
+$.fn.clearForm	system/private/js/form.js	/^};$/;"	f
+$.fn.enable	system/private/js/form.js	/^};$/;"	f
+$.fn.fieldSerialize	system/private/js/form.js	/^};$/;"	c
+$.fn.fieldValue	system/private/js/form.js	/^};$/;"	f
+$.fn.formSerialize	system/private/js/form.js	/^};$/;"	f
+$.fn.formToArray	system/private/js/form.js	/^};$/;"	f
+$.fn.resetForm	system/private/js/form.js	/^};$/;"	f
+$.fn.selected	system/private/js/form.js	/^};$/;"	f
+$.init	system/private/js/livequery.js	/^$.prototype.init = function(a,c) {$/;"	m
+$.init	system/private/js/livequery.js	/^$.prototype.init.prototype = $.prototype;$/;"	m
+$.livequery	system/private/js/livequery.js	/^});$/;"	c
+$.livequery.run	system/private/js/livequery.js	/^	},$/;"	m
+$.livequery.stop	system/private/js/livequery.js	/^$.livequery.prototype = {$/;"	m
+$.quoteString	system/private/js/json.js	/^    };$/;"	f
+$.secureEvalJSON	system/private/js/json.js	/^    };$/;"	f
+AJAX	system/libraries/input.php	/^	static $AJAX=array();$/;"	v
+AJAX	system/libraries/input.php	/^	static function & AJAX($name=NULL) {$/;"	f
+AJAX	system/libraries/output.php	/^	public static $AJAX = array();$/;"	v
+AJAX	system/libraries/output.php	/^	static function AJAX(){$/;"	f
+AJAX_Controller	system/controllers/@/ajax.php	/^class AJAX_Controller extends _AJAX_Controller {}$/;"	c
+AJAX_SUFFIX	system/core/def.php	/^define('AJAX_SUFFIX', '_ajax_controller');$/;"	d
+APP_PATH	system/core/def.php	/^	define('APP_PATH', 'phar:\/\/'.ROOT_PATH.'application.phar\/');$/;"	d
+APP_PATH	system/core/def.php	/^	define('APP_PATH', ROOT_PATH.'application\/');$/;"	d
+Auth	system/libraries/@/auth.php	/^class Auth extends _Auth {}$/;"	c
+Auth_Database	system/libraries/@/auth/database.php	/^class Auth_Database extends _Auth_Database {}$/;"	c
+Auth_Handler	system/libraries/auth.php	/^interface Auth_Handler {$/;"	i
+Auth_LDAP	system/libraries/@/auth/ldap.php	/^class Auth_LDAP extends _Auth_LDAP {}$/;"	c
+Auth_LDAP	system/libraries/auth/ldap.php	/^class Auth_LDAP implements Auth_Handler {$/;"	c
+Button_Widget	system/widgets/@/button.php	/^class Button_Widget extends _Button_Widget {}$/;"	c
+CACHE_PREFIX	system/core/cache.php	/^	static $CACHE_PREFIX;$/;"	v
+CGI	system/core/bootstrap.php	/^final class CGI {$/;"	c
+CLASS_BASES	system/core/core.php	/^		static $CLASS_BASES = array($/;"	v
+CLASS_PATTERN	system/core/core.php	/^			$CLASS_PATTERN = "\/^(_)?(\\w+?)(?:({$SUFFIX1})?|({$SUFFIX2})?)$\/i";$/;"	v
+CLASS_PATTERN	system/core/core.php	/^		static $CLASS_PATTERN;$/;"	v
+CLI	system/core/cli.php	/^final class CLI {$/;"	c
+CLI_MODE	system/core/def.php	/^	define('CLI_MODE', 1);$/;"	d
+CONFIG_BASE	system/core/def.php	/^define('CONFIG_BASE', 'config\/');$/;"	d
+CONTROLLER_BASE	system/core/def.php	/^define('CONTROLLER_BASE', 'controllers\/');$/;"	d
+CONTROLLER_SUFFIX	system/core/def.php	/^define('CONTROLLER_SUFFIX', '_controller');$/;"	d
+CORE_PATH	system/core/bootstrap.php	/^define('CORE_PATH', dirname(__FILE__).'\/');$/;"	d
+CORE_PATH	system/core/cli.php	/^define('CORE_PATH', dirname(__FILE__).'\/');$/;"	d
+CSS	system/libraries/@/css.php	/^class CSS extends _CSS {}$/;"	c
+CSSP	system/3rd/cssp.php	/^class CSSP {$/;"	c
+CSSP_BuildIn	system/3rd/cssp.php	/^class CSSP_BuildIn {$/;"	c
+CSS_Controller	system/controllers/@/css.php	/^class CSS_Controller extends _CSS_Controller {}$/;"	c
+CSS_Fragment	system/3rd/cssp.php	/^class CSS_Fragment {$/;"	c
+CSS_Node	system/3rd/cssp.php	/^class CSS_Node {$/;"	c
+CSS_PATCHED_FLAG	system/libraries/css.php	/^define('CSS_PATCHED_FLAG', '\/*CSS PATCHED*\/');$/;"	d
+CSS_Rule_Helper	system/3rd/cssp.php	/^class CSS_Rule_Helper {$/;"	c
+CURRENT	system/libraries/controller.php	/^	static $CURRENT;$/;"	v
+Cache	system/core/cache.php	/^final class Cache {$/;"	c
+Cache_APC	system/core/cache_apc.php	/^class Cache_APC implements Cache_Handler {$/;"	c
+Cache_Handler	system/core/cache.php	/^interface Cache_Handler {$/;"	i
+Cache_Memcache	system/core/cache_memcache.php	/^class Cache_Memcache implements Cache_Handler {$/;"	c
+Cache_NoCache	system/core/cache_nocache.php	/^class Cache_NoCache implements Cache_Handler {$/;"	c
+Cache_XCache	system/core/cache_xcache.php	/^class Cache_XCache implements Cache_Handler {$/;"	c
+Cache_YAC	system/core/cache_yac.php	/^class Cache_YAC implements Cache_Handler {$/;"	c
+Cipher	system/libraries/@/cipher.php	/^class Cipher extends _Cipher {}$/;"	c
+Config	system/libraries/@/config.php	/^class Config extends _Config {}$/;"	c
+Controller	system/libraries/@/controller.php	/^class Controller extends _Controller {}$/;"	c
+Core	system/core/core.php	/^final class Core {$/;"	c
+DB	system/libraries/database.php	/^	static $DB = array();$/;"	v
+DBResult	system/libraries/database.php	/^interface DBResult {$/;"	i
+DBResult_MySQL	system/libraries/database/mysql.php	/^class DBResult_MySQL implements DBResult {$/;"	c
+DEFAULT_CACHE	system/core/def.php	/^		define('DEFAULT_CACHE', 'apc');$/;"	d
+DEFAULT_CACHE	system/core/def.php	/^		define('DEFAULT_CACHE', 'xcache');$/;"	d
+DEFAULT_CACHE	system/core/def.php	/^		define('DEFAULT_CACHE', 'yac');$/;"	d
+DEFAULT_CACHE	system/core/def.php	/^	define('DEFAULT_CACHE', 'nocache');$/;"	d
+DEFAULT_VIEW	system/core/def.php	/^define('DEFAULT_VIEW', 'html');$/;"	d
+Database	system/libraries/database.php	/^final class Database {$/;"	c
+Database_Handler	system/libraries/database.php	/^interface Database_Handler {$/;"	i
+Database_MySQL	system/libraries/database/mysql.php	/^final class Database_MySQL implements Database_Handler {$/;"	c
+Date	system/libraries/@/date.php	/^class Date extends _Date {}$/;"	c
+E	system/libraries/output.php	/^function E($str) {$/;"	f
+EXT	system/core/def.php	/^define('EXT', '.php');$/;"	d
+Email	system/libraries/@/email.php	/^class Email extends _Email {}$/;"	c
+Error_Controller	system/controllers/@/error.php	/^class Error_Controller extends _Error_Controller {}$/;"	c
+Error_Exception	system/core/exception.php	/^class Error_Exception extends Exception {}$/;"	c
+Event	system/libraries/@/event.php	/^class Event extends _Event {}$/;"	c
+File	system/libraries/@/file.php	/^class File extends _File {}$/;"	c
+Form	system/libraries/@/form.php	/^class Form extends _Form {}$/;"	c
+G	system/core/core.php	/^	static $G = array();$/;"	v
+H	system/libraries/output.php	/^	static function H($str, $convert_return=FALSE){$/;"	f
+H	system/libraries/output.php	/^function H($str, $convert_return=FALSE){$/;"	f
+HT	system/libraries/i18n.php	/^	static function HT($domain=NULL, $str, $args=NULL, $options=NULL, $convert_return=FALSE) {$/;"	f
+HT	system/libraries/output.php	/^	static function & HT($str, $args=NULL, $options=NULL, $convert_return=FALSE){$/;"	f
+HT	system/libraries/output.php	/^function & HT($str, $args=NULL, $options=NULL, $convert_return=FALSE){$/;"	f
+HTTP	system/libraries/@/http.php	/^class HTTP extends _HTTP {}$/;"	c
+HTTP_Response	system/libraries/http.php	/^class HTTP_Response {$/;"	c
+I18N	system/libraries/@/i18n.php	/^class I18N extends _I18N {}$/;"	c
+I18N_BASE	system/core/def.php	/^define('I18N_BASE', 'i18n\/');$/;"	d
+Image	system/libraries/@/image.php	/^class Image extends _Image {}$/;"	c
+Index_Controller	system/controllers/@/index.php	/^class Index_Controller extends _Index_Controller {}$/;"	c
+Input	system/libraries/@/input.php	/^class Input extends _Input {}$/;"	c
+JS	system/libraries/@/js.php	/^class JS extends _JS {}$/;"	c
+JSMin	system/3rd/jsmin.php	/^class JSMin {$/;"	c
+JSMinException	system/3rd/jsmin.php	/^class JSMinException extends Exception {}$/;"	c
+JS_Controller	system/controllers/@/js.php	/^class JS_Controller extends _JS_Controller {}$/;"	c
+JS_FORMATTED	system/libraries/js.php	/^define('JS_FORMATTED', '\/*JSFORMATED*\/');$/;"	d
+JS_Smart	system/libraries/js.php	/^class JS_Smart {$/;"	c
+L	system/core/cache.php	/^	static function L($key, $value) {$/;"	f
+L	system/core/cache.php	/^function L($key) {$/;"	f
+LDAP	system/libraries/@/ldap.php	/^class LDAP extends _LDAP {}$/;"	c
+LEGAL_MODULES	system/core/core.php	/^	static $LEGAL_MODULES;$/;"	v
+LIBRARY_BASE	system/core/def.php	/^define('LIBRARY_BASE', 'libraries\/');$/;"	d
+Layout_Controller	system/controllers/@/layout.php	/^class Layout_Controller extends _Layout_Controller {}$/;"	c
+Log	system/libraries/@/log.php	/^class Log extends _Log {}$/;"	c
+MEMCACHE_HOST	system/core/cache_memcache.php	/^define('MEMCACHE_HOST', '127.0.0.1');$/;"	d
+MEMCACHE_PORT	system/core/cache_memcache.php	/^define('MEMCACHE_PORT', 11211);$/;"	d
+MODEL_BASE	system/core/def.php	/^define('MODEL_BASE', 'models\/');$/;"	d
+MODEL_SUFFIX	system/core/def.php	/^define('MODEL_SUFFIX', '_model');$/;"	d
+MODULE_BASE	system/core/def.php	/^define('MODULE_BASE', 'modules\/');$/;"	d
+MODULE_BASES	system/core/core.php	/^	static $MODULE_BASES = array(); $/;"	v
+MODULE_PATH	system/core/def.php	/^define('MODULE_PATH', ROOT_PATH.MODULE_BASE);$/;"	d
+Misc	system/libraries/@/misc.php	/^class Misc extends _Misc {}$/;"	c
+O	system/models/orm.php	/^function O($name, $criteria=NULL, $no_fetch=FALSE) {$/;"	f
+ORM_Iterator	system/libraries/@/orm_iterator.php	/^class ORM_Iterator extends _ORM_Iterator {}$/;"	c
+ORM_Model	system/models/@/orm.php	/^class ORM_Model extends _ORM_Model {}$/;"	c
+ORM_Pool	system/models/orm.php	/^final class ORM_Pool {$/;"	c
+Output	system/libraries/@/output.php	/^class Output extends _Output {}$/;"	c
+P	system/libraries/properties.php	/^function P($object) {$/;"	f
+PATHS	system/core/core.php	/^	static $PATHS = array();$/;"	v
+POOL	system/models/orm.php	/^	private static $POOL = array();$/;"	v
+PRIVATE_BASE	system/core/def.php	/^define('PRIVATE_BASE', 'private\/');$/;"	d
+PUBLIC_BASE	system/core/def.php	/^define('PUBLIC_BASE', 'public\/');$/;"	d
+Pagination_Widget	system/widgets/@/pagination.php	/^class Pagination_Widget extends _Pagination_Widget {}$/;"	c
+Properties	system/libraries/@/properties.php	/^class Properties extends _Properties {}$/;"	c
+Q	system/libraries/@/q.php	/^class Q extends _Q {}$/;"	c
+Q	system/libraries/q.php	/^			$Q = new Q($selector, $this->db);$/;"	v
+Q	system/libraries/q.php	/^function Q($selector, $context=NULL, $db=NULL){$/;"	f
+Q	system/private/js/q/ajax.js	/^	var _triggerQueue = {};$/;"	f
+Q	system/private/js/q/browser.js	/^	var supportTouch = null;$/;"	f
+Q	system/private/js/q/core.js	/^	var _uniqid_count=0;$/;"	f
+Q	system/private/js/q/loader.js	/^	var _loaded_css = {};$/;"	f
+Q.after	system/private/js/q/ajax.js	/^		prepend: function(data) { this.prepend(data); },$/;"	m
+Q.append	system/private/js/q/ajax.js	/^		replace: function(data) { this.replaceWith(data); },$/;"	m
+Q.before	system/private/js/q/ajax.js	/^		after: function(data) { this.after(data); },$/;"	m
+Q.chrome	system/private/js/q/browser.js	/^		msie: msie,$/;"	p
+Q.content	system/private/js/q/ajax.js	/^		script: function(data){ eval(data); },$/;"	m
+Q.msie	system/private/js/q/browser.js	/^		safari: safari,$/;"	p
+Q.onComplete	system/private/js/q/ajax.js	/^		function onComplete() {$/;"	f
+Q.onSuccess	system/private/js/q/ajax.js	/^		function onSuccess(data, status){$/;"	f
+Q.post._ajax	system/private/js/q/ajax.js	/^		var post={$/;"	p
+Q.post._object	system/private/js/q/ajax.js	/^			_ajax: 1, $/;"	p
+Q.prepend	system/private/js/q/ajax.js	/^		append: function(data) { this.append(data); },$/;"	m
+Q.replace	system/private/js/q/ajax.js	/^	Q['ajaxContent'] = {$/;"	m
+Q.safari	system/private/js/q/browser.js	/^	Q['browser'] = {$/;"	p
+Q.script	system/private/js/q/ajax.js	/^	Q['ajaxProcess'] = {$/;"	m
+Q.textarea_insert	system/private/js/q/ajax.js	/^		before: function(data) { this.before(data); },$/;"	m
+Q.version	system/private/js/q/browser.js	/^		chrome: chrome,$/;"	p
+Q_Pseudo	system/libraries/q/query.php	/^interface Q_Pseudo {$/;"	i
+Q_Pseudo_Alias	system/libraries/q/pseudo/alias.php	/^class Q_Pseudo_Alias implements Q_Pseudo {$/;"	c
+Q_Pseudo_Limit	system/libraries/q/pseudo/limit.php	/^class Q_Pseudo_Limit implements Q_Pseudo {$/;"	c
+Q_Pseudo_Not	system/libraries/q/pseudo/not.php	/^class Q_Pseudo_Not implements Q_Pseudo {$/;"	c
+Q_Pseudo_Sort	system/libraries/q/pseudo/sort.php	/^class Q_Pseudo_Sort implements Q_Pseudo {$/;"	c
+Q_Query	system/libraries/q/query.php	/^class Q_Query {$/;"	c
+SQL	system/libraries/database.php	/^			$SQL=$args[0];$/;"	v
+SQL	system/libraries/database.php	/^			$SQL=call_user_func_array(array($this, 'rewrite'), $args);$/;"	v
+SQL	system/libraries/database.php	/^		$SQL = preg_replace('\/[\\n\\r\\t]+\/', ' ', $SQL);$/;"	v
+SQL	system/libraries/database.php	/^		$SQL=array_shift($args);$/;"	v
+SQL	system/libraries/database/mysql.php	/^		$SQL = array_shift($args);$/;"	v
+SQL	system/libraries/database/mysql.php	/^		$SQL = sprintf('CREATE TABLE %s ( %s ) ENGINE = %s DEFAULT CHARSET = utf8', $this->quote_ident($tbl_name), implode(',', array_merge($field_sql, $index_sql)), $engine);$/;"	v
+SQL	system/libraries/orm_iterator.php	/^		$this->SQL = $SQL;$/;"	v
+SQL	system/libraries/orm_iterator.php	/^	protected $SQL;$/;"	v
+SQL	system/libraries/q.php	/^            $this->SQL = $cache_data['SQL'];$/;"	v
+SQL	system/libraries/q/query.php	/^			$SQL = $db->make_ident($this->real_name($this->name)).' '.$db->quote_ident($this->table);$/;"	v
+SQL	system/libraries/q/query.php	/^			$SQL = trim($SQL);$/;"	v
+SQL	system/libraries/q/query.php	/^            $this->SQL = 'SELECT '. $fields. 'FROM '. $SQL;$/;"	v
+SQL	system/libraries/q/query.php	/^    public $SQL;$/;"	v
+SQL	system/models/orm.php	/^		$SQL = 'INSERT INTO `%s` ('.implode(',', $keys).') VALUES('.implode(',', $vals).')';$/;"	v
+SQL	system/models/orm.php	/^                $SQL = 'SELECT '.$fields.' FROM '.$db->quote_ident($real_name).' WHERE '.implode(' AND ', $where).' LIMIT 1';$/;"	v
+SUFFIX1	system/core/core.php	/^			$SUFFIX1 = CONTROLLER_SUFFIX.'|'.AJAX_SUFFIX.'|'.VIEW_SUFFIX;$/;"	v
+SUFFIX2	system/core/core.php	/^			$SUFFIX2 = MODEL_SUFFIX.'|'.WIDGET_SUFFIX;$/;"	v
+Session	system/libraries/@/session.php	/^class Session extends _Session {}$/;"	c
+Session_Database	system/libraries/@/session/database.php	/^class Session_Database extends _Session_Database {}$/;"	c
+Session_Handler	system/libraries/session.php	/^interface Session_Handler {$/;"	i
+T	system/libraries/i18n.php	/^	static function T($domain=NULL, $str, $args=NULL, $options=NULL) {$/;"	f
+T	system/libraries/output.php	/^	static function & T($str, $args=NULL, $options=NULL){$/;"	f
+T	system/libraries/output.php	/^function & T($str, $args=NULL, $options=NULL){$/;"	f
+THIRD_BASE	system/core/def.php	/^define('THIRD_BASE', '3rd\/');$/;"	d
+Tabs_Widget	system/widgets/@/tabs.php	/^class Tabs_Widget extends _Tabs_Widget {}$/;"	c
+UNITS	system/libraries/date.php	/^	protected static $UNITS = array($/;"	v
+UNIT_FACTORS	system/libraries/date.php	/^	protected static $UNIT_FACTORS = array($/;"	v
+URI	system/libraries/@/uri.php	/^class URI extends _URI {}$/;"	c
+Unit_Test	system/libraries/@/unit_test.php	/^class Unit_Test extends _Unit_Test {}$/;"	c
+V	system/libraries/view.php	/^function V($path, $vars=NULL) {$/;"	f
+VEXT	system/core/def.php	/^define('VEXT', '.phtml');$/;"	d
+VIEW_BASE	system/core/def.php	/^define('VIEW_BASE', 'views\/');$/;"	d
+VIEW_SUFFIX	system/core/def.php	/^define('VIEW_SUFFIX', '_view');$/;"	d
+View	system/libraries/@/view.php	/^class View extends _View {}$/;"	c
+WIDGET_BASE	system/core/def.php	/^define('WIDGET_BASE', 'widgets\/');$/;"	d
+WIDGET_SUFFIX	system/core/def.php	/^define('WIDGET_SUFFIX', '_widget');$/;"	d
+Widget	system/libraries/@/widget.php	/^class Widget extends _Widget {}$/;"	c
+_AJAX_Controller	system/controllers/ajax.php	/^abstract class _AJAX_Controller extends Controller {$/;"	c
+_Auth	system/libraries/auth.php	/^abstract class _Auth {$/;"	c
+_Auth_Database	system/libraries/auth/database.php	/^abstract class _Auth_Database implements Auth_Handler {$/;"	c
+_Button_Widget	system/widgets/button.php	/^class _Button_Widget extends Widget {$/;"	c
+_C	system/libraries/uri.php	/^function _C($file) {$/;"	f
+_CSS	system/libraries/css.php	/^abstract class _CSS {$/;"	c
+_CSS_Controller	system/controllers/css.php	/^abstract class _CSS_Controller extends Controller {$/;"	c
+_Cipher	system/libraries/cipher.php	/^abstract class _Cipher {$/;"	c
+_Config	system/libraries/config.php	/^abstract class _Config {$/;"	c
+_Controller	system/libraries/controller.php	/^abstract class _Controller {$/;"	c
+_Date	system/libraries/date.php	/^abstract class _Date {$/;"	c
+_Email	system/libraries/email.php	/^abstract class _Email {$/;"	c
+_Error_Controller	system/controllers/error.php	/^abstract class _Error_Controller extends Layout_Controller {$/;"	c
+_Event	system/libraries/event.php	/^abstract class _Event {$/;"	c
+_File	system/libraries/file.php	/^abstract class _File {$/;"	c
+_Form	system/libraries/form.php	/^abstract class _Form extends ArrayIterator {$/;"	c
+_HTTP	system/libraries/http.php	/^abstract class _HTTP {$/;"	c
+_I18N	system/libraries/i18n.php	/^abstract class _I18N {$/;"	c
+_Image	system/libraries/image.php	/^abstract class _Image {$/;"	c
+_Index_Controller	system/controllers/index.php	/^abstract class _Index_Controller extends Layout_Controller {$/;"	c
+_Input	system/libraries/input.php	/^abstract class _Input {$/;"	c
+_JS	system/libraries/js.php	/^abstract class _JS {$/;"	c
+_JS_Controller	system/controllers/js.php	/^abstract class _JS_Controller extends Controller {$/;"	c
+_LDAP	system/libraries/ldap.php	/^abstract class _LDAP {$/;"	c
+_Layout_Controller	system/controllers/layout.php	/^abstract class _Layout_Controller extends Controller {$/;"	c
+_Log	system/libraries/log.php	/^abstract class _Log {$/;"	c
+_Misc	system/libraries/misc.php	/^abstract class _Misc {$/;"	c
+_O	system/models/orm.php	/^		$this->_O = array($/;"	v
+_O	system/models/orm.php	/^	private $_O;	$/;"	v
+_ORM_Iterator	system/libraries/orm_iterator.php	/^abstract class _ORM_Iterator implements Iterator, ArrayAccess, Countable {$/;"	c
+_ORM_Model	system/models/orm.php	/^abstract class _ORM_Model {$/;"	c
+_Output	system/libraries/output.php	/^abstract class _Output {$/;"	c
+_Pagination_Widget	system/widgets/pagination.php	/^class _Pagination_Widget extends Widget {$/;"	c
+_Properties	system/libraries/properties.php	/^abstract class _Properties {$/;"	c
+_Q	system/libraries/q.php	/^abstract class _Q extends ORM_Iterator {$/;"	c
+_Session	system/libraries/session.php	/^abstract class _Session {$/;"	c
+_Session_Database	system/libraries/session/database.php	/^abstract class _Session_Database implements Session_Handler {$/;"	c
+_Tabs_Widget	system/widgets/tabs.php	/^class _Tabs_Widget extends Widget {$/;"	c
+_U	system/libraries/uri.php	/^function _U() {$/;"	f
+_URI	system/libraries/uri.php	/^abstract class _URI {$/;"	c
+_View	system/libraries/view.php	/^abstract class _View {$/;"	c
+_Widget	system/libraries/widget.php	/^abstract class _Widget extends View{$/;"	c
+__call	system/libraries/controller.php	/^	function __call($method, $args) {$/;"	f
+__call	system/libraries/js.php	/^	function __call($method, $params) {$/;"	f
+__call	system/models/orm.php	/^	function __call($method, $params) {$/;"	f
+__clone	system/models/orm.php	/^	function __clone()$/;"	f
+__construct	system/3rd/cssp.php	/^	function __construct($text) {$/;"	f
+__construct	system/3rd/cssp.php	/^	function __construct($type, $parent=NULL) {$/;"	f
+__construct	system/3rd/jsmin.php	/^  public function __construct($input) {$/;"	f
+__construct	system/core/cache.php	/^	function __construct($name=NULL) {$/;"	f
+__construct	system/libraries/auth.php	/^	function __construct($token) {$/;"	f
+__construct	system/libraries/auth.php	/^	function __construct(array $opt);$/;"	f
+__construct	system/libraries/auth/database.php	/^	function __construct(array $opt){$/;"	f
+__construct	system/libraries/auth/ldap.php	/^	function __construct(array $opt) {$/;"	f
+__construct	system/libraries/database.php	/^	function __construct($info);$/;"	f
+__construct	system/libraries/database.php	/^	function __construct($url=NULL){$/;"	f
+__construct	system/libraries/database/mysql.php	/^	function __construct($info){$/;"	f
+__construct	system/libraries/database/mysql.php	/^	function __construct($result){$/;"	f
+__construct	system/libraries/email.php	/^    function __construct($sender = NULL) {$/;"	f
+__construct	system/libraries/event.php	/^	function __construct($name) {$/;"	f
+__construct	system/libraries/image.php	/^	public function __construct() {$/;"	f
+__construct	system/libraries/ldap.php	/^	function __construct($opt) {$/;"	f
+__construct	system/libraries/orm_iterator.php	/^	function __construct($name, $SQL, $count_SQL=NULL, $db=NULL){$/;"	f
+__construct	system/libraries/properties.php	/^	function __construct($object){$/;"	f
+__construct	system/libraries/q.php	/^	function __construct($selector, $db=NULL){$/;"	f
+__construct	system/libraries/q/pseudo/alias.php	/^	function __construct($query) {$/;"	f
+__construct	system/libraries/q/pseudo/limit.php	/^	function __construct($query) {$/;"	f
+__construct	system/libraries/q/pseudo/not.php	/^	function __construct($query) {$/;"	f
+__construct	system/libraries/q/pseudo/sort.php	/^	function __construct($query) {$/;"	f
+__construct	system/libraries/q/query.php	/^	function __construct($db) {$/;"	f
+__construct	system/libraries/session/database.php	/^	function __construct(){$/;"	f
+__construct	system/libraries/view.php	/^	function __construct($path, $vars=NULL){$/;"	f
+__construct	system/libraries/widget.php	/^	function __construct($name, $vars=NULL){$/;"	f
+__construct	system/widgets/button.php	/^	function __construct($vars=array()){$/;"	f
+__construct	system/widgets/pagination.php	/^	function __construct($vars=array()){$/;"	f
+__construct	system/widgets/tabs.php	/^	function __construct($vars = array()){$/;"	f
+__destruct	system/libraries/database/mysql.php	/^	function __destruct(){$/;"	f
+__destruct	system/libraries/image.php	/^	public function __destruct() {$/;"	f
+__destruct	system/libraries/ldap.php	/^	function __destruct() {$/;"	f
+__destruct	system/models/orm.php	/^	function __destruct() {$/;"	f
+__get	system/libraries/image.php	/^	function __get($name) {$/;"	f
+__get	system/libraries/js.php	/^	function __get($name) {$/;"	f
+__get	system/libraries/properties.php	/^	function & __get($name) {$/;"	f
+__get	system/libraries/q.php	/^	function __get($name){$/;"	f
+__get	system/libraries/view.php	/^	function __get($key){$/;"	f
+__get	system/models/orm.php	/^	function __get($name){	$/;"	f
+__isset	system/libraries/view.php	/^	function __isset($key) {$/;"	f
+__set	system/libraries/properties.php	/^	function __set($name, $value){$/;"	f
+__set	system/libraries/q.php	/^	function __set($name, $value){$/;"	f
+__set	system/libraries/view.php	/^	function __set($key, $value){$/;"	f
+__set	system/models/orm.php	/^	function __set($name, $value){$/;"	f
+__sleep	system/models/orm.php	/^	function __sleep() {$/;"	f
+__toString	system/libraries/js.php	/^	function __toString() {$/;"	f
+__toString	system/libraries/orm_iterator.php	/^	function __toString() {$/;"	f
+__toString	system/libraries/view.php	/^	function __toString(){$/;"	f
+__toString	system/models/orm.php	/^	function __toString() {$/;"	f
+__unset	system/libraries/view.php	/^	function __unset($key) {$/;"	f
+__unset	system/models/orm.php	/^	function __unset($name) {$/;"	f
+__wakeup	system/models/orm.php	/^	function __wakeup() {$/;"	f
+_after_call	system/controllers/layout.php	/^	function _after_call($method, &$params) {$/;"	f
+_after_call	system/libraries/controller.php	/^	function _after_call($method, &$params) {$/;"	f
+_attachment	system/libraries/email.php	/^    private $_attachment = array();$/;"	v
+_before_call	system/controllers/ajax.php	/^	function _before_call($method, &$params){$/;"	f
+_before_call	system/controllers/layout.php	/^	function _before_call($method, &$params) {$/;"	f
+_before_call	system/libraries/controller.php	/^	function _before_call($method, &$params) {$/;"	f
+_bind	system/libraries/event.php	/^	protected function _bind($callback, $weight=0, $key=NULL){$/;"	f
+_body	system/libraries/email.php	/^    private $_body;$/;"	v
+_body_attachment	system/libraries/email.php	/^        $_body_attachment = $this->_body_attachment();$/;"	v
+_body_attachment	system/libraries/email.php	/^    private function _body_attachment() {$/;"	f
+_body_html	system/libraries/email.php	/^            $this->_body_html = $html;$/;"	v
+_body_html	system/libraries/email.php	/^        $_body_html = $this->_body_html();$/;"	v
+_body_html	system/libraries/email.php	/^        $_body_html = array();$/;"	v
+_body_html	system/libraries/email.php	/^    private function _body_html() {$/;"	f
+_body_plain	system/libraries/email.php	/^            $_body_plain = array();$/;"	v
+_body_plain	system/libraries/email.php	/^            $this->_body_plain = $plain;$/;"	v
+_body_plain	system/libraries/email.php	/^        $_body_plain = $this->_body_plain();$/;"	v
+_body_plain	system/libraries/email.php	/^    private function _body_plain() {$/;"	f
+_boundary	system/libraries/email.php	/^            $this->_boundary = NULL;$/;"	v
+_boundary	system/libraries/email.php	/^        $this->_boundary = $this->_boundary ? : 'GENEE-'.md5(Date::time());$/;"	v
+_boundary	system/libraries/email.php	/^    private $_boundary;$/;"	v
+_broadcast_handlers	system/private/js/q/loader.js	/^	var _broadcast_handlers = {};$/;"	v
+_c1	system/libraries/q/query.php	/^				$_c1 = $this->pack_where(array($db->make_ident($nn_table, 'id1').'='.$rel_id1, $db->make_ident($nn_table, 'id2').'='.$rel_id2), 'AND');$/;"	v
+_c2	system/libraries/q/query.php	/^				$_c2 = $this->pack_where(array($db->make_ident($nn_table, 'id1').'='.$rel_id2, $db->make_ident($nn_table, 'id2').'='.$rel_id1), 'AND');$/;"	v
+_cURL	system/libraries/curl.php	/^abstract class _cURL {$/;"	c
+_cache	system/libraries/properties.php	/^	private static $_cache=array();$/;"	v
+_caches	system/core/cache.php	/^	private static $_caches;$/;"	v
+_calc	system/3rd/cssp.php	/^	private function _calc($matches) {$/;"	f
+_convert_str	system/libraries/i18n.php	/^	static function _convert_str($domain, $str) {$/;"	f
+_cookie_file	system/libraries/http.php	/^		$this->_cookie_file = $file;$/;"	v
+_cookie_file	system/libraries/http.php	/^	private $_cookie_file;$/;"	v
+_data	system/models/orm.php	/^			$this->_data = $data;$/;"	v
+_data	system/models/orm.php	/^		$this->_data = $object->_data;$/;"	v
+_data	system/models/orm.php	/^	private $_data = array('id'=>0);$/;"	v
+_dropdown_item	system/libraries/form.php	/^	protected static function _dropdown_item($key, $selected, $val) {$/;"	f
+_event_prefix	system/models/orm.php	/^			$this->_event_prefix = array();$/;"	v
+_event_prefix	system/models/orm.php	/^	private $_event_prefix = NULL;$/;"	v
+_existing_tables	system/libraries/database/mysql.php	/^			$this->_existing_tables=array();$/;"	v
+_existing_tables	system/libraries/database/mysql.php	/^	private $_existing_tables = NULL;$/;"	v
+_get_iv	system/libraries/cipher.php	/^    static private function _get_iv() {$/;"	f
+_handle	system/libraries/database.php	/^		$this->_handle = new $handler($this->_info);$/;"	v
+_handle	system/libraries/database.php	/^	private $_handle;$/;"	v
+_handle	system/libraries/database/mysql.php	/^		$this->_handle = new mysqli($/;"	v
+_handle	system/libraries/database/mysql.php	/^	private $_handle;$/;"	v
+_has_attachment	system/libraries/email.php	/^        $this->_has_attachment = (bool) count($this->_attachment);$/;"	v
+_has_attachment	system/libraries/email.php	/^    private $_has_attachment;$/;"	v
+_header	system/libraries/email.php	/^    private $_header;$/;"	v
+_header	system/libraries/http.php	/^		$this->_header=array();$/;"	v
+_header	system/libraries/http.php	/^	private $_header=array();$/;"	v
+_include_view	system/libraries/view.php	/^	private function _include_view($_path, $_vars) {$/;"	f
+_info	system/libraries/database.php	/^	private $_info;$/;"	v
+_info	system/libraries/database/mysql.php	/^		$this->_info = $info;$/;"	v
+_info	system/libraries/database/mysql.php	/^	private $_info;$/;"	v
+_is_parsed	system/libraries/q.php	/^			$this->_is_parsed = TRUE;$/;"	v
+_is_parsed	system/libraries/q.php	/^	private $_is_parsed = FALSE;$/;"	v
+_items	system/libraries/properties.php	/^	private $_items;$/;"	v
+_items	system/libraries/properties.php	/^        $this->_items = @json_decode($db->value('SELECT `_extra` FROM `%s` WHERE `id`=%d', $name, $id), TRUE);$/;"	v
+_js_ready	system/private/js/q/loader.js	/^	var _js_ready = {};$/;"	v
+_key_prefix	system/libraries/misc.php	/^	private static $_key_prefix;$/;"	v
+_lamda_cache	system/libraries/js.php	/^		static $_lamda_cache;$/;"	v
+_load	system/libraries/config.php	/^	private static function _load($category, $filename) {$/;"	f
+_loaded_css	system/private/js/q/loader.js	/^	var _loaded_css = {};$/;"	v
+_loaded_js	system/private/js/q/loader.js	/^	var _loaded_js = {};$/;"	v
+_make_boundary	system/libraries/email.php	/^    private function _make_boundary() {$/;"	f
+_marker_stack	system/3rd/cssp.php	/^	private $_marker_stack = array();$/;"	v
+_module_deps	system/core/core.php	/^	static function _module_deps($name, $path) {$/;"	f
+_module_paths	system/core/core.php	/^	private static $_module_paths;$/;"	v
+_module_paths	system/core/core.php	/^	static function _module_paths($base, $prefix=NULL) {$/;"	f
+_name	system/libraries/database.php	/^	private $_name;$/;"	v
+_name	system/models/orm.php	/^		$this->_name = $object->_name;$/;"	v
+_name	system/models/orm.php	/^	private $_name;$/;"	v
+_ob_cache	system/libraries/view.php	/^	private $_ob_cache;$/;"	v
+_object	system/libraries/properties.php	/^		$this->_object = $object;$/;"	v
+_object	system/libraries/properties.php	/^	private $_object;$/;"	v
+_objects	system/models/orm.php	/^		$this->_objects = array();$/;"	v
+_objects	system/models/orm.php	/^		$this->_objects=array();$/;"	v
+_objects	system/models/orm.php	/^	private $_objects = array();$/;"	v
+_path	system/libraries/view.php	/^			$_path=Core::file_exists(VIEW_BASE.$path.VEXT, $category);$/;"	v
+_path	system/libraries/view.php	/^		$_path = Core::file_exists(VIEW_BASE.'@'.$locale.'\/'.$path.VEXT, $category);$/;"	v
+_post	system/libraries/http.php	/^		$this->_post=array();$/;"	v
+_post	system/libraries/http.php	/^		$this->_post=array_merge($this->_post, $query);$/;"	v
+_post	system/libraries/http.php	/^	private $_post=array();$/;"	v
+_prepared_tables	system/libraries/database/mysql.php	/^	private $_prepared_tables = NULL;$/;"	v
+_proxy	system/libraries/http.php	/^		$this->_proxy = $proxy;$/;"	v
+_proxy	system/libraries/http.php	/^	private $_proxy;$/;"	v
+_proxy_type	system/libraries/http.php	/^		$this->_proxy_type = $socks5 ? CURLPROXY_SOCKS5 : CURLPROXY_HTTP;$/;"	v
+_proxy_type	system/libraries/http.php	/^	private $_proxy_type;$/;"	v
+_pseudo_handlers	system/3rd/cssp.php	/^	private static $_pseudo_handlers;$/;"	v
+_query	system/libraries/q/pseudo/alias.php	/^		$this->_query = $query;$/;"	v
+_query	system/libraries/q/pseudo/alias.php	/^	private $_query;$/;"	v
+_query	system/libraries/q/pseudo/limit.php	/^		$this->_query = $query;$/;"	v
+_query	system/libraries/q/pseudo/limit.php	/^	private $_query;$/;"	v
+_query	system/libraries/q/pseudo/not.php	/^		$this->_query = $query;$/;"	v
+_query	system/libraries/q/pseudo/not.php	/^	private $_query;$/;"	v
+_query	system/libraries/q/pseudo/sort.php	/^		$this->_query = $query;$/;"	v
+_query	system/libraries/q/pseudo/sort.php	/^	private $_query;$/;"	v
+_query_flag	system/libraries/orm_iterator.php	/^	private $_query_flag;$/;"	v
+_recipients	system/libraries/email.php	/^            $this->_recipients = $email;$/;"	v
+_recipients	system/libraries/email.php	/^            $this->_recipients = implode(', ', $mails);$/;"	v
+_recipients	system/libraries/email.php	/^    private $_recipients;$/;"	v
+_reply_to	system/libraries/email.php	/^        $this->_reply_to = $email;$/;"	v
+_reply_to	system/libraries/email.php	/^    private $_reply_to;$/;"	v
+_result	system/libraries/database/mysql.php	/^		$this->_result=$result;$/;"	v
+_result	system/libraries/database/mysql.php	/^	private $_result;$/;"	v
+_rule_patchers	system/3rd/cssp.php	/^	private static $_rule_patchers;$/;"	v
+_rulesets_by_name	system/3rd/cssp.php	/^	private $_rulesets_by_name;$/;"	v
+_save_data	system/models/orm.php	/^	private function _save_data($db, $name, &$data, $overwrite = FALSE) {$/;"	f
+_sender	system/libraries/email.php	/^        $this->_sender = $email;$/;"	v
+_sender	system/libraries/email.php	/^    private $_sender;$/;"	v
+_sort	system/libraries/event.php	/^	private function _sort(){$/;"	f
+_subject	system/libraries/email.php	/^        $this->_subject = trim($subject);$/;"	v
+_subject	system/libraries/email.php	/^    private $_subject;$/;"	v
+_table_fields	system/libraries/database/mysql.php	/^	private $_table_fields = NULL;$/;"	v
+_table_guid	system/libraries/q/query.php	/^	private static $_table_guid = 0;$/;"	v
+_table_indexes	system/libraries/database/mysql.php	/^	private $_table_indexes = NULL;$/;"	v
+_table_prepared	system/models/orm.php	/^	private static $_table_prepared = array();$/;"	v
+_time	system/libraries/date.php	/^	private static $_time;$/;"	v
+_trans_in_progress	system/libraries/database.php	/^			$this->_trans_in_progress = FALSE;$/;"	v
+_trans_in_progress	system/libraries/database.php	/^		$this->_trans_in_progress = TRUE;$/;"	v
+_trans_in_progress	system/libraries/database.php	/^	private $_trans_in_progress = FALSE;$/;"	v
+_translate	system/3rd/cssp.php	/^	private function _translate($matches) {$/;"	f
+_trigger	system/libraries/event.php	/^	protected function _trigger(){$/;"	f
+_triggerQueue	system/private/js/q/ajax.js	/^	var _triggerQueue = {};$/;"	v
+_triggerQueue.abort	system/private/js/q/ajax.js	/^			_triggerQueue[key] = {$/;"	m
+_trigger_one	system/libraries/event.php	/^	protected function _trigger_one(){$/;"	f
+_uniqid_count	system/private/js/q/core.js	/^	var _uniqid_count=0;$/;"	v
+_update	system/models/orm.php	/^		$this->_update = array();$/;"	v
+_update	system/models/orm.php	/^		$this->_update = array_merge((array)$this->_data, (array)$extra_data);$/;"	v
+_update	system/models/orm.php	/^	private $_update = array();$/;"	v
+_updated	system/libraries/properties.php	/^			$this->_updated = FALSE;$/;"	v
+_updated	system/libraries/properties.php	/^			$this->_updated = TRUE;$/;"	v
+_updated	system/libraries/properties.php	/^	private $_updated=FALSE;$/;"	v
+_url	system/libraries/database.php	/^		$this->_url = $url;$/;"	v
+_url	system/libraries/database.php	/^	private $_url;$/;"	v
+_vars	system/3rd/cssp.php	/^			$this->_vars = (array) @array_pop($this->_vars_list);$/;"	v
+_vars	system/3rd/cssp.php	/^	private $_vars;$/;"	v
+_vars	system/libraries/view.php	/^		$_vars = array();$/;"	v
+_vars_list	system/3rd/cssp.php	/^	private $_vars_list = array();$/;"	v
+_yac	system/core/cache_yac.php	/^		$this->_yac = new Yac();$/;"	v
+_yac	system/core/cache_yac.php	/^	private $_yac;$/;"	v
+a	system/3rd/jsmin.php	/^              $this->a       = $this->get();$/;"	v
+a	system/3rd/jsmin.php	/^            $this->a       = $this->get();$/;"	v
+a	system/3rd/jsmin.php	/^            $this->a = $this->get();$/;"	v
+a	system/3rd/jsmin.php	/^            $this->a === '&' || $this->a === '|' || $this->a === '?')) {$/;"	v
+a	system/3rd/jsmin.php	/^            $this->a === '(' || $this->a === ',' || $this->a === '=' ||$/;"	v
+a	system/3rd/jsmin.php	/^            $this->a === ':' || $this->a === '[' || $this->a === '!' ||$/;"	v
+a	system/3rd/jsmin.php	/^        $this->a = $this->b;$/;"	v
+a	system/3rd/jsmin.php	/^    $this->a = "\\n";$/;"	v
+a	system/3rd/jsmin.php	/^  protected $a           = '';$/;"	v
+accepts	system/core/core.php	/^		$accepts = explode(',', $_SERVER['HTTP_ACCEPT']);$/;"	v
+account	system/libraries/ldap.php	/^		$account = $default_uid + 1;$/;"	v
+actChar	system/libraries/misc.php	/^			$actChar = substr($validchars[$level], rand(0, $max_length), 1);$/;"	v
+action	system/3rd/jsmin.php	/^  protected function action($d) {$/;"	f
+add	system/libraries/auth.php	/^	function add($token, $password);$/;"	f
+add	system/libraries/auth/database.php	/^	function add($token, $password){$/;"	f
+add	system/libraries/auth/ldap.php	/^	function add($token, $password){$/;"	f
+add	system/libraries/ldap.php	/^	function add($dn, $data){$/;"	f
+add	system/libraries/log.php	/^	static function add($message, $ident='common'){$/;"	f
+add_account	system/libraries/ldap.php	/^	function add_account($base_dn, $account, $password){$/;"	f
+add_base	system/libraries/i18n.php	/^	static function add_base($base) {$/;"	f
+add_css	system/controllers/layout.php	/^	function add_css($css_ser, $media=NULL) {$/;"	f
+add_js	system/controllers/layout.php	/^	function add_js($js_ser, $head = TRUE, $mode = NULL) {$/;"	f
+add_tab	system/widgets/tabs.php	/^	function add_tab($tid, $data){$/;"	f
+affected_rows	system/libraries/database.php	/^	function affected_rows() {$/;"	f
+affected_rows	system/libraries/database.php	/^	function affected_rows();$/;"	f
+affected_rows	system/libraries/database/mysql.php	/^	function affected_rows() {$/;"	f
+after	system/3rd/cssp.php	/^	function after($node) {$/;"	f
+after	system/3rd/cssp.php	/^	static function after($rule, $name, $value) {$/;"	f
+alert	system/libraries/js.php	/^	static function alert($str){$/;"	f
+alpha	system/libraries/image.php	/^			$alpha = (1 - (1 - $i\/$reflectionHeight)*$opacity)*127;$/;"	v
+alter_index_sql	system/libraries/database/mysql.php	/^	private function alter_index_sql($key, &$val, $no_fields = FALSE) {$/;"	f
+anchor	system/libraries/uri.php	/^	static function anchor($url, $text = NULL, $extra=NULL, $options=array()) {$/;"	f
+and_query	system/libraries/q/query.php	/^				$this->and_query = NULL;$/;"	v
+and_query	system/libraries/q/query.php	/^	private $and_query;$/;"	v
+and_rels	system/libraries/q/query.php	/^		$and_rels = array();$/;"	v
+append	system/3rd/cssp.php	/^	function append($node) {$/;"	f
+append	system/3rd/cssp.php	/^	static function append($parent, $name, $value) {$/;"	f
+append	system/libraries/config.php	/^	static function append($key, $val){$/;"	f
+append	system/libraries/orm_iterator.php	/^	function append($object){$/;"	f
+arg	system/libraries/input.php	/^	static function & arg($n=0) {$/;"	f
+args	system/3rd/cssp.php	/^		$args = explode(' ', $value);$/;"	v
+args	system/3rd/cssp.php	/^		$args = func_get_args();$/;"	v
+args	system/core/cache.php	/^			$args = func_get_args();$/;"	v
+args	system/core/core.php	/^		$args = Input::args();$/;"	v
+args	system/libraries/database.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/database.php	/^		$args=func_get_args();	$/;"	v
+args	system/libraries/database.php	/^		$args=func_get_args();$/;"	v
+args	system/libraries/database/mysql.php	/^		$args = func_get_args();	$/;"	v
+args	system/libraries/event.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/form.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/input.php	/^		$args = array();$/;"	v
+args	system/libraries/input.php	/^	protected static $args = array();$/;"	v
+args	system/libraries/input.php	/^	static function & args() {$/;"	f
+args	system/libraries/js.php	/^		$args=func_get_args();$/;"	v
+args	system/libraries/ldap.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/misc.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/q.php	/^		$args = array_slice($args, 0, 2);$/;"	v
+args	system/libraries/q.php	/^		$args = func_get_args();$/;"	v
+args	system/libraries/q/query.php	/^			$args = func_get_args();$/;"	v
+args	system/libraries/uri.php	/^	$args = func_get_args();$/;"	v
+args	system/models/orm.php	/^		$args = func_get_args();$/;"	v
+arr	system/3rd/cssp.php	/^		$arr = $fragment->get_var($arr_name);$/;"	v
+arr	system/libraries/form.php	/^		$arr = explode(',', $params);$/;"	v
+arr	system/libraries/http.php	/^				$arr = explode("\\t", $row);$/;"	v
+arr	system/models/orm.php	/^		$arr = array();$/;"	v
+arr_name	system/3rd/cssp.php	/^		$arr_name = $matches[2];$/;"	v
+array_concat	system/libraries/misc.php	/^	static function & array_concat(array $arr, $suffix){$/;"	f
+array_merge_deep	system/libraries/misc.php	/^	static function array_merge_deep(array &$arr, array & $arr1){$/;"	f
+array_prepend	system/libraries/misc.php	/^	static function array_prepend(array &$arr, $key, &$value){$/;"	f
+array_replace_keys	system/libraries/misc.php	/^	static function array_replace_keys( array & $arr, $key_arr) {$/;"	f
+assertion	system/core/bootstrap.php	/^	static function assertion($file, $line, $code) {$/;"	f
+assertion	system/core/cli.php	/^	static function assertion($file, $line, $code) {$/;"	f
+assoc	system/libraries/orm_iterator.php	/^		$assoc = array();$/;"	v
+at_rule	system/3rd/cssp.php	/^			$at_rule = CSSP::node(CSS_Node::NODE_AT_RULE);$/;"	v
+attachment	system/libraries/email.php	/^    function attachment($files = '') {$/;"	f
+attr_oid	system/models/orm.php	/^			$attr_oid = $this->_data[$name . self::OBJ_ID_SUFFIX];$/;"	v
+attr_oname	system/models/orm.php	/^				$attr_oname = $this->_data[$name.self::OBJ_NAME_SUFFIX];$/;"	v
+attr_oname	system/models/orm.php	/^			$attr_oname = $object_keys[$name]['oname'];$/;"	v
+attributes	system/libraries/ldap.php	/^	function attributes($er) {$/;"	f
+autoload	system/core/core.php	/^	static function autoload($class){$/;"	f
+aw	system/widgets/tabs.php	/^			$aw = $weight[$ak];$/;"	v
+b	system/3rd/jsmin.php	/^          $this->b = $this->next();$/;"	v
+b	system/3rd/jsmin.php	/^        $this->b = $this->next();$/;"	v
+b	system/3rd/jsmin.php	/^  protected $b           = '';$/;"	v
+backend	system/libraries/auth.php	/^		$backend = $backend ?: ($b ?: Config::get('auth.default_backend'));$/;"	v
+backend	system/libraries/auth.php	/^		$backend = $backend ?: Config::get('auth.default_backend');$/;"	v
+background_color	system/libraries/image.php	/^				$this->background_color = ImageColorAllocateAlpha($this->im, $rgb[0], $rgb[1], $rgb[2], $alpha);$/;"	v
+background_color	system/libraries/image.php	/^				$this->background_color = ImageColorAllocateAlpha($this->im, 0, 0, 0, 127);$/;"	v
+background_color	system/libraries/image.php	/^	function background_color($color = NULL, $alpha = 0) {$/;"	f
+background_color	system/libraries/image.php	/^	private $background_color;$/;"	v
+base	system/libraries/config.php	/^			$base = $filename;$/;"	v
+base	system/libraries/config.php	/^		$base = $path.CONFIG_BASE;$/;"	v
+basename	system/libraries/file.php	/^	static function basename($path) {$/;"	f
+bases	system/core/core.php	/^				$bases = $CLASS_BASES[$suffix1];$/;"	v
+bases	system/core/core.php	/^				$bases = $CLASS_BASES[$suffix2];$/;"	v
+bases	system/core/core.php	/^				$bases = $CLASS_BASES['*'];$/;"	v
+bases	system/libraries/i18n.php	/^	protected static $bases;$/;"	v
+before	system/3rd/cssp.php	/^	function before($node) {$/;"	f
+before	system/3rd/cssp.php	/^	static function before($rule, $name, $value) {$/;"	f
+begin_transaction	system/libraries/database.php	/^	function begin_transaction() {$/;"	f
+begin_transaction	system/libraries/database.php	/^	function begin_transaction();$/;"	f
+begin_transaction	system/libraries/database/mysql.php	/^	function begin_transaction() {$/;"	f
+bgcolor	system/libraries/image.php	/^			$bgcolor  = $this->background_color;$/;"	v
+bgcolor	system/libraries/image.php	/^			$bgcolor = ImageColorAllocateAlpha($wm, 0, 0, 0, 127);$/;"	v
+bind	system/libraries/event.php	/^	static function bind($selector, $callback, $weight=0, $key=NULL) {$/;"	f
+bind	system/libraries/ldap.php	/^	function bind($dn, $password) {$/;"	f
+bind_events	system/core/core.php	/^	static function bind_events() {	$/;"	f
+bind_root	system/libraries/ldap.php	/^	private function bind_root() {$/;"	f
+body	system/libraries/email.php	/^            $body = $this->make_body();$/;"	v
+body	system/libraries/email.php	/^    function body($plain, $html=NULL) {$/;"	f
+body	system/libraries/http.php	/^	public $body=NULL;$/;"	v
+body_js	system/controllers/layout.php	/^	protected $body_js;$/;"	v
+box	system/libraries/image.php	/^		$box = ImageTTFBbox($font_size, 0, $font, $text);$/;"	v
+bracket	system/3rd/cssp.php	/^		$bracket = $matches[2] == '{' ? TRUE : FALSE;$/;"	v
+bw	system/widgets/tabs.php	/^			$bw = $weight[$bk];$/;"	v
+bytes	system/libraries/file.php	/^	static function bytes($a) {$/;"	f
+c	system/3rd/jsmin.php	/^            $c = $this->get();$/;"	v
+c	system/3rd/jsmin.php	/^        $c = null;$/;"	v
+c	system/3rd/jsmin.php	/^        $c = substr($this->input, $this->inputIndex, 1);$/;"	v
+c	system/3rd/jsmin.php	/^    $c = $this->get();$/;"	v
+c	system/3rd/jsmin.php	/^    $c = $this->lookAhead;$/;"	v
+c	system/libraries/file.php	/^		$c=0;$/;"	v
+cURL	system/libraries/@/curl.php	/^class cURL extends _cURL {}$/;"	c
+cache	system/libraries/i18n.php	/^			$cache = Cache::factory();$/;"	v
+cache	system/libraries/js.php	/^				$cache = 'Q.'.$lamda.'=function(_oO){';$/;"	v
+cache	system/libraries/js.php	/^				$cache = @file_get_contents($cache_file);$/;"	v
+cache	system/libraries/q.php	/^			$cache = Cache::factory();$/;"	v
+cache_content	system/core/cache.php	/^	static function cache_content($path, $content) {$/;"	f
+cache_content	system/libraries/css.php	/^	static function cache_content($f) {	$/;"	f
+cache_content	system/libraries/js.php	/^	static function cache_content($f) {$/;"	f
+cache_data	system/libraries/q.php	/^				$cache_data = $cache->get($cache_key);$/;"	v
+cache_data	system/libraries/q.php	/^			$cache_data = false;$/;"	v
+cache_data	system/libraries/q.php	/^                $cache_data = array($/;"	v
+cache_file	system/core/cache.php	/^		$cache_file = self::cache_filename($path);$/;"	v
+cache_file	system/core/cache.php	/^	static function cache_file($path, $recache = FALSE) {$/;"	f
+cache_file	system/libraries/css.php	/^		$cache_file = Cache::cache_filename($css_file);$/;"	v
+cache_file	system/libraries/css.php	/^	static function cache_file($f) {$/;"	f
+cache_file	system/libraries/js.php	/^			$cache_file = $prefix_path . $lamda;$/;"	v
+cache_file	system/libraries/js.php	/^		$cache_file = Cache::cache_filename($js_file);$/;"	v
+cache_file	system/libraries/js.php	/^	static function cache_file($f) {$/;"	f
+cache_filename	system/core/cache.php	/^	static function cache_filename($path) {$/;"	f
+cache_hits	system/libraries/database.php	/^	static $cache_hits = 0;$/;"	v
+cache_key	system/core/core.php	/^				$cache_key = 'autoload_path:'.$class;$/;"	v
+cache_key	system/libraries/i18n.php	/^			$cache_key = "i18n\/$locale\/$domain";$/;"	v
+cache_key	system/libraries/q.php	/^			$cache_key = Misc::key('Q:', $this->selector);$/;"	v
+cache_mtime	system/libraries/js.php	/^				$cache_mtime = filemtime($cache_file);$/;"	v
+cache_path	system/core/cache.php	/^		$cache_path = ROOT_PATH.PUBLIC_BASE.$cache_file;$/;"	v
+cache_path	system/libraries/css.php	/^		$cache_path = ROOT_PATH.PUBLIC_BASE.$cache_file;$/;"	v
+cache_path	system/libraries/js.php	/^		$cache_path = ROOT_PATH.PUBLIC_BASE.$cache_file;$/;"	v
+cacher	system/core/core.php	/^				$cacher = Cache::factory();$/;"	v
+calc_size	system/libraries/image.php	/^	private function & calc_size($width, $height, $constraint=TRUE) {$/;"	f
+call_wrapper	system/libraries/event.php	/^	protected static function & call_wrapper($selector, $method, &$params) {$/;"	f
+callback	system/core/core.php	/^					$callback = $callback['callback'];$/;"	v
+category	system/libraries/js.php	/^				$category = NULL;$/;"	v
+category	system/libraries/uri.php	/^		$category = $matches[1] ?: NULL;$/;"	v
+category	system/libraries/uri.php	/^		$category = NULL;$/;"	v
+category	system/libraries/view.php	/^			$category = NULL;$/;"	v
+category	system/libraries/widget.php	/^			$category = NULL;$/;"	v
+cbottom	system/libraries/image.php	/^				$cbottom=$height-$hbw;$/;"	v
+ch	system/libraries/curl.php	/^			$ch = curl_init();$/;"	v
+ch	system/libraries/http.php	/^		$ch = curl_init();$/;"	v
+change_password	system/libraries/auth.php	/^	function change_password($password){$/;"	f
+change_password	system/libraries/auth.php	/^	function change_password($token, $password);$/;"	f
+change_password	system/libraries/auth/database.php	/^	function change_password($token, $password){$/;"	f
+change_password	system/libraries/auth/ldap.php	/^	function change_password($token, $password){$/;"	f
+change_token	system/libraries/auth.php	/^	function change_token($token, $new_token);$/;"	f
+change_token	system/libraries/auth.php	/^	function change_token($token_new){$/;"	f
+change_token	system/libraries/auth/database.php	/^	function change_token($token, $token_new){$/;"	f
+change_token	system/libraries/auth/ldap.php	/^	function change_token($token, $token_new){$/;"	f
+check_path	system/libraries/file.php	/^	static function check_path($path, $mode=0755){$/;"	f
+check_query	system/libraries/orm_iterator.php	/^	protected function check_query($scope='fetch') {$/;"	f
+check_query	system/libraries/q.php	/^	protected function check_query($scope='fetch') {$/;"	f
+checkbox	system/libraries/form.php	/^	static function checkbox($name, $checked=FALSE, $label=NULL, $extra=NULL, $extra_label=NULL) {$/;"	f
+children	system/3rd/cssp.php	/^			$children = NULL;$/;"	v
+children	system/3rd/cssp.php	/^	public $children;$/;"	v
+chop	system/3rd/cssp.php	/^	private function chop($pattern, &$matches) {$/;"	f
+chrome	system/private/js/q/browser.js	/^	var chrome = \/chrome\/.test( userAgent ) || (\/chromeframe\/.test( userAgent ));$/;"	v
+class	system/core/cache.php	/^		$class = 'Cache_'.$name;$/;"	v
+class	system/core/core.php	/^				$class = str_replace('\/', '_', $path);$/;"	v
+class	system/core/core.php	/^		$class = NULL;$/;"	v
+class	system/core/core.php	/^		$class = strtolower($class);$/;"	v
+class	system/core/core.php	/^                $class = 'AJAX'.CONTROLLER_SUFFIX;$/;"	v
+class	system/libraries/auth.php	/^		$class = 'Auth_'.ucwords($opt['handler']);$/;"	v
+class	system/libraries/event.php	/^				$class = $callback[0];$/;"	v
+class	system/libraries/session.php	/^			$class = 'Session_'.ucwords($handler);$/;"	v
+class_exists	system/models/orm.php	/^	static function class_exists($name) {$/;"	f
+class_name	system/libraries/widget.php	/^			$class_name = strtr($path, '\/', '_').'_Widget';$/;"	v
+class_name	system/models/orm.php	/^		$class_name=$name.MODEL_SUFFIX;$/;"	v
+class_schema	system/models/orm.php	/^			$class_schema = Config::get("schema.{$name}");$/;"	v
+clean	system/libraries/http.php	/^	function clean(){$/;"	f
+cleanup	system/libraries/session.php	/^	static function cleanup() {$/;"	f
+cleanup	system/models/orm.php	/^	static function cleanup() {$/;"	f
+cleanup_timeout	system/libraries/database.php	/^	static function cleanup_timeout() {$/;"	f
+cleanup_timeout	system/models/orm.php	/^	static $cleanup_timeout = 0;$/;"	v
+clear	system/libraries/config.php	/^	static function clear() {$/;"	f
+cleft	system/libraries/image.php	/^				$cleft=$ctop=$hbw;$/;"	v
+close	system/libraries/session.php	/^	static function close() { return TRUE; }$/;"	f
+close_dialog	system/libraries/js.php	/^	static function close_dialog(){$/;"	f
+code	system/libraries/cipher.php	/^		$code = @openssl_encrypt($text, $mode, $salt, !$base64, self::_get_iv());$/;"	v
+color	system/libraries/image.php	/^			$color = $this->background_color ?: ImageColorAllocateAlpha($this->im, 0, 0, 0, 127);$/;"	v
+color	system/libraries/image.php	/^			$color = $this->text_color;$/;"	v
+color	system/libraries/image.php	/^			$color = ImageColorAllocateAlpha($wm, 0, 0, 0, 0);$/;"	v
+colorToPaint	system/libraries/image.php	/^			 	$colorToPaint = imagecolorallocatealpha($im$/;"	v
+colorToPaint	system/libraries/image.php	/^			$colorToPaint = imagecolorallocate($im,$rgb[0],$rgb[1],$rgb[2]);$/;"	v
+colorToPaint	system/libraries/image.php	/^		$colorToPaint = ImageColorAllocateAlpha($im,0,0,0,127);$/;"	v
+comes	system/3rd/cssp.php	/^	private function comes($str) {$/;"	f
+command	system/libraries/js.php	/^		$command='Q.retrigger({'.$token.':confirm("'.$str.'")});';$/;"	v
+comment	system/3rd/cssp.php	/^		$comment = CSSP::node(CSS_Node::NODE_COMMENT);$/;"	v
+comment	system/3rd/cssp.php	/^	function comment() {$/;"	f
+commit	system/libraries/database.php	/^	function commit() {$/;"	f
+commit	system/libraries/database.php	/^	function commit();$/;"	f
+commit	system/libraries/database/mysql.php	/^	function commit() {$/;"	f
+config	system/libraries/config.php	/^			$config = & self::$items[$category];$/;"	v
+confirm	system/libraries/js.php	/^	static function confirm($str, $remember = FALSE){$/;"	f
+conn_cache	system/models/orm.php	/^	static $conn_cache;$/;"	v
+conn_table	system/models/orm.php	/^		$conn_table = self::RELA_PREFIX.$name1.'_'.$name2;$/;"	v
+conn_table	system/models/orm.php	/^		$conn_table=self::RELA_PREFIX.$name1.'_'.$name2;$/;"	v
+connect	system/libraries/database.php	/^	function connect() {$/;"	f
+connect	system/libraries/database/mysql.php	/^	function connect() {$/;"	f
+connect	system/models/orm.php	/^	function connect($object, $type=NULL, $approved=FALSE){$/;"	f
+connected_with	system/models/orm.php	/^	function connected_with($object, $type='', $approved_only=FALSE){$/;"	f
+content	system/controllers/css.php	/^		$content = CSS::cache_content($_GET['f']);$/;"	v
+content	system/controllers/js.php	/^		$content = JS::cache_content($_GET['f']);$/;"	v
+content	system/libraries/css.php	/^		$content = '';$/;"	v
+content	system/libraries/css.php	/^		$content = preg_replace('\/\\burl\\s*\\(\\s*(["\\'])?\\s*([^:]+?)\\s*\\1?\\s*\\)\/', 'url('.$url_base.'\\\\2)', $content);$/;"	v
+content	system/libraries/js.php	/^				$content = JS_FORMATTED."\\n".JSMin::minify($content);$/;"	v
+content	system/libraries/js.php	/^		$content = '';$/;"	v
+content	system/views/widgets/tabs.phtml	/^			$content = implode(' <span class="separator middle">►<\/span> ', $links);$/;"	v
+content_event	system/widgets/tabs.php	/^		$this->content_event = $name;$/;"	v
+content_event	system/widgets/tabs.php	/^	function content_event($name) {$/;"	f
+content_event	system/widgets/tabs.php	/^	private $content_event;$/;"	v
+context	system/libraries/q.php	/^		$context = new Q($context, $db);$/;"	v
+controller	system/core/core.php	/^			$controller = new $class;$/;"	v
+controller	system/core/core.php	/^            $controller = new $class;$/;"	v
+convert	system/libraries/i18n.php	/^	static function convert($str, $options=NULL) {$/;"	f
+convert_interval	system/libraries/date.php	/^	static function convert_interval($time, $unit='s') {$/;"	f
+converted_str	system/libraries/i18n.php	/^			$converted_str = self::_convert_str($domain, $str);$/;"	v
+converted_str	system/libraries/i18n.php	/^		$converted_str = self::_convert_str($domain, $str);$/;"	v
+cookie	system/libraries/http.php	/^		$cookie = array();$/;"	v
+cookie	system/libraries/http.php	/^	function cookie() {$/;"	f
+cookie_file	system/libraries/http.php	/^	function cookie_file($file = NULL) {$/;"	f
+copy_r	system/libraries/file.php	/^	static function copy_r($source, $dest, $mode=0755){ $/;"	f
+count	system/3rd/cssp.php	/^		$count = (int) $params['count'];$/;"	v
+count	system/3rd/cssp.php	/^		$count = isset($matches[2]) ? (int) $matches[2]:0;$/;"	v
+count	system/libraries/database.php	/^	function count();$/;"	f
+count	system/libraries/database/mysql.php	/^	function count(){$/;"	f
+count	system/libraries/orm_iterator.php	/^			$this->count = $this->count_SQL ? $this->db->value($this->count_SQL) : 0;$/;"	v
+count	system/libraries/orm_iterator.php	/^		$this->count = $this->length = count($this->objects);$/;"	v
+count	system/libraries/orm_iterator.php	/^	function count(){$/;"	f
+count	system/libraries/orm_iterator.php	/^	protected $count;		\/\/符合selector的数据总数$/;"	v
+count	system/libraries/q.php	/^			$this->count = $this->length = 0;$/;"	v
+count	system/libraries/q.php	/^			$this->count = $this->length = 1;$/;"	v
+count	system/libraries/q/query.php	/^		$count = 0;$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^			$count_SQL = preg_replace('\/ COUNT\\((.+?)\\.\\*\\) count\/', ' COUNT($1.id) count', $count_SQL);$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^			$count_SQL = preg_replace('\/\\bSQL_CALC_FOUND_ROWS\\b\/', '', $SQL);$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^			$count_SQL = preg_replace('\/\\sLIMIT.+$\/', '', $count_SQL);$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^			$count_SQL = preg_replace('\/\\sORDER BY.+$\/', '', $count_SQL);$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^			$count_SQL = preg_replace('\/^(SELECT)\\s(.+?)\\s(FROM)\\s\/', '$1 COUNT($2) count $3', $count_SQL);$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^		$this->count_SQL = $count_SQL;$/;"	v
+count_SQL	system/libraries/orm_iterator.php	/^	protected $count_SQL;$/;"	v
+count_SQL	system/libraries/q.php	/^            $this->count_SQL = $cache_data['count_SQL'];$/;"	v
+count_SQL	system/libraries/q/query.php	/^            $count_SQL = $SQL;$/;"	v
+count_SQL	system/libraries/q/query.php	/^            $this->count_SQL = 'SELECT COUNT(DISTINCT '. $db->make_ident($this->table, 'id'). ') FROM'. $count_SQL;$/;"	v
+count_SQL	system/libraries/q/query.php	/^    public $count_SQL;$/;"	v
+counter	system/libraries/misc.php	/^		$counter   = 0;$/;"	v
+counterpart	system/libraries/q/query.php	/^	function counterpart($name) {$/;"	f
+counterpart	system/models/orm.php	/^	static function counterpart($type) {$/;"	f
+create	system/libraries/auth.php	/^	function create($password) {$/;"	f
+create_table	system/libraries/database.php	/^	function create_table($tbl, $fields, $indexes, $engine);$/;"	f
+create_table	system/libraries/database.php	/^	function create_table($tbl_name, $fields, $indexes, $engine = NULL) {$/;"	f
+create_table	system/libraries/database/mysql.php	/^	function create_table($tbl_name, $fields, $indexes, $engine = NULL) {$/;"	f
+cright	system/libraries/image.php	/^				$cright=$width-$hbw;$/;"	v
+criteria	system/libraries/q/query.php	/^				$criteria = $this->parse_rel_criteria($or_rels, $nn_table, $nn_flip, $has_nn_rel);$/;"	v
+criteria	system/libraries/q/query.php	/^			$criteria = $this->parse_rel_criteria($or_rels, $nn_table, $nn_flip, $has_nn_rel);$/;"	v
+criteria	system/libraries/q/query.php	/^		$criteria = $this->parse_rel_criteria($and_rels, $nn_table, $nn_flip, $has_nn_rel);$/;"	v
+criteria	system/models/orm.php	/^					$criteria = array('id'=>$criteria);$/;"	v
+crop	system/libraries/image.php	/^	public function crop($left,$top,$width,$height) {$/;"	f
+crop_center	system/libraries/image.php	/^	public function crop_center($width, $height) {$/;"	f
+css	system/3rd/cssp.php	/^		$css = self::$css_prefix . $css;$/;"	v
+css	system/controllers/layout.php	/^	protected $css;$/;"	v
+css_file	system/libraries/css.php	/^		$css_file = Misc::key('css', $f).'.css'; $/;"	v
+css_prefix	system/3rd/cssp.php	/^	static $css_prefix;$/;"	v
+css_ser	system/controllers/layout.php	/^			$css_ser = implode(' ', $css_ser_arr);$/;"	v
+css_ser_arr	system/controllers/layout.php	/^		$css_ser_arr = explode(' ', $css_ser);$/;"	v
+curl_header	system/libraries/http.php	/^			$curl_header=array();$/;"	v
+curr_extension	system/libraries/controller.php	/^				$this->curr_extension = $ext;$/;"	v
+curr_extension	system/libraries/controller.php	/^	protected $curr_extension;$/;"	v
+curr_fields	system/libraries/database/mysql.php	/^				$curr_fields = $this->table_fields($tbl_name);$/;"	v
+curr_height	system/libraries/image.php	/^		$this->curr_height = $height;$/;"	v
+curr_height	system/libraries/image.php	/^		$this->curr_height = $newHeight;$/;"	v
+curr_height	system/libraries/image.php	/^		$this->curr_height = $this->curr_width;$/;"	v
+curr_height	system/libraries/image.php	/^	private $curr_height;$/;"	v
+curr_indexes	system/libraries/database/mysql.php	/^				$curr_indexes = $this->table_indexes($tbl_name);$/;"	v
+curr_pos	system/3rd/cssp.php	/^			$this->curr_pos = end($this->_marker_stack);$/;"	v
+curr_pos	system/3rd/cssp.php	/^			$this->curr_pos = mb_strlen($this->text);$/;"	v
+curr_pos	system/3rd/cssp.php	/^		$this->curr_pos = $pos;$/;"	v
+curr_pos	system/3rd/cssp.php	/^	function curr_pos($pos=NULL) {$/;"	f
+curr_pos	system/3rd/cssp.php	/^	private $curr_pos = 0;$/;"	v
+curr_token	system/libraries/auth.php	/^			$curr_token = $_SESSION['auth.token'];$/;"	v
+curr_token	system/libraries/auth.php	/^		static $curr_token;$/;"	v
+curr_type	system/libraries/database/mysql.php	/^						$curr_type = self::standardize_field_type($curr_field['type']);$/;"	v
+curr_width	system/libraries/image.php	/^		$this->curr_width = $this->curr_height;$/;"	v
+curr_width	system/libraries/image.php	/^		$this->curr_width = $width;$/;"	v
+curr_width	system/libraries/image.php	/^	private $curr_width;$/;"	v
+current	system/libraries/orm_iterator.php	/^	function current(){ $/;"	f
+current_id	system/libraries/orm_iterator.php	/^				$this->current_id = key($objects);$/;"	v
+current_id	system/libraries/orm_iterator.php	/^		$this->current_id = key($this->objects);$/;"	v
+current_id	system/libraries/orm_iterator.php	/^		$this->current_id=$id;$/;"	v
+current_id	system/libraries/orm_iterator.php	/^	protected $current_id;$/;"	v
+current_id	system/libraries/q.php	/^			$this->current_id = $selector->id;$/;"	v
+current_id	system/libraries/q.php	/^			$this->current_id = 0;$/;"	v
+current_id	system/libraries/q.php	/^			$this->current_id = key($this->objects);$/;"	v
+current_page	system/views/widgets/pagination.phtml	/^$current_page = floor($start \/ $per_page) + 1;$/;"	v
+cutpoint	system/libraries/image.php	/^		$cutpoint = ceil(strlen($hex) \/ 2)-1;$/;"	v
+d	system/models/orm.php	/^					$d = $result ? $result->row('assoc') : NULL;$/;"	v
+data	system/libraries/http.php	/^		$data = curl_exec($ch);$/;"	v
+data	system/libraries/image.php	/^	function & data() {$/;"	f
+data	system/libraries/input.php	/^			$data=json_decode($_POST['_data'], TRUE);$/;"	v
+data	system/libraries/ldap.php	/^			$data = array($/;"	v
+data	system/libraries/ldap.php	/^		$data = array($/;"	v
+data	system/libraries/properties.php	/^	function data()$/;"	f
+data	system/models/orm.php	/^					$data = (array) $result->row('assoc');$/;"	v
+data	system/models/orm.php	/^					$data = array();$/;"	v
+data	system/models/orm.php	/^				$data = (array) $criteria;$/;"	v
+data	system/models/orm.php	/^		$data = array();$/;"	v
+date	system/libraries/date.php	/^		$date = getdate($time);$/;"	v
+db	system/libraries/auth/database.php	/^		$db = Database::factory($this->db_name);		$/;"	v
+db	system/libraries/auth/database.php	/^		$db = Database::factory($this->db_name);$/;"	v
+db	system/libraries/orm_iterator.php	/^		$this->db = $db instanceof Database ? $db : Database::factory($db);$/;"	v
+db	system/libraries/orm_iterator.php	/^	protected $db;$/;"	v
+db	system/libraries/properties.php	/^		$db = ORM_Model::db($name);$/;"	v
+db	system/libraries/properties.php	/^            $db = ORM_Model::db($name);$/;"	v
+db	system/libraries/q.php	/^		$this->db = $db instanceof Database ? $db : Database::factory($db);$/;"	v
+db	system/libraries/q/pseudo/not.php	/^			$db = $query->db;$/;"	v
+db	system/libraries/q/pseudo/sort.php	/^			$db = $query->db;$/;"	v
+db	system/libraries/q/query.php	/^			$db = $this->db;$/;"	v
+db	system/libraries/q/query.php	/^		$db = $this->db;$/;"	v
+db	system/libraries/q/query.php	/^		$this->db = $db;$/;"	v
+db	system/libraries/q/query.php	/^	public $db;	$/;"	v
+db	system/libraries/session/database.php	/^		$db = Database::factory($this->db_name);$/;"	v
+db	system/models/orm.php	/^						$db = self::db($rname);$/;"	v
+db	system/models/orm.php	/^					$db = self::db($rname);$/;"	v
+db	system/models/orm.php	/^				$db = self::db($real_name);$/;"	v
+db	system/models/orm.php	/^			$db = self::db($this->_name);$/;"	v
+db	system/models/orm.php	/^		$db = Database::factory();$/;"	v
+db	system/models/orm.php	/^		$db = self::db($name);$/;"	v
+db	system/models/orm.php	/^		$db = self::db($name1);$/;"	v
+db	system/models/orm.php	/^		$db = self::db($real_name);$/;"	v
+db	system/models/orm.php	/^	static function db($name) {$/;"	f
+db_name	system/libraries/auth/database.php	/^		$this->db_name = $opt['database.name'];$/;"	v
+db_name	system/libraries/auth/database.php	/^	private $db_name;$/;"	v
+db_name	system/libraries/session/database.php	/^		$this->db_name = Config::get('session.database.name', NULL);$/;"	v
+db_name	system/libraries/session/database.php	/^	private $db_name;$/;"	v
+dbname	system/libraries/database.php	/^				$dbname = Config::get('database.'.$name.'.db');$/;"	v
+dbs	system/libraries/database.php	/^		$dbs = (array) self::$DB;$/;"	v
+debug	system/libraries/event.php	/^	private $debug;$/;"	v
+decode	system/libraries/uri.php	/^	static function decode($text) {$/;"	f
+decrypt	system/libraries/cipher.php	/^	static function decrypt($code, $salt, $base64=FALSE, $mode = 'blowfish') {$/;"	f
+default_backend	system/libraries/auth.php	/^			$default_backend = $default_backend ?: Config::get('auth.default_backend');$/;"	v
+default_dispatcher	system/core/core.php	/^	static function default_dispatcher() {$/;"	f
+default_format	system/libraries/date.php	/^	static function default_format($type=NULL) {$/;"	f
+default_page	system/core/core.php	/^		$default_page = Config::get('system.default_page');$/;"	v
+default_uid	system/libraries/ldap.php	/^		static $default_uid = 0;$/;"	v
+delegates	system/libraries/controller.php	/^	protected $delegates = array();$/;"	v
+delete	system/libraries/file.php	/^	static function delete($path, $clean_empty = FALSE) {$/;"	f
+delete	system/libraries/ldap.php	/^	function delete($dn){$/;"	f
+delete	system/libraries/properties.php	/^	function delete() {$/;"	f
+delete	system/models/orm.php	/^	function delete() {$/;"	f
+delete_all	system/libraries/orm_iterator.php	/^	function delete_all() {$/;"	f
+delete_me	system/models/orm.php	/^						$delete_me = TRUE;$/;"	v
+delete_me	system/models/orm.php	/^			$delete_me = FALSE;$/;"	v
+delete_me_until	system/models/orm.php	/^						$delete_me_until = $rname;	\/\/删除到该父类$/;"	v
+dep_path	system/core/core.php	/^		$dep_path = $path.'config\/depmod'.EXT;$/;"	v
+dest_path	system/libraries/file.php	/^					$dest_path = $dest . '\/' . $name;$/;"	v
+destroy	system/libraries/session.php	/^	function destroy($id);$/;"	f
+destroy	system/libraries/session.php	/^	static function destroy($id) {$/;"	f
+destroy	system/libraries/session/database.php	/^	function destroy($id){$/;"	f
+destroy	system/models/orm.php	/^	static function destroy($name) {$/;"	f
+detach	system/3rd/cssp.php	/^	function detach() {$/;"	f
+dh	system/libraries/config.php	/^			$dh = opendir($base);$/;"	v
+dh	system/libraries/file.php	/^			$dh = opendir($path);$/;"	v
+dh	system/libraries/file.php	/^			$dh=@opendir($path);$/;"	v
+dh	system/libraries/file.php	/^		$dh = @opendir($source); $/;"	v
+dialog	system/libraries/js.php	/^	static function dialog($view, $opt=NULL){$/;"	f
+dict	system/models/orm.php	/^			$dict = Config::get('orm.counterpart');$/;"	v
+dict_r	system/models/orm.php	/^			$dict_r = array_flip($dict);$/;"	v
+diff	system/libraries/date.php	/^		$diff = abs($time - $now);$/;"	v
+diff	system/libraries/date.php	/^		$diff=$now-$time;$/;"	v
+dir	system/core/cache.php	/^			$dir = dirname($cache_path);$/;"	v
+dir	system/core/cache.php	/^		$dir = dirname($cache_path);$/;"	v
+dirs	system/core/core.php	/^			$dirs = glob($mbase.'*', GLOB_ONLYDIR);$/;"	v
+disable_rule_patcher	system/3rd/cssp.php	/^	static function disable_rule_patcher($name) {$/;"	f
+disconnect	system/libraries/database.php	/^	function disconnect() {$/;"	f
+disconnect	system/libraries/database.php	/^	function disconnect();$/;"	f
+disconnect	system/libraries/database/mysql.php	/^	function disconnect() {$/;"	f
+disconnect	system/models/orm.php	/^	function disconnect($object, $type=NULL, $approved=NULL){$/;"	f
+dispatch	system/core/core.php	/^	static function dispatch() {$/;"	f
+dispatcher	system/core/core.php	/^			$dispatcher = self::$mime_dispatchers[$mime];$/;"	v
+dn	system/libraries/ldap.php	/^			$dn = 'cn='.$account.','.$base_dn;$/;"	v
+doSubmit.checkState	system/private/js/form.js	/^			function checkState() {$/;"	f
+do_patch	system/3rd/cssp.php	/^	static function do_patch($fragment, $parent, $name, $value, $params) {$/;"	f
+domain	system/libraries/i18n.php	/^		$domain = $options['domain'] ?: 'application';$/;"	v
+download	system/libraries/curl.php	/^	static function download($url, $file) {$/;"	f
+drop_table	system/libraries/database.php	/^	function drop_table() {$/;"	f
+drop_table	system/libraries/database.php	/^	function drop_table();$/;"	f
+drop_table	system/libraries/database/mysql.php	/^	function drop_table() {$/;"	f
+dropdown	system/libraries/form.php	/^	static function dropdown($name, $options, $selected=NULL, $extra=NULL) {$/;"	f
+ds	system/libraries/database/mysql.php	/^			$ds = $this->query($this->rewrite('SHOW FIELDS FROM `%s`', $name));$/;"	v
+ds	system/libraries/database/mysql.php	/^			$ds=$this->query($this->rewrite('SHOW INDEX FROM `%s`', $name));$/;"	v
+ds	system/libraries/ldap.php	/^		$ds = @ldap_connect($this->get_option('host'));$/;"	v
+ds	system/libraries/ldap.php	/^		$this->ds = $ds;$/;"	v
+ds	system/libraries/ldap.php	/^	private $ds;$/;"	v
+ds	system/models/orm.php	/^	    $ds = call_user_func_array(array($db, 'query'), $args);$/;"	v
+dump_command	system/libraries/database/mysql.php	/^		$dump_command = sprintf('\/usr\/bin\/mysqldump -h %s -u %s %s %s %s > %s', $/;"	v
+duration	system/libraries/date.php	/^			$duration = $duration % $v;$/;"	v
+duration	system/libraries/date.php	/^		$duration = max(0, $dto - $dfrom);$/;"	v
+e	system/libraries/event.php	/^			$e = Event::factory($name, FALSE);$/;"	v
+e	system/libraries/event.php	/^		$e = Event::$events[$name];$/;"	v
+email	system/libraries/email.php	/^   $email = new Email;$/;"	v
+embed	system/libraries/view.php	/^	function embed($view){$/;"	f
+empty_database	system/libraries/database.php	/^	function empty_database() {$/;"	f
+empty_database	system/libraries/database.php	/^	function empty_database();$/;"	f
+empty_database	system/libraries/database/mysql.php	/^	function empty_database() {$/;"	f
+enable_account	system/libraries/ldap.php	/^	function enable_account($dn, $enable=TRUE) {$/;"	f
+enable_rule_patcher	system/3rd/cssp.php	/^	static function enable_rule_patcher($name) {$/;"	f
+encode	system/libraries/auth/database.php	/^	private static function encode($password){$/;"	f
+encode	system/libraries/uri.php	/^	static function encode($text) {$/;"	f
+encode_objects	system/models/orm.php	/^	protected function encode_objects(&$data) {$/;"	f
+encode_text	system/libraries/email.php	/^    private function encode_text($text) {$/;"	f
+encrypt	system/libraries/cipher.php	/^	static function encrypt($text, $salt, $base64=FALSE, $mode = 'blowfish') {$/;"	f
+end	system/libraries/q.php	/^	function end(){$/;"	f
+engine	system/libraries/database/mysql.php	/^			$engine = Config::get('database.default_engine', 'MYISAM');$/;"	v
+entries	system/libraries/auth/ldap.php	/^		$entries = $this->ldap->entries($sr);$/;"	v
+entries	system/libraries/ldap.php	/^			$entries = $this->entries($sr);$/;"	v
+entries	system/libraries/ldap.php	/^	function entries($sr) {$/;"	f
+entry_dn	system/libraries/ldap.php	/^	function entry_dn($er) {$/;"	f
+enum_connections	system/models/orm.php	/^	function enum_connections($object) {$/;"	f
+eof	system/3rd/cssp.php	/^	function eof() {$/;"	f
+eq	system/libraries/q.php	/^	function eq($id=NULL){$/;"	f
+err	system/libraries/http.php	/^			$err = curl_error($ch);$/;"	v
+errno	system/libraries/http.php	/^		$errno = curl_errno($ch);$/;"	v
+error	system/core/bootstrap.php	/^	static function error($errno, $errstr, $errfile, $errline, $errcontext) {$/;"	f
+error	system/core/cli.php	/^	static function error($errno , $errstr, $errfile, $errline, $errcontext) {$/;"	f
+error	system/libraries/form.php	/^		$error = array_pop($args);$/;"	v
+errors	system/libraries/form.php	/^	public $errors = array();$/;"	v
+escape	system/libraries/database.php	/^	function escape($s) {$/;"	f
+escape	system/libraries/database.php	/^	function escape($s);$/;"	f
+escape	system/libraries/database/mysql.php	/^	function escape($s) {$/;"	f
+escape	system/libraries/js.php	/^	static function escape($str) {$/;"	f
+event	system/core/core.php	/^            $event = Input::$AJAX['event'];$/;"	v
+event	system/libraries/event.php	/^		$event = array('weight'=>$weight, 'callback'=>$callback);$/;"	v
+event	system/libraries/view.php	/^		$event = $category ? "view[{$category}:{$path}].postrender ":'';$/;"	v
+event	system/libraries/view.php	/^		$event = $category ? "view[{$category}:{$path}].prerender ":'';$/;"	v
+event_name	system/models/orm.php	/^		$event_name = array_shift($args);$/;"	v
+events	system/libraries/event.php	/^	static $events=array();$/;"	v
+events	system/models/orm.php	/^		$events = array();$/;"	v
+exception	system/core/bootstrap.php	/^	static function exception($e) {$/;"	f
+exception	system/core/cli.php	/^	static function exception($e) {$/;"	f
+excluded	system/core/core.php	/^			$excluded = array();$/;"	v
+exists	system/libraries/file.php	/^	static function exists(){$/;"	f
+exp_time	system/libraries/session/database.php	/^		$exp_time = Date::time() - $max_life_time;$/;"	v
+export	system/libraries/config.php	/^	static function export() {$/;"	f
+expr	system/3rd/cssp.php	/^		$expr = $fragment->translate($args);$/;"	v
+ext	system/core/cache.php	/^		$ext = pathinfo($path, PATHINFO_EXTENSION);$/;"	v
+ext	system/libraries/controller.php	/^			$ext = strtolower(end($params));$/;"	v
+ext_arr	system/libraries/controller.php	/^		$ext_arr = (array) $this->ignore_extensions[$method];$/;"	v
+extension	system/libraries/file.php	/^	static function extension($path) {$/;"	f
+extra_data	system/models/orm.php	/^		$extra_data = Properties::factory($this)->data();$/;"	v
+extra_data	system/models/orm.php	/^        $extra_data = array();$/;"	v
+extract_names	system/libraries/event.php	/^	static function & extract_names($selector) {$/;"	f
+f	system/controllers/layout.php	/^				$f = $f['file'];$/;"	v
+f	system/views/widgets/pagination.phtml	/^		$f=$t-$max_pages+1;$/;"	v
+f	system/views/widgets/pagination.phtml	/^		$f=1;$/;"	v
+f	system/views/widgets/pagination.phtml	/^	$f=$current_page - floor($max_pages\/2);$/;"	v
+factors	system/libraries/date.php	/^			$factors = Date::$UNIT_FACTORS;$/;"	v
+factors	system/libraries/date.php	/^		static $factors;$/;"	v
+factory	system/core/cache.php	/^	static function factory($name=NULL) {$/;"	f
+factory	system/libraries/database.php	/^	static function & factory($name=NULL) {$/;"	f
+factory	system/libraries/event.php	/^	static function factory($name, $ensure=TRUE) {$/;"	f
+factory	system/libraries/ldap.php	/^	static function factory($opt) {$/;"	f
+factory	system/libraries/properties.php	/^	static function factory($object) {$/;"	f
+factory	system/libraries/view.php	/^	static function factory($path, $vars=NULL) {$/;"	f
+factory	system/libraries/widget.php	/^	static function factory($name, $vars=NULL) {$/;"	f
+factory	system/models/orm.php	/^	static function factory($name, $criteria=NULL, $no_fetch=FALSE) {$/;"	f
+ffile	system/libraries/config.php	/^			$ffile = $base.$category.EXT;$/;"	v
+fh	system/libraries/curl.php	/^	  	$fh = fopen($file, 'wb'); $/;"	v
+field	system/libraries/database/mysql.php	/^					$field = $fields[$key];$/;"	v
+field	system/libraries/q/pseudo/sort.php	/^				$field = $part[1];$/;"	v
+field	system/libraries/q/query.php	/^            $field = $db->make_ident($this->table, '%FIELD%');$/;"	v
+field_id	system/libraries/q/query.php	/^								$field_id = $field.self::OBJ_ID_SUFFIX;$/;"	v
+field_name	system/libraries/q/query.php	/^									$field_name = $field.self::OBJ_NAME_SUFFIX;$/;"	v
+field_sql	system/libraries/database/mysql.php	/^				$field_sql = array();$/;"	v
+field_sql	system/libraries/database/mysql.php	/^		$field_sql=array();$/;"	v
+field_sql	system/libraries/database/mysql.php	/^	private function field_sql($key, &$field) {$/;"	f
+field_to_real_name	system/models/orm.php	/^			$field_to_real_name = array();$/;"	v
+field_to_real_name	system/models/orm.php	/^		$field_to_real_name = self::field_to_real_name($name);$/;"	v
+field_to_real_name	system/models/orm.php	/^	static function field_to_real_name($name) {$/;"	f
+field_value	system/libraries/q/query.php	/^							$field_value = $this->get_field_value($match[1]);$/;"	v
+field_value	system/libraries/q/query.php	/^							$field_value = $this->get_field_value($match[2]);$/;"	v
+field_value	system/libraries/q/query.php	/^							$field_value = $this->get_field_value($match[4], !!$match[3]);$/;"	v
+fields	system/libraries/database/mysql.php	/^			$fields=array();$/;"	v
+fields	system/libraries/database/mysql.php	/^		$fields = (array) $schema['fields'];$/;"	v
+fields	system/libraries/orm_iterator.php	/^                $fields = array_keys($schema['fields']);$/;"	v
+fields	system/libraries/q/query.php	/^				$fields = $this->fields($name);$/;"	v
+fields	system/libraries/q/query.php	/^		$fields = $this->fields($this->name);$/;"	v
+fields	system/libraries/q/query.php	/^	function fields($name) {$/;"	f
+fields	system/libraries/q/query.php	/^            $fields = join(', ', array_map(function($f) {$/;"	v
+fields	system/models/orm.php	/^				$fields = self::fields($rname);$/;"	v
+fields	system/models/orm.php	/^		$fields = $db->table_fields($name);$/;"	v
+fields	system/models/orm.php	/^	static function fields($name, $refresh = FALSE) {$/;"	f
+fields	system/models/orm.php	/^                $fields = $schema['fields'] ? $db->quote_ident(array_keys($schema['fields'])) : $db->quote_ident('id');$/;"	v
+file	system/core/bootstrap.php	/^			$file = File::relative_path($e->getFile());$/;"	v
+file	system/core/cli.php	/^		$file = File::relative_path($e->getFile());$/;"	v
+file	system/core/core.php	/^				$file = $cacher->get($cache_key);$/;"	v
+file	system/core/core.php	/^				$file = Core::load($b, $name, $scope);$/;"	v
+file	system/core/core.php	/^				$file = Core::load($base, $n, $scope);$/;"	v
+file	system/core/core.php	/^				$file = Core::load($bases, $sub_paths, 'system');$/;"	v
+file	system/core/core.php	/^			$file = $args ? end($args) : $default_page;$/;"	v
+file	system/core/core.php	/^			$file = Core::file_exists($base.$name.EXT, $scope);$/;"	v
+file	system/core/core.php	/^			$file = Core::load($bases, $paths, $scope);$/;"	v
+file	system/core/core.php	/^		$file = end($args);$/;"	v
+file	system/libraries/css.php	/^					$file = trim($file);$/;"	v
+file	system/libraries/css.php	/^			$file = trim($file);$/;"	v
+file	system/libraries/http.php	/^		$file = $this->_cookie_file;$/;"	v
+file	system/libraries/input.php	/^	static function & file($name) {$/;"	f
+file	system/libraries/js.php	/^					$file = trim($file);$/;"	v
+file	system/libraries/js.php	/^				$file = $js_ser;$/;"	v
+file	system/libraries/js.php	/^				$file = $js_ser['file'];$/;"	v
+file	system/libraries/js.php	/^			$file = trim($file);$/;"	v
+file	system/libraries/uri.php	/^		$file = $category;$/;"	v
+file	system/libraries/uri.php	/^		$file = $matches[2];$/;"	v
+fileUpload.cb	system/private/js/form.js	/^		function cb(e) {$/;"	f
+fileUpload.doSubmit	system/private/js/form.js	/^		function doSubmit() {$/;"	f
+fileUpload.getDoc	system/private/js/form.js	/^		function getDoc(frame) {$/;"	f
+file_exists	system/core/core.php	/^	static function file_exists($path, $scope=NULL) {$/;"	f
+file_paths	system/core/core.php	/^	static function file_paths($path, $scope=NULL) {$/;"	f
+filename	system/libraries/file.php	/^			$filename = substr($path, $pos + 1, $len - $pos - 1);$/;"	v
+filename	system/libraries/image.php	/^	private $filename;$/;"	v
+files	system/libraries/css.php	/^				$files = array_unique(explode(' ', $f));$/;"	v
+files	system/libraries/css.php	/^		$files = array_unique(explode(' ', $f));$/;"	v
+files	system/libraries/input.php	/^	protected static $files = array();$/;"	v
+files	system/libraries/input.php	/^	static function & files() {$/;"	f
+files	system/libraries/js.php	/^				$files = array_unique(explode(' ', $f));$/;"	v
+files	system/libraries/js.php	/^		$files = array_unique(explode(' ', $f));$/;"	v
+filter	system/libraries/auth/ldap.php	/^		$filter = sprintf('(%s=%s)', $opt['ldap.token_attr'], $token);$/;"	v
+filter	system/libraries/form.php	/^	static function filter($form) {$/;"	f
+filter	system/libraries/q.php	/^	function filter($selector){$/;"	f
+finalize_join	system/libraries/q/query.php	/^	private function finalize_join($join_type=NULL) {$/;"	f
+find	system/libraries/q.php	/^	function find($selector){$/;"	f
+finfo	system/libraries/file.php	/^            $finfo = finfo_open(FILEINFO_MIME_TYPE);$/;"	v
+finish_rels	system/libraries/q/query.php	/^	private function finish_rels() {$/;"	f
+first_entry	system/libraries/ldap.php	/^	function first_entry($sr) {$/;"	f
+flush	system/core/cache.php	/^	function flush() {$/;"	f
+flush	system/core/cache.php	/^	function flush();$/;"	f
+flush	system/core/cache_apc.php	/^	function flush() {$/;"	f
+flush	system/core/cache_memcache.php	/^	function flush() {$/;"	f
+flush	system/core/cache_nocache.php	/^	function flush() {$/;"	f
+flush	system/core/cache_xcache.php	/^	function flush() {$/;"	f
+flush	system/core/cache_yac.php	/^	function flush() {$/;"	f
+fn.ajaxSubmit	system/private/js/form.js	/^;(function($) {$/;"	c
+fn.ajaxSubmit.fileUpload	system/private/js/form.js	/^	function fileUpload(a) {$/;"	f
+fn.ajaxSubmit.httpData	system/private/js/form.js	/^		var httpData = function( xhr, type, s ) { \/\/ mostly lifted from jq1.4.4$/;"	m
+form	system/libraries/form.php	/^		$form = '<input id="'.$rel_id.'" name="'.$name.'" type="checkbox"'.$value.$extra.'\/>';$/;"	v
+form	system/libraries/form.php	/^		$form = '<input id="'.$rel_id.'" name="'.$name.'" type="radio"'.$extra.'\/>';$/;"	v
+form	system/libraries/form.php	/^		$form = '<select name="'.$name.'"'.$extra.$multiple.'>';$/;"	v
+form	system/libraries/input.php	/^	protected static $form = array();$/;"	v
+form	system/libraries/input.php	/^	static function form($name=NULL) {$/;"	f
+form	system/libraries/js.php	/^		$form = Input::form();$/;"	v
+format	system/3rd/cssp.php	/^	function format($mode = 0) {$/;"	f
+format	system/3rd/cssp.php	/^	function format($mode = 0, $level = 0) {$/;"	f
+format	system/libraries/css.php	/^	static function format($css) {$/;"	f
+format	system/libraries/date.php	/^			$format = Date::default_format();$/;"	v
+format	system/libraries/date.php	/^	static function format($time=NULL, $format=NULL) {$/;"	f
+format	system/libraries/image.php	/^		$format = strtolower($format);$/;"	v
+format	system/libraries/image.php	/^	private $format;$/;"	v
+format	system/libraries/js.php	/^	static function format($content) {$/;"	f
+format_duration	system/libraries/date.php	/^	static function format_duration($dfrom, $dto, $precision='s') {$/;"	f
+format_interval	system/libraries/date.php	/^	static function format_interval($time, $valid=NULL) {$/;"	f
+fr_cache	system/models/orm.php	/^		static $fr_cache;$/;"	v
+fragment	system/3rd/cssp.php	/^	static function fragment($css) {$/;"	f
+from	system/3rd/cssp.php	/^		$from = $matches[2];$/;"	v
+from	system/libraries/email.php	/^        $from = $this->_headers['Return-Path'];$/;"	v
+from	system/libraries/email.php	/^        $from = str_replace('<', '', $from);$/;"	v
+from	system/libraries/email.php	/^        $from = str_replace('>', '', $from);$/;"	v
+from	system/libraries/email.php	/^    function from($email, $name=NULL) {$/;"	f
+from_SQL	system/libraries/q/query.php	/^            $this->from_SQL = $SQL;$/;"	v
+fuzzy	system/libraries/date.php	/^	static function fuzzy($time, $detail=FALSE, $now = 0) {$/;"	f
+fuzzy_range	system/libraries/date.php	/^	static function fuzzy_range($dfrom, $dto, $detail=FALSE){$/;"	f
+gc	system/libraries/session.php	/^	function gc($max);$/;"	f
+gc	system/libraries/session.php	/^	static function gc($max) { $/;"	f
+gc	system/libraries/session/database.php	/^	function gc($max_life_time){$/;"	f
+get	system/3rd/jsmin.php	/^  protected function get() {$/;"	f
+get	system/core/cache.php	/^	function get($key) {$/;"	f
+get	system/core/cache.php	/^	function get($key);$/;"	f
+get	system/core/cache_apc.php	/^	function get($key) {$/;"	f
+get	system/core/cache_memcache.php	/^	function get($key) {$/;"	f
+get	system/core/cache_nocache.php	/^	function get($key) {$/;"	f
+get	system/core/cache_xcache.php	/^	function get($key) {$/;"	f
+get	system/core/cache_yac.php	/^	function get($key) {$/;"	f
+get	system/libraries/config.php	/^	static function & get($key, $default=NULL){$/;"	f
+get	system/libraries/input.php	/^	protected static $get = array();$/;"	v
+get	system/libraries/input.php	/^	static function & get($name=NULL) {$/;"	f
+get	system/libraries/properties.php	/^	function get($name) {$/;"	f
+get	system/models/orm.php	/^	function get($name, $original=FALSE) {$/;"	f
+get	system/models/orm.php	/^	static function get($oname, $oid) {$/;"	f
+get_data	system/models/orm.php	/^	function get_data() {$/;"	f
+get_date	system/libraries/email.php	/^    private function get_date() {$/;"	f
+get_field_value	system/libraries/q/query.php	/^	private function get_field_value($value, $has_quotes=FALSE) {$/;"	f
+get_items	system/libraries/i18n.php	/^ 	static function get_items(){$/;"	f
+get_message_id	system/libraries/email.php	/^    private function get_message_id() {$/;"	f
+get_option	system/libraries/ldap.php	/^	function get_option($name, $default=NULL) {$/;"	f
+get_password_attrs	system/libraries/ldap.php	/^	private function get_password_attrs($password) {$/;"	f
+get_path	system/libraries/log.php	/^	static function get_path($ident = 'common') {$/;"	f
+get_tab	system/widgets/tabs.php	/^	function get_tab($tid) {$/;"	f
+get_var	system/3rd/cssp.php	/^	function get_var($name) {$/;"	f
+got_something	system/3rd/cssp.php	/^			$got_something = FALSE;$/;"	v
+guid	system/libraries/q/pseudo/limit.php	/^	static $guid = 0;$/;"	v
+guid	system/libraries/q/pseudo/not.php	/^	static $guid = 0;$/;"	v
+guid	system/libraries/q/pseudo/sort.php	/^	static $guid = 0;$/;"	v
+h	system/libraries/image.php	/^			$h = $height;$/;"	v
+h	system/libraries/image.php	/^			$h = $w * $this->curr_height \/ $this->curr_width;$/;"	v
+handler	system/3rd/cssp.php	/^				$handler = $patcher['handler'];$/;"	v
+handler	system/3rd/cssp.php	/^			$handler = $pseudo['handler'];$/;"	v
+handler	system/core/cache.php	/^		$this->handler = new $class;$/;"	v
+handler	system/core/cache.php	/^	private $handler;$/;"	v
+handler	system/libraries/auth.php	/^		$this->handler = new $class($opt);$/;"	v
+handler	system/libraries/auth.php	/^	private $handler;$/;"	v
+handler	system/libraries/database.php	/^		$handler = 'Database_'.$this->_info['handler'];$/;"	v
+handler	system/libraries/session.php	/^		$handler = Config::get('system.session_handler', 'buildin');$/;"	v
+handler	system/libraries/session.php	/^	private static $handler;$/;"	v
+has_child	system/3rd/cssp.php	/^			$has_child = (count($this->children) > 0);$/;"	v
+has_nn_rel	system/libraries/q/query.php	/^			$has_nn_rel = TRUE;$/;"	v
+has_nn_rel	system/libraries/q/query.php	/^		$has_nn_rel = FALSE;$/;"	v
+has_rel	system/libraries/q/query.php	/^					$has_rel = TRUE;$/;"	v
+has_rel	system/libraries/q/query.php	/^				$has_rel = TRUE;$/;"	v
+has_rel	system/libraries/q/query.php	/^			$has_rel = TRUE;$/;"	v
+has_rel	system/libraries/q/query.php	/^		$has_rel = FALSE;$/;"	v
+has_scope	system/core/core.php	/^		$has_scope = is_array($scope) && count($scope)>0;$/;"	v
+hash	system/libraries/auth/database.php	/^		$hash = $db->value('SELECT `password` FROM `%s` WHERE `token`="%s"', $this->table, $token);$/;"	v
+hash	system/libraries/ldap.php	/^			$hash = new smbHash;$/;"	v
+hbw	system/libraries/image.php	/^				$hbw=$border['width']\/2;$/;"	v
+head_js	system/controllers/layout.php	/^	protected $head_js;$/;"	v
+header	system/libraries/email.php	/^            $header = $this->make_header();$/;"	v
+header	system/libraries/email.php	/^        $header = (array) $this->_header;$/;"	v
+header	system/libraries/http.php	/^		$header = explode("\\n", $header);$/;"	v
+header	system/libraries/http.php	/^	function header($name , $value){$/;"	f
+header	system/libraries/http.php	/^	public $header=array();$/;"	v
+header_content	system/libraries/email.php	/^        $header_content = '';$/;"	v
+header_to	system/libraries/email.php	/^            $header_to = array();$/;"	v
+headers.content-type	system/private/js/form.js	/^					var headers = {'content-type': s.dataType};$/;"	p
+height	system/libraries/image.php	/^		$height = $this->curr_height;$/;"	v
+hex	system/libraries/image.php	/^		   $hex = substr($hex, 1);$/;"	v
+hex	system/libraries/image.php	/^		   $hex = substr($hex, 2);$/;"	v
+hex2rgb	system/libraries/image.php	/^	private function hex2rgb($hex, $asString = false) {$/;"	f
+hidden	system/libraries/form.php	/^	static function hidden($name, $value, $extra=NULL) {$/;"	f
+hook	system/libraries/event.php	/^		$hook = $this->queue[$key];$/;"	v
+host	system/libraries/log.php	/^		$host = $_SERVER['REMOTE_ADDR'];$/;"	v
+hours	system/libraries/date.php	/^				$hours=($diff-$rest)\/3600;$/;"	v
+hours	system/libraries/date.php	/^			$hours=($diff-$rest)\/3600;$/;"	v
+i	system/libraries/database/mysql.php	/^				$i = $this->quote_ident($i);$/;"	v
+i	system/libraries/database/mysql.php	/^				$i=$this->quote($i);$/;"	v
+i	system/libraries/js.php	/^				$i = 0;$/;"	v
+i	system/libraries/q.php	/^				$i = Q::quote($i);$/;"	v
+i	system/widgets/tabs.php	/^		$i = 0;$/;"	v
+id	system/libraries/properties.php	/^		$id = $object->id;$/;"	v
+id	system/libraries/properties.php	/^		$id = $this->_object->id;$/;"	v
+id	system/libraries/properties.php	/^            $id = $this->_object->id;$/;"	v
+id	system/models/orm.php	/^				$id = $data['id'];$/;"	v
+id	system/models/orm.php	/^			$id = $db->insert_id();$/;"	v
+id	system/models/orm.php	/^			$id = $db->value('SELECT IF(@id=-1, LAST_INSERT_ID(), @id)');$/;"	v
+id	system/models/orm.php	/^			$id = $this->id;$/;"	v
+id	system/models/orm.php	/^		$id = $data['id'];$/;"	v
+id	system/models/orm.php	/^		$id = $this->_O['id'];$/;"	v
+id1	system/models/orm.php	/^		$id1 = $this->id;$/;"	v
+id2	system/models/orm.php	/^			$id2 = $object->id;$/;"	v
+id2	system/models/orm.php	/^		$id2 = $object->id;$/;"	v
+ident	system/libraries/database.php	/^		$ident = array();$/;"	v
+ident	system/libraries/q/query.php	/^				$ident = $db->make_ident($this->table, $real_field);$/;"	v
+ignore_extensions	system/libraries/controller.php	/^	protected $ignore_extensions = array();$/;"	v
+im	system/libraries/image.php	/^			$im = $this->im;$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreate($width, $height);$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreate($width,$height);$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreateTrueColor($size[0], $size[1]);$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreateTrueColor($this->curr_width,$this->curr_height);$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreateTrueColor($width, $height);$/;"	v
+im	system/libraries/image.php	/^			$im = ImageCreateTrueColor($width,$height);$/;"	v
+im	system/libraries/image.php	/^			$im = imagerotate($im,-90,0);$/;"	v
+im	system/libraries/image.php	/^			$im = imagerotate($im,90,0);$/;"	v
+im	system/libraries/image.php	/^		$im = ImageCreateTrueColor($width,$newHeight);$/;"	v
+im	system/libraries/image.php	/^		$this->im = $im;$/;"	v
+im	system/libraries/image.php	/^	private $im;$/;"	v
+image	system/libraries/image.php	/^		$image = new Image;$/;"	v
+import	system/core/core.php	/^            $import = function($path, $o) use (&$paths, $inf, &$import){$/;"	v
+import	system/libraries/config.php	/^	static function import(& $items){$/;"	f
+import_command	system/libraries/database/mysql.php	/^		$import_command = sprintf('\/usr\/bin\/mysql -h %s -u %s %s %s < %s', $/;"	v
+in_paths	system/libraries/file.php	/^	static function in_paths($path, $paths=array()) {$/;"	f
+include_modules	system/core/core.php	/^	static function include_modules($base) {$/;"	f
+include_path	system/core/core.php	/^	static function include_path($name, $path) {$/;"	f
+indent	system/3rd/cssp.php	/^		$indent = ($mode & CSSP::FORMAT_MINIFY) ? '':str_repeat("\\t", $level);$/;"	v
+index	system/controllers/css.php	/^	function index(){$/;"	f
+index	system/controllers/error.php	/^	function index($code = 404) {$/;"	f
+index	system/controllers/index.php	/^	function index() {$/;"	f
+index	system/controllers/js.php	/^	function index(){$/;"	f
+index	system/libraries/controller.php	/^	function index(){}$/;"	f
+index_sql	system/libraries/database/mysql.php	/^		$index_sql=array();$/;"	v
+index_sql	system/libraries/database/mysql.php	/^	private function index_sql($key, &$val, $no_fields = FALSE) {$/;"	f
+indexes	system/libraries/database/mysql.php	/^			$indexes=array();$/;"	v
+indexes	system/libraries/database/mysql.php	/^		$indexes = (array) $schema['indexes'];$/;"	v
+indexes	system/models/orm.php	/^			$indexes = $class_schema['indexes'];$/;"	v
+indexes	system/models/orm.php	/^	static function indexes($name, $refresh = FALSE) {$/;"	f
+inf	system/core/core.php	/^			$inf = [];$/;"	v
+info	system/libraries/database.php	/^	function info() {$/;"	f
+info	system/libraries/http.php	/^		$info = curl_getinfo($ch);$/;"	v
+init	system/models/orm.php	/^	function init() {$/;"	f
+init	system/private/js/livequery.js	/^var init = $.prototype.init;$/;"	v
+input	system/3rd/jsmin.php	/^    $this->input       = str_replace("\\r\\n", "\\n", $input);$/;"	v
+input	system/3rd/jsmin.php	/^  protected $input       = '';$/;"	v
+inputIndex	system/3rd/jsmin.php	/^  protected $inputIndex  = 0;$/;"	v
+inputLength	system/3rd/jsmin.php	/^    $this->inputLength = strlen($this->input);$/;"	v
+inputLength	system/3rd/jsmin.php	/^  protected $inputLength = 0;$/;"	v
+insert_id	system/libraries/database.php	/^	function insert_id() {$/;"	f
+insert_id	system/libraries/database.php	/^	function insert_id();$/;"	f
+insert_id	system/libraries/database/mysql.php	/^	function insert_id() {$/;"	f
+instance	system/libraries/http.php	/^	static function instance() {$/;"	f
+isAlphaNum	system/3rd/jsmin.php	/^  protected function isAlphaNum($c) {$/;"	f
+is_connected	system/libraries/database.php	/^	function is_connected() {$/;"	f
+is_connected	system/libraries/database/mysql.php	/^	function is_connected() {$/;"	f
+is_creatable	system/libraries/auth.php	/^	function is_creatable() {$/;"	f
+is_readonly	system/libraries/auth.php	/^	function is_readonly() {$/;"	f
+isset_query	system/libraries/orm_iterator.php	/^	protected function isset_query($scope) {$/;"	f
+items	system/libraries/config.php	/^	static $items = array();$/;"	v
+items	system/libraries/i18n.php	/^	protected static $items;$/;"	v
+jk_cache	system/models/orm.php	/^		static $jk_cache;$/;"	v
+join	system/libraries/q/query.php	/^	public $join;$/;"	v
+join_command	system/libraries/q/query.php	/^				$join_command = 'INNER JOIN';$/;"	v
+join_command	system/libraries/q/query.php	/^				$join_command = 'LEFT JOIN';$/;"	v
+join_command	system/libraries/q/query.php	/^				$join_command = 'RIGHT JOIN';$/;"	v
+join_criteria	system/libraries/q/query.php	/^			$this->join_criteria = array();$/;"	v
+join_criteria	system/libraries/q/query.php	/^		$join_criteria = $this->where;$/;"	v
+join_criteria	system/libraries/q/query.php	/^		$join_criteria = array();$/;"	v
+join_criteria	system/libraries/q/query.php	/^		$this->join_criteria = array_merge($this->join_criteria, $join_criteria);$/;"	v
+join_criteria	system/libraries/q/query.php	/^	public $join_criteria = array();$/;"	v
+join_tables	system/libraries/q/query.php	/^			$this->join_tables = array();$/;"	v
+join_tables	system/libraries/q/query.php	/^		$join_tables = array();$/;"	v
+join_tables	system/libraries/q/query.php	/^		$this->join_tables = array_merge($this->join_tables, $join_tables);$/;"	v
+join_tables	system/libraries/q/query.php	/^	public $join_tables = array();$/;"	v
+js_file	system/libraries/js.php	/^		$js_file = Misc::key('js', $f).'.js'; $/;"	v
+js_key	system/libraries/js.php	/^		$js_key = md5($js);$/;"	v
+js_ser	system/controllers/layout.php	/^			$js_ser = implode(' ', $js_ser_arr);$/;"	v
+js_ser	system/controllers/layout.php	/^		$js_ser = trim($js_ser);$/;"	v
+js_ser_arr	system/controllers/layout.php	/^		$js_ser_arr = $head ? $this->head_js : $this->body_js;$/;"	v
+js_ser_arr	system/controllers/layout.php	/^		$js_ser_arr = explode(' ', $js_ser);$/;"	v
+js_ser_arr	system/libraries/js.php	/^			$js_ser_arr = array($js_ser_arr);$/;"	v
+js_str	system/libraries/js.php	/^	private $js_str;$/;"	v
+jsmin	system/3rd/jsmin.php	/^    $jsmin = new JSMin($js);$/;"	v
+json_key	system/models/orm.php	/^					$json_key = $key . self::JSON_SUFFIX;$/;"	v
+json_key	system/models/orm.php	/^			$json_key = $name . self::JSON_SUFFIX;$/;"	v
+json_keys	system/models/orm.php	/^			$json_keys = array();$/;"	v
+json_keys	system/models/orm.php	/^		$json_keys = self::json_keys($name);$/;"	v
+json_keys	system/models/orm.php	/^		$json_keys = self::json_keys($this_name);$/;"	v
+json_keys	system/models/orm.php	/^	static function & json_keys($name) {$/;"	f
+k	system/core/core.php	/^				$k = $dir.'\/';$/;"	v
+k	system/core/core.php	/^				$k = 'phar:\/\/'.$phar.'\/';$/;"	v
+k_valid	system/libraries/date.php	/^			$k_valid = !$valid || FALSE !== strpos($valid, $k);$/;"	v
+key	system/core/cache.php	/^		$key = self::normalize_key($key);$/;"	v
+key	system/core/core.php	/^					$key = $callback['key'];$/;"	v
+key	system/core/core.php	/^					$key = NULL;$/;"	v
+key	system/libraries/event.php	/^				$key = $callback;$/;"	v
+key	system/libraries/event.php	/^				$key = $class .'.'.$callback[1];$/;"	v
+key	system/libraries/event.php	/^		$key = $args[0];$/;"	v
+key	system/libraries/event.php	/^		$key = strtolower($key);		$/;"	v
+key	system/libraries/form.php	/^		$key = (string) $key;$/;"	v
+key	system/libraries/form.php	/^		$key = array_shift($args);$/;"	v
+key	system/libraries/input.php	/^						$key=$p1[1];$/;"	v
+key	system/libraries/misc.php	/^	static function key() {$/;"	f
+key	system/libraries/orm_iterator.php	/^	function key(){$/;"	f
+key	system/libraries/properties.php	/^		$key = (string) $object;$/;"	v
+key	system/models/orm.php	/^			$key = Misc::key($db->name(), $name1, $id1, $name2, $id2, $type);$/;"	v
+key	system/models/orm.php	/^		$key = Misc::key($db->name(), $name1, $id1, $name2, $id2, $type);$/;"	v
+key	system/models/orm.php	/^		$key = self::key($oname, $oid);$/;"	v
+key	system/models/orm.php	/^	private static function key($oname, $oid) {$/;"	f
+key2	system/libraries/form.php	/^			$key2 = $parts[2]; $/;"	v
+key_fields	system/models/orm.php	/^					$key_fields = array();$/;"	v
+keys	system/models/orm.php	/^		$keys = $vals = $args = array();$/;"	v
+kname	system/models/orm.php	/^					$kname = $k . self::OBJ_NAME_SUFFIX;$/;"	v
+kname	system/models/orm.php	/^				$kname = $k . self::JSON_SUFFIX;$/;"	v
+kname	system/models/orm.php	/^				$kname = $k . self::OBJ_ID_SUFFIX;$/;"	v
+lamda	system/libraries/js.php	/^			$lamda = $_lamda_cache[$js_key];$/;"	v
+lamda	system/libraries/js.php	/^			$lamda = 'jslamda_'.$js_key;$/;"	v
+lamda_func	system/views/widgets/pagination.phtml	/^	$lamda_func = 'pagination_'.uniqid();$/;"	v
+lang	system/libraries/i18n.php	/^				$lang = array();$/;"	v
+lang	system/libraries/i18n.php	/^			$lang = Config::get('debug.i18n_nocache') ? false : $cache->get($cache_key);$/;"	v
+last	system/libraries/date.php	/^				$last = array(floor($time\/$v), $k);$/;"	v
+layout	system/controllers/layout.php	/^		$this->layout = V($this->layout_name);$/;"	v
+layout	system/controllers/layout.php	/^	public $layout;$/;"	v
+layout_name	system/controllers/layout.php	/^	protected $layout_name = 'layout';$/;"	v
+ldap	system/libraries/auth/ldap.php	/^		$this->ldap = LDAP::factory($opt['ldap.options']);$/;"	v
+ldap	system/libraries/auth/ldap.php	/^	private $ldap;$/;"	v
+left	system/libraries/image.php	/^		$left = round(($this->curr_width - $width) \/ 2);$/;"	v
+len	system/libraries/file.php	/^		$len = strlen($path);$/;"	v
+len	system/views/widgets/tabs.phtml	/^						$len = 2;$/;"	v
+len	system/views/widgets/tabs.phtml	/^						$len = strlen($tab['number']);$/;"	v
+length	system/libraries/orm_iterator.php	/^				$this->length = count($objects);$/;"	v
+length	system/libraries/orm_iterator.php	/^	function length(){return $this->count();}$/;"	f
+length	system/libraries/orm_iterator.php	/^	protected $length;	\/\/实际获得数据数$/;"	v
+limit	system/libraries/q.php	/^	function limit() {$/;"	f
+limit	system/libraries/q/query.php	/^	public $limit;$/;"	v
+line	system/core/bootstrap.php	/^			$line = $e->getLine();$/;"	v
+line	system/core/cli.php	/^		$line = $e->getLine();$/;"	v
+line_no	system/3rd/cssp.php	/^		$line_no = 1 + preg_match_all('\/\\r\\n|\\n\/', mb_substr($this->text, 0, $this->curr_pos), $matches);$/;"	v
+link_href	system/libraries/http.php	/^	function link_href($rel) {$/;"	f
+links	system/views/widgets/tabs.phtml	/^			$links = array();$/;"	v
+load	system/core/core.php	/^	static function load($base, $name, $scope=NULL) {$/;"	f
+load	system/libraries/config.php	/^	static function load($path, $category=NULL){$/;"	f
+load	system/libraries/image.php	/^	static function load($filename, $format=NULL) {$/;"	f
+load	system/libraries/js.php	/^	static function load($js, $params = NULL) {$/;"	f
+load_async	system/libraries/css.php	/^	static function load_async($css) {$/;"	f
+load_async	system/libraries/js.php	/^	static function load_async($js_ser_arr) {$/;"	f
+load_css	system/controllers/layout.php	/^	function load_css() {$/;"	f
+load_domain	system/libraries/i18n.php	/^	static function load_domain($domain) {$/;"	f
+load_from_data	system/libraries/image.php	/^	static function load_from_data($data) {$/;"	f
+load_js	system/controllers/layout.php	/^	function load_js($head = TRUE) {$/;"	f
+load_series	system/libraries/js.php	/^	static function load_series($js_ser_arr, $async = TRUE) {$/;"	f
+load_sync	system/libraries/js.php	/^	static function load_sync($js_ser_arr) {$/;"	f
+loaded_css	system/controllers/layout.php	/^	protected $loaded_css;$/;"	v
+loaded_js	system/controllers/layout.php	/^	private $loaded_js;$/;"	v
+locale	system/libraries/i18n.php	/^			$locale = self::$locale;$/;"	v
+locale	system/libraries/i18n.php	/^	protected static $locale;$/;"	v
+locale	system/libraries/js.php	/^			$locale = Config::get('system.locale');$/;"	v
+locale	system/libraries/view.php	/^		$locale = Config::get('system.locale');$/;"	v
+locals	system/core/cache.php	/^	static $locals = array();$/;"	v
+log	system/core/cache.php	/^	function log() {$/;"	f
+log	system/libraries/q/query.php	/^	function log() {$/;"	f
+log	system/private/js/form.js	/^function log() {$/;"	f
+log_path	system/libraries/log.php	/^		$log_path = Log::get_path($ident);$/;"	v
+logged_in	system/libraries/auth.php	/^	static function logged_in(){$/;"	f
+login	system/libraries/auth.php	/^	static function login($token) {$/;"	f
+logout	system/libraries/auth.php	/^	static function logout() {$/;"	f
+lookAhead	system/3rd/jsmin.php	/^    $this->lookAhead = $this->get();$/;"	v
+lookAhead	system/3rd/jsmin.php	/^    $this->lookAhead = null;$/;"	v
+lookAhead	system/3rd/jsmin.php	/^  protected $lookAhead   = null;$/;"	v
+mails	system/libraries/email.php	/^            $mails = array();$/;"	v
+mailto	system/libraries/uri.php	/^	static function mailto($mail, $name=NULL, $extra=NULL) {$/;"	f
+makeSQL	system/libraries/q/query.php	/^	function makeSQL() {$/;"	f
+make_array	system/libraries/misc.php	/^	static function & make_array( array & $old_arr, $key_key, $val_key){$/;"	f
+make_body	system/libraries/email.php	/^    private function make_body() {$/;"	f
+make_header	system/libraries/email.php	/^    private function make_header() {$/;"	f
+make_ident	system/libraries/database.php	/^	function make_ident() {$/;"	f
+make_onetime	system/libraries/session.php	/^	static function make_onetime($token) {$/;"	f
+make_reflection	system/libraries/image.php	/^	public function make_reflection($percent=50, $opacity=100, $border = NULL, $padding=2) {$/;"	f
+make_timeout	system/libraries/session.php	/^	static function make_timeout($token, $timeout = 0) {$/;"	f
+make_token	system/libraries/auth.php	/^	static function make_token($name, $backend=NULL) {$/;"	f
+max_height	system/libraries/image.php	/^	private $max_height;$/;"	v
+max_length	system/libraries/misc.php	/^		$max_length = strlen($validchars[$level])-1;$/;"	v
+max_pages	system/views/widgets/pagination.phtml	/^$max_pages = 5;$/;"	v
+max_width	system/libraries/image.php	/^	private $max_width;$/;"	v
+mbase	system/core/core.php	/^			$mbase = $base.MODULE_BASE;$/;"	v
+media	system/controllers/layout.php	/^				$media = $f['media'];$/;"	v
+media	system/controllers/layout.php	/^				$media = NULL;$/;"	v
+memcache	system/core/cache_memcache.php	/^				$memcache = new Memcache;$/;"	v
+memcache	system/core/cache_memcache.php	/^				$memcache = new Memcached(CACHE_PREFIX);$/;"	v
+memcache	system/core/cache_memcache.php	/^				$this->memcache = $memcache;$/;"	v
+memcache	system/core/cache_memcache.php	/^	private $memcache;$/;"	v
+memcached	system/core/cache_memcache.php	/^				$this->memcached = TRUE;$/;"	v
+memcached	system/core/cache_memcache.php	/^	private $memcached = FALSE;$/;"	v
+message	system/core/bootstrap.php	/^		$message = $e->getMessage();$/;"	v
+message	system/core/cli.php	/^		$message = $e->getMessage();$/;"	v
+meta_httpequiv	system/libraries/http.php	/^	function meta_httpequiv($equiv) {$/;"	f
+method	system/core/core.php	/^				$method = 'do_'.$method;$/;"	v
+method	system/core/core.php	/^				$method = 'index';$/;"	v
+method	system/core/core.php	/^			$method = $params[0];$/;"	v
+method	system/core/core.php	/^			$method = 'on_'.(Input::$AJAX['object']?:'unknown').'_'.(Input::$AJAX['event']?:'unknown');$/;"	v
+method	system/core/core.php	/^                $method = 'index_'.( $object ? $object.'_':'') . $event;$/;"	v
+method	system/core/core.php	/^                $method = 'index_';$/;"	v
+method	system/core/core.php	/^            $method = $params[0];$/;"	v
+method	system/libraries/form.php	/^			$method = 'validate_'.$parts[1];$/;"	v
+mime_dispatchers	system/core/core.php	/^	private static $mime_dispatchers = array();$/;"	v
+mime_type	system/libraries/file.php	/^            $mime_type = finfo_file($finfo, $file);$/;"	v
+mime_type	system/libraries/file.php	/^    static function mime_type($file) {$/;"	f
+min	system/3rd/jsmin.php	/^  protected function min() {$/;"	f
+mini	system/libraries/css.php	/^		$mini = Config::get('page.css_minify');$/;"	v
+minify	system/3rd/jsmin.php	/^  public static function minify($js) {$/;"	f
+minutes	system/libraries/date.php	/^				$minutes=($rest-$seconds)\/60;$/;"	v
+minutes	system/libraries/date.php	/^			$minutes=($rest-$seconds)\/60;$/;"	v
+missing_fields	system/libraries/database/mysql.php	/^				$missing_fields = array_diff_key($fields, $curr_fields);$/;"	v
+missing_indexes	system/libraries/database/mysql.php	/^				$missing_indexes = array_diff_key($indexes, $curr_indexes);$/;"	v
+mod_add	system/libraries/ldap.php	/^	function mod_add($dn, $data) {$/;"	f
+mod_del	system/libraries/ldap.php	/^	function mod_del($dn, $data) {$/;"	f
+mod_replace	system/libraries/ldap.php	/^	function mod_replace($dn, $data) {$/;"	f
+mode	system/libraries/css.php	/^			$mode = CSSP::FORMAT_NOCOMMENTS;$/;"	v
+mode	system/libraries/js.php	/^				$mode = $js_ser['mode'];$/;"	v
+mode	system/libraries/js.php	/^				$mode = Config::get('page.js_mode');$/;"	v
+mode	system/libraries/js.php	/^			$mode = Config::get('page.js_mode');$/;"	v
+mode	system/libraries/js.php	/^		$mode = Config::get('page.js_mode');$/;"	v
+mode	system/libraries/log.php	/^		$mode = PHP_SAPI;$/;"	v
+modify	system/libraries/ldap.php	/^	function modify($dn, $data){$/;"	f
+module_path	system/core/core.php	/^	static function module_path($module) {$/;"	f
+module_paths	system/core/core.php	/^	static function module_paths($prefix = NULL) {$/;"	f
+msie	system/private/js/q/browser.js	/^	var msie = \/msie\/.test( userAgent ) $/;"	v
+mtime	system/libraries/css.php	/^						$mtime = max($mtime, filemtime($path));$/;"	v
+mtime	system/libraries/css.php	/^				$mtime = 0;$/;"	v
+mtime	system/libraries/js.php	/^						$mtime = max($mtime, filemtime($path));$/;"	v
+mtime	system/libraries/js.php	/^				$mtime = 0;$/;"	v
+mtime	system/libraries/js.php	/^			$mtime = filemtime($path);$/;"	v
+mtime	system/models/orm.php	/^			$this->mtime = Date::time();$/;"	v
+multiple	system/libraries/form.php	/^		$multiple = (count($selected) > 1 && strpos($extra, 'multiple') === FALSE) ? ' multiple="multiple"' : '';$/;"	v
+n	system/3rd/cssp.php	/^			$n = $n->parent;$/;"	v
+n	system/3rd/cssp.php	/^		$n = $parent;$/;"	v
+n	system/libraries/date.php	/^			$n = floor($duration \/ $v);$/;"	v
+n1	system/3rd/cssp.php	/^		$n1 = $matches[2];$/;"	v
+n2	system/3rd/cssp.php	/^		$n2 = $matches[5];$/;"	v
+name	system/3rd/cssp.php	/^		$name = $matches[1];$/;"	v
+name	system/3rd/cssp.php	/^		$name = $this->translate($matches[1]);$/;"	v
+name	system/3rd/cssp.php	/^		$name = $this->translate($name);$/;"	v
+name	system/3rd/cssp.php	/^		$name = preg_replace('\/[\\s\\n]+\/',' ', $matches[1]);$/;"	v
+name	system/3rd/cssp.php	/^		$name = strval($matches[1]===''?$matches[2]:$matches[1]);$/;"	v
+name	system/3rd/cssp.php	/^	public $name;$/;"	v
+name	system/core/core.php	/^				$name = basename($dir);$/;"	v
+name	system/core/core.php	/^				$name = basename($phar, '.phar');$/;"	v
+name	system/libraries/database.php	/^	function name($name = NULL) { return is_null($name) ? $this->_name : $this->_name = $name; }$/;"	f
+name	system/libraries/event.php	/^		$this->name = $name;$/;"	v
+name	system/libraries/event.php	/^	private $name;$/;"	v
+name	system/libraries/orm_iterator.php	/^		$this->name = $name;$/;"	v
+name	system/libraries/orm_iterator.php	/^	function name(){return $this->name;}$/;"	f
+name	system/libraries/orm_iterator.php	/^	protected $name;$/;"	v
+name	system/libraries/properties.php	/^			$name = $this->_object->name();$/;"	v
+name	system/libraries/properties.php	/^		$name = $object->name();$/;"	v
+name	system/libraries/properties.php	/^		$name = $this->_object->name();$/;"	v
+name	system/libraries/q.php	/^			$this->name = $parts[1];$/;"	v
+name	system/libraries/q.php	/^			$this->name = $selector->name();$/;"	v
+name	system/libraries/q.php	/^            $this->name = $cache_data['name'];$/;"	v
+name	system/libraries/q/query.php	/^				$name = $this->counterpart($prev_name);$/;"	v
+name	system/libraries/q/query.php	/^				$name = $this->table_name[$table];$/;"	v
+name	system/libraries/q/query.php	/^				$this->name = $matches[1];$/;"	v
+name	system/libraries/q/query.php	/^	public $name;$/;"	v
+name	system/libraries/widget.php	/^		$name = $path ? $category.':widgets\/'.$path : 'widgets\/'.$category ;$/;"	v
+name	system/models/orm.php	/^			$name = $object->name();$/;"	v
+name	system/models/orm.php	/^			$name = $this->_name;$/;"	v
+name	system/models/orm.php	/^			$name = $this->name();$/;"	v
+name	system/models/orm.php	/^			$name = self::real_name($this->_name);$/;"	v
+name	system/models/orm.php	/^			$name = strtolower((string)$object);$/;"	v
+name	system/models/orm.php	/^		$name = $this->_O['name'];$/;"	v
+name	system/models/orm.php	/^		$name = $this->name();$/;"	v
+name	system/models/orm.php	/^		$name = self::real_name($name);$/;"	v
+name	system/models/orm.php	/^	function name ($name=NULL) {$/;"	f
+name1	system/models/orm.php	/^		$name1 = $this->_name;$/;"	v
+name2	system/models/orm.php	/^			$name2 = $object->_name;$/;"	v
+name2	system/models/orm.php	/^		$name2 = $object->_name;$/;"	v
+name_order	system/libraries/q/query.php	/^		$name_order = strcmp($this->name, $this->prev_name);$/;"	v
+nd	system/libraries/date.php	/^		$nd=getdate($now);$/;"	v
+need_traverse	system/core/core.php	/^				$need_traverse = FALSE;$/;"	v
+need_traverse	system/core/core.php	/^				$need_traverse = TRUE;$/;"	v
+newHeight	system/libraries/image.php	/^		$newHeight = $height + $reflectionHeight + $padding;$/;"	v
+new_arr	system/libraries/misc.php	/^		$new_arr = $arr;$/;"	v
+new_arr	system/libraries/misc.php	/^		$new_arr = array();$/;"	v
+new_arr	system/libraries/misc.php	/^		$new_arr=array();$/;"	v
+new_data	system/libraries/input.php	/^				$new_data=array();$/;"	v
+new_data	system/models/orm.php	/^		$new_data = $this->_update;$/;"	v
+new_output	system/libraries/view.php	/^		$new_output = (string) Event::trigger($event, $this, $output);$/;"	v
+new_str	system/3rd/cssp.php	/^			$new_str = preg_replace_callback('\/(-?\\d+(?:\\.\\d+)?)\\s*([+-])\\s*(-?\\d+(?:\\.\\d+)?)\/', array($this, '_calc'), $str);$/;"	v
+new_str	system/3rd/cssp.php	/^			$new_str = preg_replace_callback('\/(-?\\d+(?:\\.\\d+)?)\\s*([\\*\\\/])\\s*(-?\\d+(?:\\.\\d+)?)\/', array($this, '_calc'), $str);$/;"	v
+newline	system/3rd/cssp.php	/^		$newline = ($mode & CSSP::FORMAT_MINIFY) ? '':"\\n";$/;"	v
+next	system/3rd/jsmin.php	/^  protected function next() {$/;"	f
+next	system/libraries/event.php	/^	public $next;$/;"	v
+next	system/libraries/orm_iterator.php	/^	function next(){$/;"	f
+next_entry	system/libraries/ldap.php	/^	function next_entry($er) {$/;"	f
+nkey	system/libraries/database/mysql.php	/^						$nkey = '@'.$key;$/;"	v
+nn_flip	system/libraries/q/query.php	/^			$nn_flip = FALSE;$/;"	v
+nn_flip	system/libraries/q/query.php	/^			$nn_flip = TRUE;$/;"	v
+nn_rels	system/libraries/q/query.php	/^		$nn_rels = array();$/;"	v
+nn_table	system/libraries/q/query.php	/^		$nn_table = 'r'.(self::$_table_guid ++);$/;"	v
+no_comment	system/3rd/cssp.php	/^		$no_comment = ($mode & CSSP::FORMAT_NOCOMMENTS);$/;"	v
+no_error	system/libraries/form.php	/^				$this->no_error = FALSE;$/;"	v
+no_error	system/libraries/form.php	/^			$this->no_error = FALSE;$/;"	v
+no_error	system/libraries/form.php	/^		$this->no_error = FALSE;$/;"	v
+no_error	system/libraries/form.php	/^	public $no_error = TRUE;$/;"	v
+no_min	system/libraries/form.php	/^			$no_min = $no_max = FALSE;$/;"	v
+nocache	system/core/core.php	/^				$nocache = TRUE;$/;"	v
+nocache	system/core/core.php	/^		$nocache = FALSE;$/;"	v
+node	system/3rd/cssp.php	/^		$node = CSSP::node(CSS_Node::NODE_COMMENT);$/;"	v
+node	system/3rd/cssp.php	/^	static function node($type) {$/;"	f
+normalize	system/libraries/auth.php	/^	static function normalize($token = NULL, $default_backend = NULL) {$/;"	f
+normalize_key	system/core/cache.php	/^	static function normalize_key($key) {$/;"	f
+normalize_path	system/core/core.php	/^	static function normalize_path($path) {$/;"	f
+not	system/libraries/q.php	/^	function not($selector){$/;"	f
+not_query	system/libraries/q/pseudo/not.php	/^		$not_query = new Q_Query($query->db);$/;"	v
+now	system/libraries/database.php	/^		$now = time();$/;"	v
+now	system/libraries/session.php	/^		$now = Date::time();$/;"	v
+now	system/libraries/session/database.php	/^		$now = Date::time();$/;"	v
+now	system/models/orm.php	/^		$now = Date::time();$/;"	v
+now	system/models/orm.php	/^		$now = time();$/;"	v
+nr	system/3rd/cssp.php	/^		$nr = CSSP::node(CSS_Node::NODE_RULE);$/;"	v
+o	system/models/orm.php	/^				$o = $this->_objects[$name];$/;"	v
+o	system/models/orm.php	/^		$o = (object) self::$POOL[$key];$/;"	v
+o	system/models/orm.php	/^		$o = self::$POOL[$key];$/;"	v
+ob_clean	system/libraries/view.php	/^	function ob_clean(){$/;"	f
+obj_where	system/libraries/q/query.php	/^								$obj_where = array();$/;"	v
+object	system/core/core.php	/^            $object = Input::$AJAX['object'];$/;"	v
+object	system/libraries/database/mysql.php	/^	function object(){$/;"	f
+object	system/libraries/orm_iterator.php	/^			$object = $object->objects[$object->current_id];$/;"	v
+object	system/libraries/orm_iterator.php	/^			$object = O($this->name, $object, TRUE);$/;"	v
+object	system/libraries/orm_iterator.php	/^                        $object = O($this->name);$/;"	v
+object	system/libraries/properties.php	/^	function object() {$/;"	f
+object	system/libraries/q.php	/^			$object=reset($this->objects);$/;"	v
+object	system/libraries/q.php	/^		$object = $this->objects[$this->current_id];$/;"	v
+object	system/models/orm.php	/^				$object = $data[$key];$/;"	v
+object	system/models/orm.php	/^			$object = $oname;$/;"	v
+object	system/models/orm.php	/^			$object = NULL;$/;"	v
+object	system/models/orm.php	/^			$object = new $class_name;$/;"	v
+object	system/models/orm.php	/^			$object = new ORM_Model;$/;"	v
+object	system/models/orm.php	/^		$object = self::factory($name, $id);$/;"	v
+object_keys	system/models/orm.php	/^			$object_keys = array();$/;"	v
+object_keys	system/models/orm.php	/^		$object_keys = self::object_keys($name);$/;"	v
+object_keys	system/models/orm.php	/^		$object_keys = self::object_keys($this_name);$/;"	v
+object_keys	system/models/orm.php	/^	static function & object_keys($name) {$/;"	f
+objects	system/libraries/orm_iterator.php	/^				$objects = array();$/;"	v
+objects	system/libraries/orm_iterator.php	/^				$this->objects = $objects;$/;"	v
+objects	system/libraries/orm_iterator.php	/^			$this->objects = array($object->id => $object) + $this->objects;$/;"	v
+objects	system/libraries/orm_iterator.php	/^		$this->objects = array_reverse($this->objects);$/;"	v
+objects	system/libraries/orm_iterator.php	/^	protected $objects = array();$/;"	v
+objects	system/libraries/q.php	/^			$this->objects = array();$/;"	v
+objects	system/libraries/q.php	/^			$this->objects=array($selector->id=>$selector);$/;"	v
+offset	system/libraries/q/query.php	/^			$offset = $part[0][1] + strlen($part[0][0]);$/;"	v
+offset	system/libraries/q/query.php	/^		$offset = 0;$/;"	v
+offsetExists	system/libraries/orm_iterator.php	/^	function offsetExists($id){$/;"	f
+offsetGet	system/libraries/orm_iterator.php	/^	function offsetGet($id){$/;"	f
+offsetSet	system/libraries/orm_iterator.php	/^	function offsetSet($id, $object){$/;"	f
+offsetUnset	system/libraries/orm_iterator.php	/^	function offsetUnset($id){$/;"	f
+oid	system/libraries/q/query.php	/^				$oid = $name.self::OBJ_ID_SUFFIX;$/;"	v
+oid	system/libraries/q/query.php	/^			$oid = $name.self::OBJ_ID_SUFFIX;$/;"	v
+oid	system/models/orm.php	/^					$oid = $key.self::OBJ_ID_SUFFIX;$/;"	v
+oid	system/models/orm.php	/^			$oid = $object->id;$/;"	v
+oid_key	system/models/orm.php	/^				$oid_key = $key.self::OBJ_ID_SUFFIX;$/;"	v
+ok_cache	system/models/orm.php	/^		static $ok_cache;$/;"	v
+old_data	system/models/orm.php	/^		$old_data = array();$/;"	v
+old_dn	system/libraries/auth/ldap.php	/^		$old_dn = $entries[0]['dn'];$/;"	v
+old_id	system/models/orm.php	/^		$old_id = $id = $this->_data['id'];$/;"	v
+oname	system/libraries/q/query.php	/^					$oname = $name.self::OBJ_NAME_SUFFIX;$/;"	v
+oname	system/libraries/q/query.php	/^				$oname = $name.self::OBJ_NAME_SUFFIX;$/;"	v
+oname	system/models/orm.php	/^						$oname = $key.self::OBJ_NAME_SUFFIX;$/;"	v
+oname	system/models/orm.php	/^			$oname = $object->name();$/;"	v
+oname_key	system/models/orm.php	/^					$oname_key = $key.self::OBJ_NAME_SUFFIX;$/;"	v
+op	system/libraries/form.php	/^		 	$op = $parts[1] ?: '==';	$/;"	v
+opacity	system/libraries/image.php	/^		$opacity=$opacity\/100; $/;"	v
+open	system/libraries/session.php	/^	static function open() { return TRUE; }$/;"	f
+operator	system/libraries/email.php	/^        $operator = (substr($timezone, 0, 1) == '-') ? '-' : '+';$/;"	v
+operators	system/libraries/q.php	/^	public static $operators=array();$/;"	v
+opt	system/libraries/auth.php	/^		$opt = $opts[$backend];$/;"	v
+opt	system/libraries/auth/ldap.php	/^		$opt = & $this->options;$/;"	v
+options	system/libraries/auth.php	/^		$this->options = $opt;$/;"	v
+options	system/libraries/auth.php	/^	private $options;$/;"	v
+options	system/libraries/auth/database.php	/^		$this->options = $opt;$/;"	v
+options	system/libraries/auth/database.php	/^	private $options;$/;"	v
+options	system/libraries/auth/ldap.php	/^		$this->options = $opt;$/;"	v
+options	system/libraries/auth/ldap.php	/^	private $options;$/;"	v
+options	system/libraries/i18n.php	/^		$options = (array) $options;$/;"	v
+options	system/libraries/ldap.php	/^		$this->options = (array) $opt;$/;"	v
+options	system/libraries/ldap.php	/^	protected $options = array();$/;"	v
+options	system/private/js/form.js	/^	}$/;"	m
+options.success	system/private/js/form.js	/^		options = { success: options };$/;"	p
+opts	system/libraries/auth.php	/^		$opts = (array) Config::get('auth.backends');$/;"	v
+or_query	system/libraries/q/query.php	/^				$this->or_query = NULL;$/;"	v
+or_query	system/libraries/q/query.php	/^	private $or_query;$/;"	v
+or_rels	system/libraries/q/query.php	/^				$or_rels = array();$/;"	v
+or_rels	system/libraries/q/query.php	/^			$or_rels = array();$/;"	v
+or_where	system/libraries/q/query.php	/^					$or_where = array();$/;"	v
+order	system/libraries/q/pseudo/sort.php	/^				$order = $part[2];$/;"	v
+order	system/libraries/q/pseudo/sort.php	/^				$order=preg_match('\/^↓|D|DESC$\/', $order) ? 'DESC':'ASC';$/;"	v
+order	system/widgets/tabs.php	/^		$order = array();$/;"	v
+order_by	system/libraries/q/query.php	/^	public $order_by;$/;"	v
+output	system/3rd/cssp.php	/^				$output = preg_replace('\/;$\/', '', $output);$/;"	v
+output	system/3rd/cssp.php	/^			$output = $indent . $this->name .':'. ($newline ? ' ':'') . $this->value .';';$/;"	v
+output	system/3rd/cssp.php	/^			$output = $indent . $this->name.($newline ? ' ':'').'{';$/;"	v
+output	system/3rd/cssp.php	/^		$output = '';$/;"	v
+output	system/3rd/jsmin.php	/^  protected $output      = '';$/;"	v
+output	system/controllers/layout.php	/^		$output = '';$/;"	v
+output	system/libraries/css.php	/^		$output = '<script type="text\/javascript">Q.require_css('.json_encode($urls).');<\/script>';$/;"	v
+output	system/libraries/date.php	/^		$output = [];$/;"	v
+output	system/libraries/image.php	/^		$output=ob_get_contents();$/;"	v
+output	system/libraries/js.php	/^		$output = '';$/;"	v
+output	system/libraries/js.php	/^		$output = '<script type="text\/javascript">(function(){';$/;"	v
+output	system/libraries/view.php	/^			$output = ob_get_contents();$/;"	v
+output	system/libraries/view.php	/^		$output = $new_output ?: (string) $output;$/;"	v
+output	system/libraries/view.php	/^		$output = $this->_include_view($_path, $_vars);$/;"	v
+p	system/libraries/form.php	/^		$p = preg_match('\/^[A-z0-9][A-z0-9_.\\-@]+(\\|\\w+)?$\/', $this[$key]);$/;"	v
+pack_where	system/libraries/q/query.php	/^	public function pack_where($where, $op = 'AND') {$/;"	f
+pair	system/models/orm.php	/^			$pair = array('id=(@id:=id)');$/;"	v
+params	system/3rd/cssp.php	/^				$params = $patcher['params'];$/;"	v
+params	system/3rd/cssp.php	/^			$params = $pseudo['params'];$/;"	v
+params	system/3rd/cssp.php	/^		$params = array($/;"	v
+params	system/core/core.php	/^				$params = array();$/;"	v
+params	system/core/core.php	/^			$params = array_pop($args);$/;"	v
+params	system/libraries/js.php	/^		$params = (array) $params;$/;"	v
+parent	system/3rd/cssp.php	/^			$parent = $n->parent;$/;"	v
+parent	system/3rd/cssp.php	/^			$this->parent = NULL;$/;"	v
+parent	system/3rd/cssp.php	/^		$parent = $this->parent;$/;"	v
+parent	system/3rd/cssp.php	/^	public $parent;$/;"	v
+parent	system/libraries/view.php	/^	protected $parent;$/;"	v
+parent_name	system/models/orm.php	/^	static function parent_name($name) {$/;"	f
+parse	system/libraries/q.php	/^	function parse() {$/;"	f
+parse_at_rule	system/3rd/cssp.php	/^	private function parse_at_rule($root) {$/;"	f
+parse_comment	system/3rd/cssp.php	/^	function parse_comment($root) {$/;"	f
+parse_content	system/3rd/cssp.php	/^	function parse_content($root, $check_flag = self::PARSE_ALL) {$/;"	f
+parse_filter	system/libraries/q/query.php	/^	public function parse_filter($part) {$/;"	f
+parse_id	system/libraries/q/query.php	/^	public function parse_id($part) {$/;"	f
+parse_prel	system/libraries/q/query.php	/^	public function parse_prel($part) {$/;"	f
+parse_pseudo	system/libraries/q/query.php	/^	public function parse_pseudo($parts) {$/;"	f
+parse_pseudo_command	system/3rd/cssp.php	/^	private function parse_pseudo_command($root, $command, $args, $bracket) {$/;"	f
+parse_rel	system/libraries/q/query.php	/^	public function parse_rel($part) {$/;"	f
+parse_rel_criteria	system/libraries/q/query.php	/^	private function & parse_rel_criteria(&$rels, &$nn_table, $nn_flip, &$has_nn_rel) {$/;"	f
+parse_rest	system/libraries/q/query.php	/^	public function parse_rest($text) {$/;"	f
+parse_rule	system/3rd/cssp.php	/^	private function parse_rule($root) {$/;"	f
+parse_ruleset	system/3rd/cssp.php	/^	private function parse_ruleset($parent) {$/;"	f
+parse_selector	system/libraries/q.php	/^	function parse_selector(){$/;"	f
+parse_selector	system/libraries/q/query.php	/^	function parse_selector($selector) {$/;"	f
+parse_token	system/libraries/auth.php	/^	static function parse_token($token) {$/;"	f
+password	system/libraries/misc.php	/^		$password  = "";$/;"	v
+patch_extends	system/3rd/cssp.php	/^	static function patch_extends($fragment, $parent, $name, $value, $params) {		$/;"	f
+patcher_key	system/3rd/cssp.php	/^			$patcher_key = $count ? "override_$count" : NULL;$/;"	v
+patcher_key	system/3rd/cssp.php	/^		$patcher_key = $count ? "override_$count" : NULL;$/;"	v
+patchers	system/3rd/cssp.php	/^		$patchers = CSSP::rule_patchers($name);$/;"	v
+patchers	system/3rd/cssp.php	/^		$patchers = array();$/;"	v
+path	system/core/core.php	/^			$path = $args ? implode('\/', $args) : $default_page;$/;"	v
+path	system/core/core.php	/^			$path = $mbase.$module;$/;"	v
+path	system/core/core.php	/^			$path = implode('\/', $args);$/;"	v
+path	system/core/core.php	/^		$path = self::normalize_path($path);$/;"	v
+path	system/libraries/css.php	/^					$path = Core::file_exists(PRIVATE_BASE.'css\/'.$file.'.css', $category);$/;"	v
+path	system/libraries/css.php	/^			$path = Core::file_exists(PRIVATE_BASE.'css\/'.$file.'.css', $category);$/;"	v
+path	system/libraries/file.php	/^				$path = $source . '\/' . $name;$/;"	v
+path	system/libraries/file.php	/^				$path=call_user_func_array('File::exists', array_reverse($path));$/;"	v
+path	system/libraries/file.php	/^				$path=dirname($path);$/;"	v
+path	system/libraries/file.php	/^			$path = preg_replace('\/[^\\\/]$\/', '$0\/', $path);$/;"	v
+path	system/libraries/file.php	/^			$path=dirname($path);$/;"	v
+path	system/libraries/file.php	/^		$path = dirname($path);$/;"	v
+path	system/libraries/js.php	/^					$path = Core::file_exists(PRIVATE_BASE.'js\/'.$file.'.js', $category);$/;"	v
+path	system/libraries/js.php	/^				$path = $category;$/;"	v
+path	system/libraries/js.php	/^			$path = Core::file_exists($path, $category);$/;"	v
+path	system/libraries/js.php	/^			$path = Core::file_exists(PRIVATE_BASE.'js\/'.$file.'.js', $category);$/;"	v
+path	system/libraries/js.php	/^			$path = PRIVATE_BASE . 'js\/' . $path . '.js';$/;"	v
+path	system/libraries/uri.php	/^		$path = ROOT_PATH.PUBLIC_BASE.$file;$/;"	v
+path	system/libraries/uri.php	/^	$path = Core::file_exists(PUBLIC_BASE.$file, $category);$/;"	v
+path	system/libraries/view.php	/^			$path = $category;$/;"	v
+path	system/libraries/view.php	/^		$this->path = $path;$/;"	v
+path	system/libraries/view.php	/^	protected $path;$/;"	v
+path	system/libraries/widget.php	/^			$path = $category;$/;"	v
+paths	system/core/core.php	/^		$paths = array();	$/;"	v
+paths	system/core/core.php	/^		$paths = array();$/;"	v
+paths	system/core/core.php	/^		$paths = self::$_module_paths[$base];$/;"	v
+paths	system/core/core.php	/^            $paths = [];$/;"	v
+paths	system/libraries/file.php	/^		$paths=func_get_args();$/;"	v
+pclass_name	system/models/orm.php	/^				$pclass_name = strtolower($pclass_name);$/;"	v
+pclass_name	system/models/orm.php	/^			$pclass_name = @get_parent_class($name.MODEL_SUFFIX);$/;"	v
+peek	system/3rd/jsmin.php	/^  protected function peek() {$/;"	f
+phar_path	system/core/core.php	/^			$phar_path = dirname($path).'\/'.basename($path, '.phar').'.phar';$/;"	v
+phar_path	system/core/def.php	/^$phar_path = ROOT_PATH.'application.phar';$/;"	v
+phars	system/core/core.php	/^			$phars = glob($mbase.'*.phar');$/;"	v
+pid	system/libraries/log.php	/^        $pid = posix_getpid();$/;"	v
+pname	system/models/orm.php	/^					$pname = substr($pclass_name, 0, $pos);$/;"	v
+pname	system/models/orm.php	/^				$pname = self::parent_name($name);$/;"	v
+pname	system/models/orm.php	/^			$pname = '';$/;"	v
+pooled_object	system/models/orm.php	/^				$pooled_object = NULL;$/;"	v
+pop_marker	system/3rd/cssp.php	/^	function pop_marker() {$/;"	f
+pos	system/3rd/cssp.php	/^		$pos = $fragment->get_var($name);$/;"	v
+pos	system/3rd/cssp.php	/^		$pos = (int) $params['patcher_pos'];$/;"	v
+pos	system/3rd/cssp.php	/^		$pos = (int) $params['rule_pos'];$/;"	v
+pos	system/3rd/cssp.php	/^		$pos = mb_strpos($this->text_left, $str);$/;"	v
+pos	system/libraries/file.php	/^		$pos = $pos === FALSE ? -1 : $pos;$/;"	v
+pos	system/libraries/file.php	/^		$pos = $pos === FALSE ? strrpos($path,"\\\\") : $pos;$/;"	v
+pos	system/libraries/file.php	/^		$pos = strrpos($path,"\/");$/;"	v
+pos	system/models/orm.php	/^				$pos = strrpos($pclass_name, $suffix);$/;"	v
+posix_get_new_uid	system/libraries/ldap.php	/^	private function posix_get_new_uid() {$/;"	f
+post	system/libraries/http.php	/^	function post($query){$/;"	f
+prefix	system/3rd/cssp.php	/^				$prefix = explode(',', $n->name);$/;"	v
+prefix	system/3rd/cssp.php	/^		$prefix = '';$/;"	v
+prefix_path	system/libraries/js.php	/^			$prefix_path =  Config::get('system.tmp_dir').'js\/';$/;"	v
+prepare_table	system/libraries/database.php	/^	function prepare_table($tbl, $schema);$/;"	f
+prepare_table	system/libraries/database.php	/^	function prepare_table($tbl_name, $schema) {$/;"	f
+prepare_table	system/libraries/database/mysql.php	/^	function prepare_table($tbl_name, $schema) {$/;"	f
+prepend	system/libraries/orm_iterator.php	/^	function prepend($object){$/;"	f
+prevQ	system/libraries/q.php	/^	private $prevQ;$/;"	v
+prev_and_query	system/libraries/q/query.php	/^				$this->prev_and_query = $this->and_query;$/;"	v
+prev_and_query	system/libraries/q/query.php	/^	private $prev_and_query;$/;"	v
+prev_fields	system/libraries/q/query.php	/^		$prev_fields = $this->fields($this->prev_name);$/;"	v
+prev_name	system/libraries/q/query.php	/^				$prev_name = $this->counterpart($name);$/;"	v
+prev_name	system/libraries/q/query.php	/^			$this->prev_name = $this->name;$/;"	v
+prev_name	system/libraries/q/query.php	/^	public $prev_name;$/;"	v
+prev_oid	system/libraries/q/query.php	/^				$prev_oid = $prev_name.self::OBJ_ID_SUFFIX;$/;"	v
+prev_oid	system/libraries/q/query.php	/^			$prev_oid = $prev_name.self::OBJ_ID_SUFFIX;$/;"	v
+prev_oname	system/libraries/q/query.php	/^					$prev_oname = $prev_name.self::OBJ_NAME_SUFFIX;$/;"	v
+prev_oname	system/libraries/q/query.php	/^				$prev_oname = $prev_name.self::OBJ_NAME_SUFFIX;$/;"	v
+prev_or_query	system/libraries/q/query.php	/^				$this->prev_or_query = $this->or_query;$/;"	v
+prev_or_query	system/libraries/q/query.php	/^	private $prev_or_query;$/;"	v
+prev_table	system/libraries/q/query.php	/^			$this->prev_table = $this->table;$/;"	v
+prev_table	system/libraries/q/query.php	/^	public $prev_table;$/;"	v
+process	system/libraries/q/pseudo/alias.php	/^	function process($selector) {$/;"	f
+process	system/libraries/q/pseudo/limit.php	/^	function process($selector) {$/;"	f
+process	system/libraries/q/pseudo/not.php	/^	function process($selector) {$/;"	f
+process	system/libraries/q/pseudo/sort.php	/^	function process($selector) {$/;"	f
+process	system/libraries/q/query.php	/^	function process($part);$/;"	f
+proxy	system/libraries/http.php	/^	function proxy($proxy, $socks5 = FALSE) {$/;"	f
+pseudo	system/3rd/cssp.php	/^		$pseudo = CSSP::pseudo_handler($command);$/;"	v
+pseudo	system/libraries/q/query.php	/^			$pseudo = new $pseudo_class($this);$/;"	v
+pseudo	system/libraries/q/query.php	/^		$pseudo = $parts[1];$/;"	v
+pseudo_case	system/3rd/cssp.php	/^	static function pseudo_case($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_class	system/libraries/q/query.php	/^		$pseudo_class = 'Q_Pseudo_'.$pseudo;$/;"	v
+pseudo_default	system/3rd/cssp.php	/^	static function pseudo_default($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_define	system/3rd/cssp.php	/^	static function pseudo_define ($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_filters	system/libraries/q.php	/^	public static $pseudo_filters=array();$/;"	v
+pseudo_for	system/3rd/cssp.php	/^	static function pseudo_for($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_foreach	system/3rd/cssp.php	/^	static function pseudo_foreach($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_handler	system/3rd/cssp.php	/^	static function pseudo_handler($name) {$/;"	f
+pseudo_patch	system/3rd/cssp.php	/^	static function pseudo_patch($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_patcher	system/3rd/cssp.php	/^	static function pseudo_patcher($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_rule	system/3rd/cssp.php	/^	static function pseudo_rule($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_switch	system/3rd/cssp.php	/^	static function pseudo_switch($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+pseudo_test	system/3rd/cssp.php	/^	static function pseudo_test($fragment, $root, $command, $args, $bracket, $params) {$/;"	f
+push_marker	system/3rd/cssp.php	/^	function push_marker() {$/;"	f
+push_stack	system/libraries/q.php	/^	private function push_stack($selector, $type, $Q=NULL){$/;"	f
+quality	system/libraries/image.php	/^		$this->quality=$quality;$/;"	v
+quality	system/libraries/image.php	/^	private $quality = 80;$/;"	v
+quality	system/libraries/image.php	/^	public function quality($quality=100){$/;"	f
+query	system/libraries/database.php	/^	function query($SQL);$/;"	f
+query	system/libraries/database.php	/^	function query() {$/;"	f
+query	system/libraries/database/mysql.php	/^	function query($SQL) {$/;"	f
+query	system/libraries/input.php	/^		$query=$_GET;$/;"	v
+query	system/libraries/q.php	/^				$query = $this->parse_selector();$/;"	v
+query	system/libraries/q.php	/^		$query = new Q_Query($this->db);$/;"	v
+query	system/libraries/q/pseudo/not.php	/^		$query = $this->_query;$/;"	v
+query	system/libraries/q/pseudo/sort.php	/^		$query = $this->_query;$/;"	v
+query_count	system/libraries/database.php	/^	static $query_count = 0;$/;"	v
+queue	system/libraries/event.php	/^	private $queue=array();$/;"	v
+quote	system/libraries/database.php	/^	function quote($s) {$/;"	f
+quote	system/libraries/database.php	/^	function quote($s);$/;"	f
+quote	system/libraries/database/mysql.php	/^	function quote($s) {$/;"	f
+quote	system/libraries/js.php	/^	static function quote($str, $quote='"') {$/;"	f
+quote	system/libraries/q.php	/^	static function quote($s) {$/;"	f
+quote_field_sql	system/libraries/database/mysql.php	/^					$quote_field_sql = implode(', ', $field_sql);$/;"	v
+quote_ident	system/libraries/database.php	/^	function quote_ident($s);$/;"	f
+quote_ident	system/libraries/database.php	/^	function quote_ident($s){$/;"	f
+quote_ident	system/libraries/database/mysql.php	/^	function quote_ident($s){$/;"	f
+quote_tbl_name	system/libraries/database/mysql.php	/^					$quote_tbl_name = $this->quote_ident($tbl_name);$/;"	v
+quotes	system/libraries/js.php	/^		$quotes = array();$/;"	v
+r	system/libraries/database/mysql.php	/^		$r = $this->row('num');$/;"	v
+r	system/libraries/database/mysql.php	/^		$r = $this->row('object');$/;"	v
+r	system/libraries/q/query.php	/^				$r = trim($r);$/;"	v
+radio	system/libraries/form.php	/^	static function radio($name, $value=NULL, $selected=NULL, $label=NULL, $extra=NULL, $extra_label=NULL) {$/;"	f
+random_password	system/libraries/misc.php	/^	static function random_password($length=12, $level=3) {$/;"	f
+range	system/libraries/date.php	/^	static function range($dfrom, $dto, $from_format=NULL){$/;"	f
+rc	system/libraries/image.php	/^		$rc = ( $width\/$height) > ($this->curr_width\/$this->curr_height );$/;"	v
+re_cache	system/libraries/js.php	/^			$re_cache = TRUE;$/;"	v
+read	system/libraries/session.php	/^	function read($id);$/;"	f
+read	system/libraries/session.php	/^	static function read($id) { $/;"	f
+read	system/libraries/session/database.php	/^	function read($id) {$/;"	f
+real_field	system/libraries/q/query.php	/^					$real_field = $field.self::OBJ_ID_SUFFIX;$/;"	v
+real_field	system/libraries/q/query.php	/^					$real_field = $field;$/;"	v
+real_name	system/libraries/q/query.php	/^	function real_name($name) {$/;"	f
+real_name	system/models/orm.php	/^			$real_name = self::real_name($name);$/;"	v
+real_name	system/models/orm.php	/^		$real_name = self::real_name($name);$/;"	v
+real_name	system/models/orm.php	/^	static function real_name($name) {$/;"	f
+real_names	system/models/orm.php	/^			$real_names = array();$/;"	v
+real_names	system/models/orm.php	/^			$real_names = array_diff(self::real_names($name), array($real_name));$/;"	v
+real_names	system/models/orm.php	/^	static function real_names($name) {$/;"	f
+recipients	system/libraries/email.php	/^            $recipients = $this->_header['To'];$/;"	v
+recipients	system/libraries/email.php	/^        $recipients =  $this->_recipients;$/;"	v
+redirect	system/libraries/js.php	/^	static function redirect($url){$/;"	f
+redirect	system/libraries/uri.php	/^	static function redirect($url='', $query=NULL) {$/;"	f
+ref	system/models/orm.php	/^	static function ref($oname, $oid) {$/;"	f
+ref_count	system/models/orm.php	/^				$ref_count = 0;$/;"	v
+ref_count	system/models/orm.php	/^				$ref_count = ORM_Pool::release($name, $this->_data['id']);$/;"	v
+refetch	system/models/orm.php	/^	static function refetch($object) {$/;"	f
+reflectionHeight	system/libraries/image.php	/^		$reflectionHeight = (int) $height * ($percent \/ 100);$/;"	v
+refresh	system/libraries/js.php	/^	static function refresh($selector=NULL) {$/;"	f
+register_mime_dispatcher	system/core/core.php	/^	static function register_mime_dispatcher($mime, $dispatcher) {$/;"	f
+register_pseudo_handler	system/3rd/cssp.php	/^	static function register_pseudo_handler($name, $handler, $params=NULL) {$/;"	f
+register_rule_patcher	system/3rd/cssp.php	/^	static function register_rule_patcher($rule_name, $patcher, $params=NULL, $key=NULL) {$/;"	f
+rel	system/libraries/http.php	/^	  $rel = preg_quote($rel);$/;"	v
+rel_id	system/libraries/form.php	/^			$rel_id = $parts[2];$/;"	v
+rel_id	system/libraries/form.php	/^			$rel_id = 'checkbox'.uniqid();$/;"	v
+rel_id	system/libraries/form.php	/^			$rel_id = 'radio'.uniqid();$/;"	v
+rel_id1	system/libraries/q/query.php	/^			$rel_id1 = $db->make_ident($this->prev_table, 'id');$/;"	v
+rel_id1	system/libraries/q/query.php	/^			$rel_id1 = $db->make_ident($this->table, 'id');$/;"	v
+rel_id2	system/libraries/q/query.php	/^			$rel_id2 = $db->make_ident($this->prev_table, 'id');$/;"	v
+rel_id2	system/libraries/q/query.php	/^			$rel_id2 = $db->make_ident($this->table, 'id');$/;"	v
+rela_name	system/libraries/q/query.php	/^			$rela_name = self::RELA_PREFIX.$this->name.'_'.$this->prev_name;$/;"	v
+rela_name	system/libraries/q/query.php	/^			$rela_name = self::RELA_PREFIX.$this->prev_name.'_'.$this->name;$/;"	v
+relative	system/libraries/date.php	/^	static function relative($time, $now=NULL) {$/;"	f
+relative_path	system/libraries/file.php	/^	static function relative_path($path, $base=NULL) {$/;"	f
+release	system/models/orm.php	/^	static function release($oname, $oid=NULL) {$/;"	f
+release_objects	system/models/orm.php	/^	private function release_objects() {$/;"	f
+reload_config	system/core/core.php	/^	static function reload_config() {$/;"	f
+rels	system/libraries/q/query.php	/^			$rels = explode('|', substr($str, 2, -1));$/;"	v
+rels	system/libraries/q/query.php	/^		$rels = $this->rels;$/;"	v
+rels	system/libraries/q/query.php	/^		$this->rels = array();$/;"	v
+rels	system/libraries/q/query.php	/^	public $rels = array();$/;"	v
+remove	system/3rd/cssp.php	/^	function remove($node) {$/;"	f
+remove	system/core/cache.php	/^	function remove($key) {$/;"	f
+remove	system/core/cache.php	/^	function remove($key);$/;"	f
+remove	system/core/cache_apc.php	/^	function remove($key) {$/;"	f
+remove	system/core/cache_memcache.php	/^	function remove($key) {$/;"	f
+remove	system/core/cache_nocache.php	/^	function remove($key) {$/;"	f
+remove	system/core/cache_xcache.php	/^	function remove($key) {$/;"	f
+remove	system/core/cache_yac.php	/^	function remove($key) {$/;"	f
+remove	system/libraries/auth.php	/^	function remove($token);$/;"	f
+remove	system/libraries/auth.php	/^	function remove(){$/;"	f
+remove	system/libraries/auth/database.php	/^	function remove($token){$/;"	f
+remove	system/libraries/auth/ldap.php	/^	function remove($token){$/;"	f
+remove_cache_file	system/core/cache.php	/^	static function remove_cache_file($path) {$/;"	f
+remove_nonexistent	system/libraries/database/mysql.php	/^		$remove_nonexistent = Config::get('database.remove_nonexistent', TRUE);$/;"	v
+rename	system/libraries/ldap.php	/^	function rename($dn, $dn_new, $base=NULL, $deleteoldrdn = TRUE) {$/;"	f
+render	system/libraries/view.php	/^	function render(){		$/;"	f
+reply_to	system/libraries/email.php	/^        $reply_to = $this->_reply_to;$/;"	v
+reply_to	system/libraries/email.php	/^    function reply_to($email, $name=NULL) {$/;"	f
+request	system/libraries/http.php	/^	function & request($url, $timeout=5){$/;"	f
+reset	system/libraries/database.php	/^	static function reset() {$/;"	f
+reset_table_counter	system/libraries/q/query.php	/^	static function reset_table_counter() {$/;"	f
+resize	system/libraries/image.php	/^	public function resize($max_width = 0, $max_height = 0, $constraint=TRUE) {$/;"	f
+response	system/libraries/http.php	/^		$response=new HTTP_Response;$/;"	v
+response	system/libraries/http.php	/^        $response = (object)[];$/;"	v
+rest	system/core/core.php	/^				$rest = array_pop($units).'_'.$rest;$/;"	v
+rest	system/core/core.php	/^			$rest = array_pop($units);$/;"	v
+rest	system/libraries/date.php	/^				$rest=$diff%3600;$/;"	v
+rest	system/libraries/date.php	/^			$rest=$diff%3600;$/;"	v
+rest	system/libraries/q/query.php	/^				$rest = $matches[2];$/;"	v
+restore	system/libraries/database.php	/^	function restore($filename, $tables);$/;"	f
+restore	system/libraries/database.php	/^	function restore($filename, &$retore_filename=NULL, $tables=NULL) {$/;"	f
+restore	system/libraries/database/mysql.php	/^	function restore($filename, $tables) {$/;"	f
+restore	system/libraries/q/query.php	/^	function & restore($pop = TRUE, & $arr = FALSE) {$/;"	f
+restore_marker	system/3rd/cssp.php	/^	function restore_marker() {$/;"	f
+result	system/libraries/database.php	/^		$result = call_user_func_array(array($this,'query'), $args);$/;"	v
+result	system/libraries/database/mysql.php	/^			$result = @$this->_handle->query($SQL);$/;"	v
+result	system/libraries/orm_iterator.php	/^				$result = $this->db->query($this->SQL);$/;"	v
+result	system/models/orm.php	/^					$result = $db->query('SELECT * FROM `%s` WHERE `id`=%d', $rname, $id);$/;"	v
+result	system/models/orm.php	/^				$result = $db->query($SQL);$/;"	v
+ret	system/3rd/cssp.php	/^				$ret = $this->parse_at_rule($root);$/;"	v
+ret	system/3rd/cssp.php	/^				$ret = $this->parse_rule($root);$/;"	v
+ret	system/3rd/cssp.php	/^				$ret = $this->parse_ruleset($root);$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 != $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 < $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 <= $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 == $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 > $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $n1 >= $n2;$/;"	v
+ret	system/3rd/cssp.php	/^			$ret = $this->parse_comment($root);$/;"	v
+ret	system/3rd/cssp.php	/^		$ret = preg_match($pattern, $this->text_left, $matches);$/;"	v
+ret	system/3rd/cssp.php	/^		$ret = preg_match('\/^[\\s\\n]+\/us', $this->text_left, $matches);$/;"	v
+ret	system/libraries/auth.php	/^		$ret = $this->handler->change_token($this->token, $token_new);$/;"	v
+ret	system/libraries/database/mysql.php	/^					$ret = $this->query("ALTER TABLE $quote_tbl_name $quote_field_sql");$/;"	v
+ret	system/libraries/database/mysql.php	/^				$ret = $this->table_exists($tbl_name);$/;"	v
+ret	system/libraries/database/mysql.php	/^				$ret = TRUE;$/;"	v
+ret	system/libraries/ldap.php	/^		$ret = $this->add($dn, $data);$/;"	v
+ret	system/libraries/ldap.php	/^		$ret = @ldap_bind($this->ds, $dn, $password);$/;"	v
+ret	system/libraries/session/database.php	/^		$ret = $db->query('DELETE FROM `_session` WHERE mtime < %d', $exp_time);$/;"	v
+ret	system/libraries/session/database.php	/^		$ret= $db->query('INSERT INTO `_session` (id, data, mtime) VALUES ("%s", "%s", %d) ON DUPLICATE KEY UPDATE data="%s", mtime=%d', $id, $data, $now, $data, $now);$/;"	v
+ret	system/models/orm.php	/^		$ret = array();$/;"	v
+retore_filename	system/libraries/database.php	/^		$retore_filename = $filename.'.restore'.uniqid();$/;"	v
+retried	system/libraries/database/mysql.php	/^		$retried = 0;$/;"	v
+return_value	system/libraries/event.php	/^	public $return_value;$/;"	v
+retval	system/libraries/event.php	/^						$retval = FALSE;$/;"	v
+retval	system/libraries/event.php	/^				$retval = $e->return_value;$/;"	v
+retval	system/libraries/event.php	/^		$retval = NULL;$/;"	v
+reverse	system/libraries/orm_iterator.php	/^	function reverse() {$/;"	f
+rewind	system/libraries/orm_iterator.php	/^	function rewind(){$/;"	f
+rewrite	system/libraries/database.php	/^	function rewrite(){$/;"	f
+rewrite	system/libraries/database/mysql.php	/^	function rewrite(){$/;"	f
+rgb	system/libraries/image.php	/^				$rgb = $this->hex2rgb($color);$/;"	v
+rgb	system/libraries/image.php	/^			$rgb = $this->hex2rgb($border['color'],false);$/;"	v
+rgb	system/libraries/image.php	/^		   		$rgb = imagecolorat($im, $j, $height-$i-1);$/;"	v
+rgb	system/libraries/image.php	/^		$rgb = explode(':', wordwrap($hex, $cutpoint, ':', $cutpoint), 3);$/;"	v
+rmdir	system/libraries/file.php	/^	static function rmdir($path) {$/;"	f
+rn	system/3rd/cssp.php	/^				$rn = preg_replace('\/ &([:#.])\/', '$1', $rn);$/;"	v
+rn	system/3rd/cssp.php	/^				$rn = preg_replace('\/(^|,\\s*)\/', '$1'.$p.' ', $name);$/;"	v
+rn_cache	system/models/orm.php	/^		static $rn_cache;$/;"	v
+rname	system/3rd/cssp.php	/^			$rname = array();$/;"	v
+rname	system/models/orm.php	/^				$rname = $field_to_real_name[$k];$/;"	v
+rname	system/models/orm.php	/^				$rname = $field_to_real_name[$kname];$/;"	v
+rname	system/models/orm.php	/^				$rname = $pname ? self::real_name($pname) : '';$/;"	v
+rname	system/models/orm.php	/^				$rname = $schema['extends'] ?: $name;$/;"	v
+rname	system/models/orm.php	/^				$rname = self::parent_name($rname);$/;"	v
+rname	system/models/orm.php	/^				$rname = self::real_name($rname);$/;"	v
+rname	system/models/orm.php	/^			$rname = $name;$/;"	v
+rng_where	system/libraries/q/query.php	/^						$rng_where = NULL;$/;"	v
+rollback	system/libraries/database.php	/^	function rollback() {$/;"	f
+rollback	system/libraries/database.php	/^	function rollback();$/;"	f
+rollback	system/libraries/database/mysql.php	/^	function rollback() {$/;"	f
+root	system/3rd/cssp.php	/^			$root = CSSP::node(CSS_Node::NODE_RULESET);$/;"	v
+root	system/3rd/cssp.php	/^			$this->root = $parent->root;$/;"	v
+root	system/3rd/cssp.php	/^			$this->root = $this;$/;"	v
+root	system/3rd/cssp.php	/^		$this->root = CSSP::node(CSS_Node::NODE_ROOT);$/;"	v
+root	system/3rd/cssp.php	/^	private $root;	\/\/ CSS_Node$/;"	v
+root	system/3rd/cssp.php	/^	public $root;$/;"	v
+root_binded	system/libraries/ldap.php	/^			$this->root_binded = FALSE;$/;"	v
+root_binded	system/libraries/ldap.php	/^	private $root_binded = FALSE;$/;"	v
+rotate	system/libraries/image.php	/^	public function rotate($direction = 'CW') {$/;"	f
+route	system/libraries/input.php	/^		$route = $_SERVER['PATH_INFO'];$/;"	v
+route	system/libraries/input.php	/^		$route = preg_replace('\/^[\\\/ ]*|[\\\/ ]*$|'.preg_quote(Config::get('system.url_suffix')).'$\/iu','', $route);$/;"	v
+route	system/libraries/input.php	/^	protected static $route;$/;"	v
+route	system/libraries/input.php	/^	static function & route($route = NULL) {$/;"	f
+row	system/libraries/database.php	/^	function row($mode\/*='object'*\/);$/;"	f
+row	system/libraries/database/mysql.php	/^	function row($mode='object'){$/;"	f
+row	system/libraries/http.php	/^				$row = trim($row, "\\r\\n\\t ");$/;"	v
+rows	system/libraries/database.php	/^	function rows($mode\/*='object'*\/);$/;"	f
+rows	system/libraries/database/mysql.php	/^		$rows = array();$/;"	v
+rows	system/libraries/database/mysql.php	/^	function rows($mode='object') {$/;"	f
+rows	system/libraries/http.php	/^			$rows = file($file);$/;"	v
+rs	system/libraries/database/mysql.php	/^			$rs = $this->query('SHOW TABLES');$/;"	v
+rs	system/libraries/database/mysql.php	/^		$rs = $this->query('SHOW TABLES');$/;"	v
+rs	system/libraries/database/mysql.php	/^		$rs=$this->query($SQL);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 != $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 < $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 <= $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 == $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 > $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = ($val1 >= $val2);$/;"	v
+rs	system/libraries/form.php	/^				$rs = 0 < preg_match('\/'.preg_quote($val2).'$\/', $val1);$/;"	v
+rs	system/libraries/form.php	/^				$rs = 0 < preg_match('\/'.preg_quote($val2).'\/', $val1);$/;"	v
+rs	system/libraries/form.php	/^				$rs = 0 < preg_match('\/^'.preg_quote($val2).'\/', $val1);$/;"	v
+rs	system/models/orm.php	/^		$rs = $db->query('SELECT * FROM `%s` WHERE id1 = %d AND id2 = %d', $table, $id1, $id2);$/;"	v
+rule	system/3rd/cssp.php	/^			$rule = CSSP::node(CSS_Node::NODE_RULE);$/;"	v
+rule_patch	system/3rd/cssp.php	/^	static function rule_patch($fragment, $parent, $name, $value, $params) {$/;"	f
+rule_patchers	system/3rd/cssp.php	/^	static function rule_patchers($name) {$/;"	f
+ruleset	system/3rd/cssp.php	/^		$ruleset = CSSP::node(CSS_Node::NODE_RULESET);$/;"	v
+rulesets	system/3rd/cssp.php	/^		$rulesets = $fragment->rulesets_by_name($value);$/;"	v
+rulesets_by_name	system/3rd/cssp.php	/^	function rulesets_by_name($name) {$/;"	f
+run	system/libraries/js.php	/^	static function run(){$/;"	f
+s	system/libraries/i18n.php	/^				$s = self::T($domain, $s, $args, $options);$/;"	v
+s	system/libraries/output.php	/^				$s = T($s, $args, $options);$/;"	v
+s	system/libraries/output.php	/^				$s=H($s);$/;"	v
+s	system/models/orm.php	/^			$s = call_user_func_array(array($db, 'rewrite'), $args);$/;"	v
+safari	system/private/js/q/browser.js	/^	var safari = !chrome && (\/safari\/.test( userAgent ) || (\/opera\/.test( userAgent )));$/;"	v
+salt	system/libraries/auth/database.php	/^		$salt = '$6$'.Misc::random_password(8, 2).'$';$/;"	v
+save	system/libraries/image.php	/^	public function save($format=NULL, $filename) {$/;"	f
+save	system/libraries/properties.php	/^	function save(){$/;"	f
+save	system/models/orm.php	/^	function save($overwrite = FALSE){$/;"	f
+schema	system/libraries/orm_iterator.php	/^                $schema = ORM_Model::schema($this->name);$/;"	v
+schema	system/libraries/q/query.php	/^		$schema = $this->schema($this->name);$/;"	v
+schema	system/libraries/q/query.php	/^	function schema($name) {$/;"	f
+schema	system/libraries/q/query.php	/^            $schema = ORM_Model::schema($this->name);$/;"	v
+schema	system/models/orm.php	/^				$schema = self::schema($rname);$/;"	v
+schema	system/models/orm.php	/^			$schema = Config::get("schema.{$name}");$/;"	v
+schema	system/models/orm.php	/^		$schema = self::schema($this);$/;"	v
+schema	system/models/orm.php	/^		static $schema = array();$/;"	v
+schema	system/models/orm.php	/^	static function & schema($object) {$/;"	f
+schema	system/models/orm.php	/^                $schema = self::schema($name);$/;"	v
+scheme	system/config/system.php	/^$scheme = $_SERVER['HTTPS'] ? 'https':'http';$/;"	v
+scope	system/core/core.php	/^				$scope = array_flip($scope);$/;"	v
+scope	system/core/core.php	/^			$scope = $is_core ? 'system': ($need_traverse ? '*' : NULL);$/;"	v
+script	system/libraries/js.php	/^			$script = $args[0];$/;"	v
+script	system/libraries/js.php	/^			$script=call_user_func_array('sprintf', $args);$/;"	v
+search	system/libraries/ldap.php	/^	function search() {$/;"	f
+seconds	system/libraries/date.php	/^				$seconds=$rest%60;$/;"	v
+seconds	system/libraries/date.php	/^			$seconds=$rest%60;$/;"	v
+secret	system/libraries/ldap.php	/^			$secret = $password;$/;"	v
+secret	system/libraries/ldap.php	/^			$secret = '{MD5}'.base64_encode(md5($password, TRUE));$/;"	v
+secret	system/libraries/ldap.php	/^			$secret = '{SHA}'.base64_encode(sha1($password, TRUE));$/;"	v
+sel	system/libraries/form.php	/^		$sel = (in_array($key, $selected))?' selected="selected"':'';$/;"	v
+select	system/widgets/tabs.php	/^	function select($tid){$/;"	f
+selected	system/libraries/form.php	/^			$selected = array((string)$selected);$/;"	v
+selector	system/libraries/event.php	/^		$selector = array_shift($args);$/;"	v
+selector	system/libraries/q.php	/^				$selector=$this->selector.$selector;$/;"	v
+selector	system/libraries/q.php	/^				$selector=$this->selector.' '.$selector;$/;"	v
+selector	system/libraries/q.php	/^			$selector=$this->selector.$selector;$/;"	v
+selector	system/libraries/q.php	/^			$selector=$this->selector.':'.$type.'('.$selector.')';$/;"	v
+selector	system/libraries/q.php	/^			$this->selector = $selector;$/;"	v
+selector	system/libraries/q.php	/^			$this->selector = $this->name.'#'.$selector->id;$/;"	v
+selector	system/libraries/q.php	/^	private $selector;$/;"	v
+selector	system/libraries/q/pseudo/not.php	/^			$selector = $query->name.$selector;$/;"	v
+send	system/libraries/email.php	/^    function send() {$/;"	f
+sender	system/libraries/email.php	/^            $sender = new stdClass;$/;"	v
+sender	system/libraries/email.php	/^        $sender = $this->_sender;$/;"	v
+sep	system/libraries/q/query.php	/^					$this->sep = $sep;$/;"	v
+sep	system/libraries/q/query.php	/^				$this->sep = NULL;$/;"	v
+sep	system/libraries/q/query.php	/^			$sep = $part[2][0];$/;"	v
+server_type	system/libraries/ldap.php	/^		$server_type = $this->get_option('server_type');$/;"	v
+session_name	system/libraries/session.php	/^		$session_name = Config::get('system.session_name') ?: 'qsession';$/;"	v
+set	system/core/cache.php	/^	function set($key, $value, $ttl);$/;"	f
+set	system/core/cache.php	/^	function set($key, $value, $ttl=0) {$/;"	f
+set	system/core/cache_apc.php	/^	function set($key, $value, $ttl) {$/;"	f
+set	system/core/cache_memcache.php	/^	function set($key, $value, $ttl) {$/;"	f
+set	system/core/cache_nocache.php	/^	function set($key, $value, $ttl) {$/;"	f
+set	system/core/cache_xcache.php	/^	function set($key, $value, $ttl) {$/;"	f
+set	system/core/cache_yac.php	/^	function set($key, $value, $ttl) {$/;"	f
+set	system/libraries/config.php	/^	static function set($key, $val){$/;"	f
+set	system/libraries/properties.php	/^	function set($name, $value=NULL) {$/;"	f
+set	system/libraries/view.php	/^	function set($name, $value=NULL){$/;"	f
+set	system/models/orm.php	/^	function set($name, $value = NULL){$/;"	f
+set	system/models/orm.php	/^	static function set($oname, $oid, $object, $ref_count=0) {$/;"	f
+set_data	system/models/orm.php	/^	function set_data($data) {$/;"	f
+set_error	system/libraries/form.php	/^	function set_error($key, $error) {$/;"	f
+set_key_prefix	system/libraries/misc.php	/^	static function set_key_prefix($prefix) {$/;"	f
+set_legal_modules	system/core/core.php	/^	static function set_legal_modules($mods) {$/;"	f
+set_password	system/libraries/ldap.php	/^	function set_password($dn, $password) {$/;"	f
+set_query	system/libraries/orm_iterator.php	/^	protected function set_query($scope, $enable=TRUE) {$/;"	f
+set_tab	system/widgets/tabs.php	/^	function set_tab($tid, $tab) {$/;"	f
+set_time	system/libraries/date.php	/^	static function set_time($time=NULL) {$/;"	f
+set_var	system/3rd/cssp.php	/^	function set_var($name, $value) {$/;"	f
+setup	system/core/cache.php	/^	function setup();$/;"	f
+setup	system/core/cache_apc.php	/^	function setup() {}$/;"	f
+setup	system/core/cache_memcache.php	/^	function setup() {$/;"	f
+setup	system/core/cache_nocache.php	/^	function setup() {}$/;"	f
+setup	system/core/cache_xcache.php	/^	function setup() {}$/;"	f
+setup	system/core/cache_yac.php	/^	function setup() {$/;"	f
+setup	system/core/core.php	/^	static function setup(){$/;"	f
+setup	system/libraries/config.php	/^	static function setup(){}$/;"	f
+setup	system/libraries/i18n.php	/^	static function setup() {$/;"	f
+setup	system/libraries/input.php	/^	static function setup(){$/;"	f
+setup	system/libraries/output.php	/^	static function setup(){}$/;"	f
+setup	system/libraries/properties.php	/^	static function setup(){}$/;"	f
+setup	system/libraries/q.php	/^	static function setup() {$/;"	f
+setup	system/libraries/session.php	/^	static function setup(){$/;"	f
+setup	system/libraries/view.php	/^	static function setup() {$/;"	f
+setup	system/models/orm.php	/^	static function setup() {$/;"	f
+sfrom	system/libraries/date.php	/^			$sfrom = Date::format($dfrom, $from_format);$/;"	v
+sfrom	system/libraries/date.php	/^			$sfrom = T('最初');$/;"	v
+sfrom	system/libraries/date.php	/^			$sfrom=Date::fuzzy($dfrom, $detail);$/;"	v
+sfrom	system/libraries/date.php	/^			$sfrom=T('最初');$/;"	v
+show	system/libraries/image.php	/^	public function show($format=NULL, $filename=NULL) {$/;"	f
+show_file	system/libraries/image.php	/^	static function show_file($filename, $format = 'png') {$/;"	f
+shutdown	system/core/bootstrap.php	/^	static function shutdown() {$/;"	f
+shutdown	system/core/cli.php	/^	static function shutdown() {$/;"	f
+shutdown	system/core/core.php	/^	static function shutdown(){$/;"	f
+shutdown	system/libraries/config.php	/^	static function shutdown(){$/;"	f
+shutdown	system/libraries/database.php	/^	static function shutdown($name=NULL) {$/;"	f
+shutdown	system/libraries/i18n.php	/^ 	static function shutdown(){$/;"	f
+shutdown	system/libraries/input.php	/^	static function shutdown() {}$/;"	f
+shutdown	system/libraries/output.php	/^	static function shutdown(){}$/;"	f
+shutdown	system/libraries/session.php	/^	static function shutdown(){ $/;"	f
+size	system/libraries/file.php	/^			$size = 0; $/;"	v
+size	system/libraries/file.php	/^	static function size($path) {$/;"	f
+size	system/libraries/image.php	/^		$size = GetImageSize($image->filename);$/;"	v
+skip_filters	system/libraries/q/query.php	/^			$skip_filters = TRUE;$/;"	v
+skip_filters	system/libraries/q/query.php	/^		$skip_filters = FALSE;$/;"	v
+skip_implicit_modules	system/core/core.php	/^			$skip_implicit_modules = FALSE;$/;"	v
+skip_implicit_modules	system/core/core.php	/^			$skip_implicit_modules = TRUE;$/;"	v
+skip_node	system/3rd/cssp.php	/^		$skip_node = CSSP::node(CSS_Node::NODE_RULESET);$/;"	v
+skip_to	system/3rd/cssp.php	/^	function skip_to($str, $include_str = FALSE) {$/;"	f
+skip_ws	system/3rd/cssp.php	/^	private function skip_ws() {$/;"	f
+smart	system/libraries/js.php	/^	static function smart() {$/;"	f
+snapshot	system/libraries/database.php	/^	function snapshot($filename, $tables = NULL) {$/;"	f
+snapshot	system/libraries/database.php	/^	function snapshot($filename, $tbls);$/;"	f
+snapshot	system/libraries/database/mysql.php	/^	function snapshot($filename, $tables) {$/;"	f
+sort_tabs	system/widgets/tabs.php	/^	function sort_tabs() {$/;"	f
+sorted	system/libraries/event.php	/^		$this->sorted=TRUE;$/;"	v
+sorted	system/libraries/event.php	/^	private $sorted=FALSE;$/;"	v
+spit	system/3rd/cssp.php	/^	private function spit($num) {$/;"	f
+sr	system/libraries/auth/ldap.php	/^		$sr = $this->ldap->search($opt['ldap.token_base'], $filter);$/;"	v
+sr	system/libraries/ldap.php	/^			$sr = $this->search($dn, '(objectClass=*)', array('useraccountcontrol'), TRUE);$/;"	v
+st	system/views/widgets/pagination.phtml	/^$st = $this->query_key;$/;"	v
+stack	system/libraries/q/query.php	/^	private $stack = array();$/;"	v
+standardize_field_type	system/libraries/database/mysql.php	/^	private static function standardize_field_type($type) {$/;"	f
+status	system/libraries/http.php	/^		$status = array_shift($header);$/;"	v
+status	system/libraries/http.php	/^	public $status=NULL;$/;"	v
+step	system/3rd/cssp.php	/^		$step = $matches[4];$/;"	v
+sto	system/libraries/date.php	/^			$sto = Date::relative($dto, $dfrom);$/;"	v
+sto	system/libraries/date.php	/^			$sto = T('现在');$/;"	v
+sto	system/libraries/date.php	/^			$sto=Date::fuzzy($dto, $detail);$/;"	v
+sto	system/libraries/date.php	/^			$sto=T('现在');$/;"	v
+stop_propagation	system/libraries/event.php	/^				$this->stop_propagation = TRUE;$/;"	v
+stop_propagation	system/libraries/event.php	/^	private $stop_propagation;$/;"	v
+storable	system/libraries/q/query.php	/^	private static $storable = array('prev_name', 'prev_table', 'where', 'rels', 'join_tables', 'join_criteria', 'alias', 'table_name');$/;"	v
+store	system/libraries/q/query.php	/^	function store(& $arr = FALSE) {$/;"	f
+store_unit	system/libraries/q/query.php	/^	private function store_unit($finalize = FALSE) {$/;"	f
+str	system/3rd/cssp.php	/^			$str = $new_str;$/;"	v
+str	system/3rd/cssp.php	/^			$str = '';$/;"	v
+str	system/3rd/cssp.php	/^			$str = call_user_func_array('sprintf', $args);$/;"	v
+str	system/3rd/cssp.php	/^		$str = call_user_func_array('sprintf', $args);$/;"	v
+str	system/3rd/cssp.php	/^		$str = implode("\\n * ", explode("\\n", $str));$/;"	v
+str	system/3rd/cssp.php	/^		$str = preg_replace_callback('\/\\$\\(([a-z0-9-_]+)\\)|\\$([a-z0-9-_]+)\/', array($this, '_translate'), $str);$/;"	v
+str	system/libraries/js.php	/^		$str=JS::escape($str);$/;"	v
+str	system/libraries/output.php	/^			$str = I18N::convert($str, $options);$/;"	v
+str	system/libraries/output.php	/^			$str = http_build_query($str);$/;"	v
+str	system/libraries/output.php	/^		$str = htmlentities(iconv('UTF-8', 'UTF-8\/\/IGNORE', $str), ENT_QUOTES, 'UTF-8', TRUE);$/;"	v
+str	system/libraries/q/query.php	/^		$str = $part[1];$/;"	v
+str_in_text	system/3rd/cssp.php	/^		$str_in_text = mb_substr($this->text_left, 0, mb_strlen($str));$/;"	v
+str_len	system/libraries/form.php	/^			$str_len = mb_strlen($this[$key]);$/;"	v
+stripslashes_deep	system/libraries/input.php	/^	static function stripslashes_deep(& $value)$/;"	f
+sub_paths	system/core/core.php	/^				$sub_paths = array();$/;"	v
+sub_where	system/libraries/q/query.php	/^				$sub_where = array();$/;"	v
+subject	system/libraries/email.php	/^            $subject = $this->encode_text($this->_subject);$/;"	v
+subject	system/libraries/email.php	/^        $subject = $this->_subject;$/;"	v
+subject	system/libraries/email.php	/^        $subject = preg_replace("\/(\\r\\n)|(\\r)|(\\n)\/", "", $subject);$/;"	v
+subject	system/libraries/email.php	/^        $subject = preg_replace("\/(\\t)\/", " ", $subject);$/;"	v
+subject	system/libraries/email.php	/^    function subject($subject) {$/;"	f
+success	system/libraries/email.php	/^            $success = TRUE;$/;"	v
+success	system/libraries/email.php	/^            $success = mail($recipients, $subject, $body, $header);$/;"	v
+success	system/libraries/email.php	/^        $success = FALSE;$/;"	v
+success	system/models/orm.php	/^			$success = $this->_save_data($db, $rname, $d, $overwrite);$/;"	v
+success	system/models/orm.php	/^		$success = TRUE;$/;"	v
+suffix	system/models/orm.php	/^			$suffix = strtolower(MODEL_SUFFIX);$/;"	v
+sum	system/libraries/q.php	/^    function sum($field) {$/;"	f
+sum_SQL	system/libraries/q.php	/^	protected $sum_SQL;$/;"	v
+sum_SQL	system/libraries/q.php	/^            $this->sum_SQL = $cache_data['sum_SQL'];$/;"	v
+sum_SQL	system/libraries/q.php	/^        $sum_SQL = strtr($this->sum_SQL, array($/;"	v
+sum_SQL	system/libraries/q/query.php	/^            $this->sum_SQL = 'SELECT SUM('. $db->make_ident($sum_table, '%FIELD%'). ') FROM (SELECT '. $field. ' FROM '. $SQL. ') '. $db->make_ident($sum_table);$/;"	v
+sum_SQL	system/libraries/q/query.php	/^    public $sum_SQL;$/;"	v
+sum_table	system/libraries/q/query.php	/^            $sum_table = 'sum'. $this->table;$/;"	v
+supportTouch	system/private/js/q/browser.js	/^	var supportTouch = null;$/;"	v
+t	system/views/widgets/pagination.phtml	/^		$t=$f+$max_pages-1;$/;"	v
+t	system/views/widgets/pagination.phtml	/^		$t=$total_pages;$/;"	v
+t	system/views/widgets/pagination.phtml	/^	$t=$current_page + floor($max_pages\/2);$/;"	v
+tab_event	system/widgets/tabs.php	/^		$this->tab_event = $name;$/;"	v
+tab_event	system/widgets/tabs.php	/^	function tab_event($name) {$/;"	f
+tab_event	system/widgets/tabs.php	/^	private $tab_event;$/;"	v
+table	system/libraries/auth/database.php	/^		$this->table = $opt['database.table'] ?: '_auth';$/;"	v
+table	system/libraries/auth/database.php	/^	private $table;$/;"	v
+table	system/libraries/database/mysql.php	/^			$table = escapeshellarg($table);$/;"	v
+table	system/libraries/q/query.php	/^						$table = $this->alias[$table];$/;"	v
+table	system/libraries/q/query.php	/^					$table = $this->table;$/;"	v
+table	system/libraries/q/query.php	/^				$this->table = 't'.(self::$_table_guid++);$/;"	v
+table	system/libraries/q/query.php	/^	public $table;$/;"	v
+table	system/libraries/session/database.php	/^		$this->table = Config::get('session.database.table', '_session');$/;"	v
+table	system/libraries/session/database.php	/^	private $table;$/;"	v
+table	system/models/orm.php	/^		$table=self::RELA_PREFIX.$name1.'_'.$name2;$/;"	v
+table_exists	system/libraries/database.php	/^	function table_exists($tbl);$/;"	f
+table_exists	system/libraries/database.php	/^	function table_exists($tbl_name) {$/;"	f
+table_exists	system/libraries/database/mysql.php	/^	function table_exists($tbl_name){$/;"	f
+table_fields	system/libraries/database.php	/^	function table_fields($name, $refresh = FALSE) {$/;"	f
+table_fields	system/libraries/database.php	/^	function table_fields($name, $refresh);$/;"	f
+table_fields	system/libraries/database/mysql.php	/^	function table_fields($name, $refresh = FALSE) {$/;"	f
+table_indexes	system/libraries/database.php	/^	function table_indexes($name, $refresh = FALSE) {$/;"	f
+table_indexes	system/libraries/database.php	/^	function table_indexes($name, $refresh);$/;"	f
+table_indexes	system/libraries/database/mysql.php	/^	function table_indexes($name, $refresh = FALSE) {$/;"	f
+table_str	system/libraries/database/mysql.php	/^		$table_str = implode(' ', $tables);$/;"	v
+tables	system/libraries/database/mysql.php	/^		$tables = (array)$tables;$/;"	v
+tables	system/libraries/database/mysql.php	/^		$tables = func_get_args();$/;"	v
+tabs	system/widgets/tabs.php	/^		$tabs = $this->vars['tabs'];$/;"	v
+td	system/libraries/date.php	/^		$td=getdate($time);$/;"	v
+temp_token	system/libraries/session.php	/^	static function temp_token($prefix='', $timeout = 0) {$/;"	f
+text	system/3rd/cssp.php	/^		$this->text = $text;$/;"	v
+text	system/3rd/cssp.php	/^	private $text;$/;"	v
+text	system/libraries/cipher.php	/^		$text = @openssl_decrypt($code, $mode, $salt, !$base64, self::_get_iv());$/;"	v
+text	system/libraries/image.php	/^	public function text($text, $x=0, $y=0, $font='', $font_size=18){$/;"	f
+text	system/libraries/q/query.php	/^			$text = preg_replace_callback('\/\\.([\\w-]+|\\*|\\@\\(((?:\\\\[\\)]|[^\\)])+)\\))\/u', array($this, 'parse_rel'), $text);$/;"	v
+text	system/libraries/q/query.php	/^			$text = preg_replace_callback('\/\\[\\s*((?:[^\\[\\]](?:\\\\[\\[\\]])?)+)\\s*\\]\/u', array($this, 'parse_filter'), $text);$/;"	v
+text	system/libraries/q/query.php	/^		$text = preg_replace_callback('\/:(\\w+)\\(((?:\\\\[\\)]|[^\\)])+)\\)\/u', array($this, 'parse_pseudo'), $text);$/;"	v
+text	system/libraries/q/query.php	/^		$text = preg_replace_callback('\/<([\\w-]+|\\*|\\@\\(((?:\\\\[\\)]|[^\\)])+)\\))\/u', array($this, 'parse_prel'), $text);$/;"	v
+text	system/libraries/q/query.php	/^		$text = preg_replace_callback('\/^\\s*#(\\d+)\/u', array($this, 'parse_id'), $text, -1, $count);$/;"	v
+text_color	system/libraries/image.php	/^				$this->text_color = ImageColorAllocateAlpha($this->im, $rgb[0], $rgb[1], $rgb[2], $alpha);$/;"	v
+text_color	system/libraries/image.php	/^				$this->text_color = ImageColorAllocateAlpha($this->im, 0, 0, 0, 127);$/;"	v
+text_color	system/libraries/image.php	/^	function text_color($color = NULL, $alpha = 0) {$/;"	f
+text_color	system/libraries/image.php	/^	private $text_color;$/;"	v
+text_height	system/libraries/image.php	/^		$text_height = abs($box[5] - $box[1]);$/;"	v
+text_left	system/3rd/cssp.php	/^			$this->text_left = '';$/;"	v
+text_left	system/3rd/cssp.php	/^			$this->text_left = mb_substr($this->text, $this->curr_pos);$/;"	v
+text_left	system/3rd/cssp.php	/^		$this->text_left = $text;$/;"	v
+text_left	system/3rd/cssp.php	/^		$this->text_left = mb_substr($this->text, $this->curr_pos);$/;"	v
+text_left	system/3rd/cssp.php	/^	public $text_left;$/;"	v
+text_width	system/libraries/image.php	/^		$text_width = abs($box[4] - $box[0]);$/;"	v
+this_name	system/models/orm.php	/^		$this_name = $this->name();$/;"	v
+tid	system/widgets/tabs.php	/^				$tid = key($this->vars['tabs']);$/;"	v
+time	system/3rd/cssp.php	/^		$time = microtime(TRUE);$/;"	v
+time	system/libraries/date.php	/^	static function time() {$/;"	f
+time	system/libraries/log.php	/^		$time = date('Y\/m\/d H:i:s');$/;"	v
+time_format	system/libraries/date.php	/^			$time_format = Date::default_format('time');$/;"	v
+time_format	system/libraries/date.php	/^		$time_format = Date::default_format('time');$/;"	v
+timeout	system/libraries/database.php	/^		$this->timeout = time() + self::TIMEOUT_VAL;$/;"	v
+timeout	system/libraries/database.php	/^	public $timeout = 0;$/;"	v
+timezone	system/libraries/email.php	/^        $timezone = abs($timezone);$/;"	v
+timezone	system/libraries/email.php	/^        $timezone = date("Z");$/;"	v
+timezone	system/libraries/email.php	/^        $timezone = floor($timezone\/3600) * 100 + ($timezone % 3600 ) \/ 60;$/;"	v
+tmp	system/libraries/form.php	/^				$tmp = $v1;$/;"	v
+to	system/3rd/cssp.php	/^		$to = $matches[3];$/;"	v
+to	system/libraries/email.php	/^    function to($email, $name=NULL) {$/;"	f
+toJSON	system/private/js/json.js	/^\/*$/;"	f
+to_assoc	system/libraries/orm_iterator.php	/^	function & to_assoc($key_name = 'id', $val_name = 'name') {$/;"	f
+to_assoc	system/models/orm.php	/^	function & to_assoc(array $keys, array $replaced_keys = NULL) {$/;"	f
+token	system/libraries/auth.php	/^			$this->token = $token_new;$/;"	v
+token	system/libraries/auth.php	/^		$this->token = $token;$/;"	v
+token	system/libraries/auth.php	/^		$token = self::token();$/;"	v
+token	system/libraries/auth.php	/^		$token = trim($token);$/;"	v
+token	system/libraries/auth.php	/^	private $token;$/;"	v
+token	system/libraries/auth.php	/^	static function token() {$/;"	f
+token	system/libraries/js.php	/^		$token='confirm'.hash('md4', $str);$/;"	v
+token	system/libraries/session.php	/^		$token = uniqid($prefix, TRUE);$/;"	v
+token_dn	system/libraries/auth/ldap.php	/^		$token_dn = $entries[0]['dn'];$/;"	v
+top	system/libraries/image.php	/^		$top = round(($this->curr_height - $height) \/ 2);$/;"	v
+total_count	system/libraries/orm_iterator.php	/^	function total_count() {$/;"	f
+total_pages	system/views/widgets/pagination.phtml	/^$total_pages = ceil($total \/ $per_page);$/;"	v
+touch	system/models/orm.php	/^	function touch() {$/;"	f
+tpl_path	system/libraries/log.php	/^		$tpl_path = Config::get('system.'.$ident.'_log_path');$/;"	v
+trace	system/3rd/cssp.php	/^	function trace($root) {$/;"	f
+trace	system/core/bootstrap.php	/^			$trace = array_slice($e->getTrace(), 1, 5);$/;"	v
+trace	system/core/cli.php	/^			$trace = array_slice($e->getTrace(), 1, 3);$/;"	v
+translate	system/3rd/cssp.php	/^	function translate($str) {$/;"	f
+traverse	system/libraries/file.php	/^	static function traverse($path, $callback, $params=NULL, $parent=NULL) {$/;"	f
+trigger	system/libraries/event.php	/^	static function trigger() {$/;"	f
+trigger_event	system/models/orm.php	/^	private function trigger_event() {$/;"	f
+trigger_one	system/libraries/event.php	/^	static function trigger_one() {$/;"	f
+triggering	system/libraries/event.php	/^	private $triggering = FALSE;$/;"	v
+type	system/3rd/cssp.php	/^		$this->type = $type;$/;"	v
+type	system/3rd/cssp.php	/^	public $type;$/;"	v
+type	system/libraries/database/mysql.php	/^						$type = self::standardize_field_type($field['type']);$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='INDEX '. $this->quote_ident($key);$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='KEY '. $this->quote_ident($key);$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='PRIMARY ';$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='PRIMARY KEY';$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='UNIQUE '. $this->quote_ident($key);$/;"	v
+type	system/libraries/database/mysql.php	/^			$type='UNIQUE KEY '. $this->quote_ident($key);$/;"	v
+type	system/libraries/database/mysql.php	/^		$type = preg_replace('\/\\b(tinyint|smallint|mediumint|bigint|int)\\s*\\(\\s*\\d+\\s*\\)\/', '$1', $type);$/;"	v
+type	system/libraries/database/mysql.php	/^		$type = preg_replace('\/\\s+\/', ' ', $type); $/;"	v
+type	system/libraries/database/mysql.php	/^		$type = strtolower($type);$/;"	v
+type	system/models/orm.php	/^			$type = $row['type'];$/;"	v
+type	system/models/orm.php	/^			$type = self::counterpart($type);$/;"	v
+uac	system/libraries/ldap.php	/^				$uac = $uac & ~0x22;$/;"	v
+uac	system/libraries/ldap.php	/^				$uac = $uac | 0x10000;	\/\/Password never expires$/;"	v
+uac	system/libraries/ldap.php	/^			$uac = $entries[0]['useraccountcontrol'][0];$/;"	v
+ui	system/libraries/uri.php	/^		$ui=parse_url($url);$/;"	v
+unim	system/libraries/file.php	/^		$unim = array('B','KB','MB','GB','TB','PB');$/;"	v
+uniqid	system/3rd/cssp.php	/^		$this->uniqid = uniqid();$/;"	v
+uniqid	system/3rd/cssp.php	/^	private $uniqid;$/;"	v
+unit	system/libraries/date.php	/^	static function unit($key) {$/;"	f
+unit	system/libraries/q/query.php	/^			$unit = $part[1][0];$/;"	v
+unit_keys	system/libraries/date.php	/^			$unit_keys = array_flip(str_split($format));$/;"	v
+units	system/core/core.php	/^			$units = explode('_', $name);$/;"	v
+units	system/libraries/date.php	/^			$units = array_intersect_key($units, $unit_keys);$/;"	v
+units	system/libraries/date.php	/^		$units = Date::$UNITS;$/;"	v
+units	system/libraries/date.php	/^	static function units($format=NULL) {$/;"	f
+unref	system/models/orm.php	/^	static function unref($oname, $oid) {$/;"	f
+unregister_pseudo_handler	system/3rd/cssp.php	/^	static function unregister_pseudo_handler($name) {$/;"	f
+unregister_rule_patcher	system/3rd/cssp.php	/^	static function unregister_rule_patcher($rule_name, $key=NULL) {$/;"	f
+update_root	system/3rd/cssp.php	/^	function update_root() {$/;"	f
+uri	system/libraries/log.php	/^		$uri = $_SERVER['REQUEST_URI'];$/;"	v
+url	system/controllers/layout.php	/^				$url = $f;$/;"	v
+url	system/controllers/layout.php	/^				$url = CSS::cache_file($f);$/;"	v
+url	system/libraries/database.php	/^				$url = strtr(Config::get('database.root'), array('%database' => $dbname));$/;"	v
+url	system/libraries/database.php	/^			$url = Config::get('database.'.$name.'.url');$/;"	v
+url	system/libraries/database.php	/^		$url = parse_url($url);$/;"	v
+url	system/libraries/database.php	/^	function url() { return $this->_url; }$/;"	f
+url	system/libraries/input.php	/^	protected static $url;$/;"	v
+url	system/libraries/js.php	/^				$url = $file;$/;"	v
+url	system/libraries/js.php	/^				$url = self::cache_file($file);$/;"	v
+url	system/libraries/uri.php	/^			$url = $ui['scheme'] ?: 'http';$/;"	v
+url	system/libraries/uri.php	/^			$url = Config::get('system.script_url');$/;"	v
+url	system/libraries/uri.php	/^		$url = URI::url($url, $options['query'], $options['fragment']);$/;"	v
+url	system/libraries/uri.php	/^	static function url($url=NULL, $query=NULL, $fragment=NULL) {$/;"	f
+url	system/views/widgets/pagination.phtml	/^$url = $this->url ?: '';$/;"	v
+url_base	system/libraries/css.php	/^		$url_base = preg_replace('\/[^\\\/]*$\/', '', $_SERVER['SCRIPT_NAME']);	$/;"	v
+urls	system/libraries/css.php	/^		$urls = array();$/;"	v
+userAgent	system/private/js/q/browser.js	/^	var userAgent = navigator.userAgent.toLowerCase();$/;"	v
+v	system/libraries/database.php	/^				$v=$this->escape($v);$/;"	v
+v	system/libraries/database.php	/^				$v=$this->quote($v);$/;"	v
+v	system/libraries/database/mysql.php	/^				$v=$this->escape($v);$/;"	v
+v	system/libraries/database/mysql.php	/^				$v=$this->quote($v);$/;"	v
+v	system/libraries/input.php	/^							$v=array($p=>$v);$/;"	v
+v	system/libraries/view.php	/^			$v = $v->parent;$/;"	v
+v	system/libraries/view.php	/^		$v = $this;$/;"	v
+v1	system/libraries/form.php	/^				$v1 = $v2;$/;"	v
+v1	system/libraries/form.php	/^			$v1 = (int) $arr[0];$/;"	v
+v2	system/libraries/form.php	/^				$v2 = $tmp;$/;"	v
+v2	system/libraries/form.php	/^			$v2 = isset($arr[1]) ? (int)$arr[1] : $v1;$/;"	v
+val	system/libraries/config.php	/^		$val = self::$items[$category][$key];$/;"	v
+val	system/libraries/database/mysql.php	/^					$val = & $indexes[$key];$/;"	v
+val	system/libraries/form.php	/^		$val = (string) $val;$/;"	v
+val	system/libraries/session/database.php	/^		$val = $db->value('SELECT data FROM `_session` WHERE id="%s"', $id);$/;"	v
+val	system/models/orm.php	/^			        $val = 'NULL';$/;"	v
+val	system/models/orm.php	/^			        $val= '"%s"';$/;"	v
+val	system/models/orm.php	/^			        $val= '%d';$/;"	v
+val	system/models/orm.php	/^			        $val= '%f';$/;"	v
+val	system/models/orm.php	/^			$val = $this->default_value($name);$/;"	v
+val	system/models/orm.php	/^			$val = Properties::factory($this)->get($name);$/;"	v
+val	system/models/orm.php	/^		$val = $this->trigger_event('get', $name);$/;"	v
+val1	system/libraries/form.php	/^		 	$val1 = isset($this[$key]) ? $this[$key] : $key;$/;"	v
+val2	system/libraries/form.php	/^		 	$val2 = isset($this[$key2]) ? $this[$key2] : $key2;$/;"	v
+val_oid	system/libraries/q/query.php	/^									$val_oid = $match[4];$/;"	v
+val_oid	system/libraries/q/query.php	/^									$val_oid = $obj_matches[2] ?: 0;$/;"	v
+val_oname	system/libraries/q/query.php	/^									$val_oname = $obj_matches[1];$/;"	v
+val_oname	system/libraries/q/query.php	/^									$val_oname = NULL;$/;"	v
+valid	system/libraries/orm_iterator.php	/^	function valid(){$/;"	f
+valid_modes	system/libraries/js.php	/^	static $valid_modes = array('pack', 'mini', 'default');$/;"	v
+validate	system/libraries/form.php	/^	function validate() {$/;"	f
+validate_compare	system/libraries/form.php	/^	protected function validate_compare($key, $error, $params){$/;"	f
+validate_is_email	system/libraries/form.php	/^	protected function validate_is_email($key, $error, $params) {$/;"	f
+validate_is_numeric	system/libraries/form.php	/^	protected function validate_is_numeric($key, $error, $params){$/;"	f
+validate_is_token	system/libraries/form.php	/^	protected function validate_is_token($key, $error, $params){$/;"	f
+validate_length	system/libraries/form.php	/^	protected function validate_length($key, $error, $params) {$/;"	f
+validate_not_empty	system/libraries/form.php	/^	protected function validate_not_empty($key, $error, $params){$/;"	f
+validate_number	system/libraries/form.php	/^	protected function validate_number($key, $error, $params){$/;"	f
+value	system/3rd/cssp.php	/^		$value = $this->translate($matches[2]);$/;"	v
+value	system/3rd/cssp.php	/^		$value = @$this->_vars[$name];$/;"	v
+value	system/3rd/cssp.php	/^		$value = @json_decode($matches[2], TRUE);$/;"	v
+value	system/3rd/cssp.php	/^	public $value;$/;"	v
+value	system/core/cache.php	/^		$value = $this->handler->get($key); $/;"	v
+value	system/libraries/database.php	/^	function value() {$/;"	f
+value	system/libraries/database.php	/^	function value();$/;"	f
+value	system/libraries/database/mysql.php	/^	function value(){$/;"	f
+value	system/libraries/form.php	/^		$value = $checked ? ' checked="true"':'';$/;"	v
+value	system/libraries/input.php	/^		$value = is_array($value) ?$/;"	v
+value	system/libraries/q/query.php	/^			$value = stripcslashes($exp[4]);$/;"	v
+var.o.s	system/private/js/form.js	/^		var o = { s: this.selector, c: this.context };$/;"	p
+vars	system/libraries/js.php	/^		$vars = array();$/;"	v
+vars	system/libraries/q/query.php	/^			$vars = array_pop($arr);$/;"	v
+vars	system/libraries/q/query.php	/^			$vars = end($arr);$/;"	v
+vars	system/libraries/q/query.php	/^		$vars = array();$/;"	v
+vars	system/libraries/view.php	/^			$this->vars = array_merge($this->vars, $vars);$/;"	v
+vars	system/libraries/view.php	/^	protected $vars=array();$/;"	v
+verify	system/libraries/auth.php	/^	function verify($password) {$/;"	f
+verify	system/libraries/auth.php	/^	function verify($token, $password);$/;"	f
+verify	system/libraries/auth/database.php	/^	function verify($token, $password){$/;"	f
+verify	system/libraries/auth/ldap.php	/^	function verify($token, $password){$/;"	f
+version	system/libraries/css.php	/^		$version = (int)Config::get('page.css_version');$/;"	v
+version	system/libraries/js.php	/^		$version = (int)Config::get('page.js_version');$/;"	v
+view	system/libraries/view.php	/^		$view = $view instanceof View ? $view: V($view);$/;"	v
+w	system/libraries/image.php	/^			$w = $h * $this->curr_width \/ $this->curr_height;$/;"	v
+w	system/libraries/image.php	/^			$w = $width;$/;"	v
+weight	system/core/core.php	/^					$weight = (int) $callback['weight'];$/;"	v
+weight	system/core/core.php	/^					$weight = 0;$/;"	v
+weight	system/widgets/tabs.php	/^		$weight = array();$/;"	v
+where	system/libraries/q/query.php	/^		$this->where = array();$/;"	v
+where	system/libraries/q/query.php	/^		$where = array();$/;"	v
+where	system/libraries/q/query.php	/^	public $where;$/;"	v
+where	system/models/orm.php	/^			$where = ' WHERE '.implode(' AND ', $where);$/;"	v
+where	system/models/orm.php	/^			$where = array();$/;"	v
+widget	system/core/core.php	/^			$widget = Widget::factory(Input::$AJAX['widget']);$/;"	v
+width	system/libraries/image.php	/^		$width = $this->curr_width;$/;"	v
+wm	system/libraries/image.php	/^		$wm = @ImageCreateTrueColor($text_width, $text_height);$/;"	v
+write	system/libraries/session.php	/^	function write($id, $data);$/;"	f
+write	system/libraries/session.php	/^	static function write($id, $data) { $/;"	f
+write	system/libraries/session/database.php	/^	function write($id, $data){$/;"	f
+xhr.abort	system/private/js/form.js	/^			setRequestHeader: function() {},$/;"	m
+xhr.aborted	system/private/js/form.js	/^		xhr = { \/\/ mock object$/;"	p
+xhr.getAllResponseHeaders	system/private/js/form.js	/^			statusText: 'n\/a',$/;"	m
+xhr.getResponseHeader	system/private/js/form.js	/^			getAllResponseHeaders: function() {},$/;"	m
+xhr.responseText	system/private/js/form.js	/^			aborted: 0,$/;"	p
+xhr.responseXML	system/private/js/form.js	/^			responseText: null,$/;"	p
+xhr.setRequestHeader	system/private/js/form.js	/^			getResponseHeader: function() {},$/;"	m
+xhr.status	system/private/js/form.js	/^			responseXML: null,$/;"	p
+xhr.statusText	system/private/js/form.js	/^			status: 0,$/;"	p
+zero	system/libraries/date.php	/^				$zero = FALSE;$/;"	v
+zero	system/libraries/date.php	/^		$zero = TRUE;$/;"	v

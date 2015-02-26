@@ -1,0 +1,10 @@
+<div>
+<table width="80%">
+<tr align="center"><td>员工姓名</td><td>员工职位</td><td>操作</td></tr>
+<?php 
+	foreach ($this->list as $key => $value) {
+		echo '<tr align="center"><td>'.$value['user_name'].'</td><td>'.$value['user_position'].'</td><td><a class="button view" q-object="pos" q-event="click" q-static="'.H(array('id' =>$value['id'])).'" q-src="'.URI::url('personal').'">更改职位</a></td></tr>';
+	}
+?>
+</table>
+</div>

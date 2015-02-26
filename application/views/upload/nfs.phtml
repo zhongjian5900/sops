@@ -1,0 +1,78 @@
+<div class="padding_2" style="width:500px">
+  <h3 align="left">上传文件</h3>
+<?php 
+$error_msg = I18N::T('nfs', '异常原因: 文件上传中止!');
+echo V('form_error', array('form'=>$form));?>
+<form  id ='upload' method="post" action="<?php echo URI::url('files/upload')?>">
+	<h3>选择文件适用部门以及岗位</h3>
+  <label>文件所属部门:</label>
+  <select name="Oapartment">  
+   <?php 
+   $apartment = Position::apartment();
+   if (is_array($apartment)) {
+     echo "<option value='0'></option>";
+     foreach ($apartment as $key => $value) {
+      echo "<option value='$key'>$value</option>";
+    }
+  }
+  ?>
+  </select><br>
+  <label>岗位:</label>	
+<?php 
+  $position = Position::positions();
+  if (is_array($position)) {
+    foreach ($position as $apart => $positions) {
+      echo "<h4>$apartment[$apart]</h4>";
+      foreach ($positions as $key=>$value) {
+        echo "<input type='checkbox' name='checkbox[$key]' value='$key'>$value ";
+    }
+  }
+}
+?>
+<br><br>
+<input type="file" name="files" id="files" size="20"/>
+<label>文件修改版本：</label><input type="textbox" name="modify" size="4"><label class="hint">(请输入1，2，3......)</label>
+<br>
+<p>注：文件不得超过20M</p><br>
+<input type="submit" name="button" value="上传"/>
+</form>
+<script type="text/javascript">
+(function($) {
+
+    $transaction_type = $(':input[name=files]');
+
+
+    sub_transaction_type = 0;
+
+    //进行trigger
+    function _list_change() {
+
+        v = $transaction_type.val();
+            Q.trigger({
+                object: 'upload_box',
+                event: 'change',
+                url: '<?php echo URI::url("files")?>',
+                data: {
+                    transaction_type: v,
+                    sub_transaction_type: sub_transaction_type
+                },
+                success: function(data) {
+                   if (data.view_data == 'empty') $transaction_type.val(''); //如果有返回结果, 进行内容设定
+                }
+            });
+
+            //进行trigger
+            sub_transaction_type = 0;
+
+        return false;
+    }
+
+    _list_change(); 
+
+    $transaction_type.bind('change', function() {
+        _list_change();
+    });
+
+})(jQuery);
+</script>
+</div>
